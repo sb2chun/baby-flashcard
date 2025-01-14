@@ -1,0 +1,32 @@
+name: Update Flashcard Data
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**/**/*.png'
+      - '*_*/**'  # 카테고리 폴더 변경 감지
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    
+    - name: Generate flashcards.json
+      run: |
+        node .github/scripts/generate-json.js
+        
+    - name: Commit and Push
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add docs/flashcards.json
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update flashcards.json"
+        git push
