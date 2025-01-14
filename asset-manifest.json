@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/baby-flashcard/static/css/main.af2d5cb0.css",
+    "main.js": "/baby-flashcard/static/js/main.9f085de4.js",
+    "index.html": "/baby-flashcard/index.html",
+    "main.af2d5cb0.css.map": "/baby-flashcard/static/css/main.af2d5cb0.css.map",
+    "main.9f085de4.js.map": "/baby-flashcard/static/js/main.9f085de4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af2d5cb0.css",
+    "static/js/main.9f085de4.js"
+  ]
+}
