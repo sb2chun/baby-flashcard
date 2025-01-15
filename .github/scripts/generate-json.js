@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const generateJson = () => {
+  console.log('Starting script execution');
   // 카테고리 폴더 찾기 (언더스코어가 있는 폴더)
   const baseDir = path.join('public', 'images');
   const dirs = fs.readdirSync(baseDir)
