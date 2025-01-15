@@ -11,6 +11,8 @@ const generateJson = () => {
       !f.startsWith('.')
     );
 
+  console.log('dirs : ' + dirs);
+
   const categories = dirs.map(dir => {
     const [korName, engName] = dir.split('_');
 
@@ -18,6 +20,8 @@ const generateJson = () => {
     const images = fs.readdirSync(path.join(baseDir, dir))
       .filter(f => f.toLowerCase().endsWith('.png'));
 
+    console.log('imaegs : ' + images + ' / path : " + path);
+    
     // 각 이미지에 대한 항목 생성
     const items = images.map(img => {
       const [korWord, engWord] = path.basename(img, '.png').split('_');
