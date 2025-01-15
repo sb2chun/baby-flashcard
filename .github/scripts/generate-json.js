@@ -11,7 +11,7 @@ const generateJson = () => {
       !f.startsWith('.')
     );
 
-process.stdout.write('dirs : ' + dirs + '\n');
+    console.error('dirs : ' + dirs + '\n');
 
     const categories = dirs.map(dir => {
     const [korName, engName] = dir.split('_');
@@ -21,7 +21,7 @@ process.stdout.write('dirs : ' + dirs + '\n');
       .filter(f => f.toLowerCase().endsWith('.png'));
 
   
-      process.stdout.write('imaegs : ' + images + ' / path : " + path + '\n');
+      console.error('imaegs : ' + images + ' / path : " + path + '\n');
     
     // 각 이미지에 대한 항목 생성
     const items = images.map(img => {
