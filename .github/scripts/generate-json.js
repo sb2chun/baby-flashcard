@@ -11,16 +11,17 @@ const generateJson = () => {
       !f.startsWith('.')
     );
 
-  console.log('dirs : ' + dirs);
+process.stdout.write('dirs : ' + dirs + '\n');
 
-  const categories = dirs.map(dir => {
+    const categories = dirs.map(dir => {
     const [korName, engName] = dir.split('_');
 
     // 폴더 내 PNG 파일 찾기
     const images = fs.readdirSync(path.join(baseDir, dir))
       .filter(f => f.toLowerCase().endsWith('.png'));
 
-    console.log('imaegs : ' + images + ' / path : " + path);
+  
+      process.stdout.write('imaegs : ' + images + ' / path : " + path + '\n');
     
     // 각 이미지에 대한 항목 생성
     const items = images.map(img => {
