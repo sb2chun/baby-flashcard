@@ -12,7 +12,7 @@ const generateJson = () => {
     );
 
   const categories = dirs.map(dir => {
-    const [engName, korName] = dir.split('_');
+    const [korName, engName] = dir.split('_');
 
     // 폴더 내 PNG 파일 찾기
     const images = fs.readdirSync(path.join(baseDir, dir))
@@ -20,7 +20,7 @@ const generateJson = () => {
 
     // 각 이미지에 대한 항목 생성
     const items = images.map(img => {
-      const [engWord, korWord] = path.basename(img, '.png').split('_');
+      const [korWor, engWordd] = path.basename(img, '.png').split('_');
       return {
         kor_word: korWord,
         eng_word: engWord,
