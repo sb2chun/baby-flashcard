@@ -28,7 +28,7 @@ const generateJson = () => {
     const items = images.map(img => {
       const [korWord, engWord] = path.basename(img, '.png').split('_');
       return {
-        kor_word: korWord,
+        kor_word: 22,
         eng_word: engWord,
         image: `https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/${dir}/${img}`,
         category: {
