@@ -20,7 +20,7 @@ const generateJson = () => {
 
     // 각 이미지에 대한 항목 생성
     const items = images.map(img => {
-      const [korWor, engWordd] = path.basename(img, '.png').split('_');
+      const [korWord, engWord] = path.basename(img, '.png').split('_');
       return {
         kor_word: korWord,
         eng_word: engWord,
