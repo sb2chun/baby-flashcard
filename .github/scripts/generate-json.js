@@ -13,12 +13,26 @@ const generateJson = () => {
     );
 
     console.error('dirs : ' + dirs + '\n');
+								 
+										
+					
+											   
+													 
+								 
+								  
+		 
+
+										   
 
     const categories = dirs.map(dir => {
     const [korName, engName] = dir.split('_');
+								 
+																 
+	   
 
     // 폴더 내 PNG 파일 찾기
     const images = fs.readdirSync(path.join(baseDir, dir))
+												 
       .filter(f => f.toLowerCase().endsWith('.png'));
 
   
@@ -36,6 +50,24 @@ const generateJson = () => {
           kor: korName,
           eng: engName
         }
+
+				
+							
+							
+																											 
+					 
+						  
+						 
+						
+		   
+		  
+		 
+
+			  
+					  
+				
+				
+			 
       };
     });
 
@@ -51,12 +83,16 @@ const generateJson = () => {
   if (!fs.existsSync('docs')) {
     fs.mkdirSync('docs');
   }
+											 
+	  
 
   // JSON 파일 생성
   fs.writeFileSync(
     'docs/flashcards.json',
     JSON.stringify({ categories }, null, 2)
   );
+					
+   
 };
 
 generateJson();
