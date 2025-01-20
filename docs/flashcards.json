@@ -26,16 +26,6 @@
           }
         },
         {
-          "kor_word": "스웨덴",
-          "eng_word": "sweden",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/스웨덴_sweden.png",
-          "category": {
-            "path": "Nation",
-            "kor": "국가",
-            "eng": "Nation"
-          }
-        },
-        {
           "kor_word": "스페인",
           "eng_word": "spain",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/스페인_spain.png",
