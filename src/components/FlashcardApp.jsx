@@ -1,99 +1,48 @@
-import { useState, useEffect, useCallback, useMemo } from "react";
-import { Timer, ChevronLeft, ChevronRight, Plus, Minus } from "lucide-react";
+// src/components/FlashcardApp/index.jsx
+import { useState, useEffect, useMemo } from 'react';
+import ControlPanel from './FlashcardApp/ControlPanel';
+import MainContent from './FlashcardApp/MainContent';
+import CategorySidebar from './FlashcardApp/CategorySidebar';
+import useFlashcardData from '../hooks/useFlashcardData';
+import useTTS from '../hooks/useTTS';
 
-// GitHub API 관련 상수
-const REPO_OWNER = "sb2chun";
-const REPO_NAME = "baby-flashcard";
-
-const GITHUB_PAGES_URL = `https://${REPO_OWNER}.github.io/${REPO_NAME}/flashcards.json`;
-const CACHE_KEY = "flashcards_data";
-const CACHE_DURATION = 60 * 60 * 1000; // 1시간
-
-const generateRandomColor = () => {
-  const colors = [
-    "#FFB6C1",
-    "#FFEB3B",
-    "#9C27B0",
-    "#FF9800",
-    "#795548",
-    "#607D8B",
-    "#E91E63",
-    "#2196F3",
-    "#4CAF50",
-  ];
-  return colors[Math.floor(Math.random() * colors.length)];
-};
-
+/**
+ * FlashcardApp 메인 컴포넌트
+ * 플래시카드 앱의 모든 상태와 로직을 관리하는 최상위 컴포넌트
+ */
 const FlashcardApp = () => {
+  // 기본 상태 관리
   const [currentIndex, setCurrentIndex] = useState(0);
   const [intervalTime, setIntervalTime] = useState(4);
   const [isAutoPlay, setIsAutoPlay] = useState(true);
   const [hideWordMode, setHideWordMode] = useState(false);
-  const [selectedCategory, setSelectedCategory] = useState("통합");
-  const [categories, setCategories] = useState([]);
-  const [flashcardData, setFlashcardData] = useState([]);
   const [language, setLanguage] = useState("kor");
   const [isRandomOrder, setIsRandomOrder] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  
+  // 커스텀 훅을 통한 데이터 및 TTS 관리
+  const { 
+    flashcardData, 
+    categories, 
+    selectedCategory, 
+    setSelectedCategory,
+    isLoading 
+  } = useFlashcardData();
 
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        // 캐시된 데이터 확인
-        const cached = localStorage.getItem(CACHE_KEY);
-        const cacheTimestamp = localStorage.getItem(`${CACHE_KEY}_timestamp`);
+  const { 
+    isTTSEnabled, 
+    setIsTTSEnabled, 
+    speakWord, 
+    isSpeaking,
+    cancelCurrentSpeech 
+  } = useTTS();
 
-        if (
-          cached &&
-          cacheTimestamp &&
-          Date.now() - Number(cacheTimestamp) < CACHE_DURATION
-        ) {
-          const parsedData = JSON.parse(cached);
-          setCategories([
-            { path: "통합", korName: "통합", engName: "All" },
-            ...parsedData.categories.map((cat) => ({
-              path: cat.path,
-              korName: cat.korName,
-              engName: cat.engName,
-            })),
-          ]);
-          setFlashcardData(parsedData.categories.flatMap((cat) => cat.items));
-          return;
-        }
-
-        // 새로운 데이터 불러오기
-        const response = await fetch(GITHUB_PAGES_URL);
-        const data = await response.json();
-
-        // 캐시 업데이트
-        localStorage.setItem(CACHE_KEY, JSON.stringify(data));
-        localStorage.setItem(`${CACHE_KEY}_timestamp`, Date.now().toString());
-
-        setCategories([
-          { path: "통합", korName: "통합", engName: "All" },
-          ...data.categories.map((cat) => ({
-            path: cat.path,
-            korName: cat.korName,
-            engName: cat.engName,
-          })),
-        ]);
-        setFlashcardData(data.categories.flatMap((cat) => cat.items));
-      } catch (error) {
-        console.error("Error loading data:", error);
-        alert("데이터 로딩 중 오류가 발생했습니다.");
-      }
-    };
-
-    loadData();
-  }, []);
-
+  // 선택된 카테고리에 따른 데이터 필터링
   const filteredData = useMemo(() => {
     if (selectedCategory === "통합") return flashcardData;
-    return flashcardData.filter(
-      (item) => item.category.path === selectedCategory
-    );
+    return flashcardData.filter(item => item.category.path === selectedCategory);
   }, [selectedCategory, flashcardData]);
 
+  // 랜덤/순차 정렬 처리
   const shuffledData = useMemo(() => {
     if (isRandomOrder) {
       return [...filteredData].sort(() => Math.random() - 0.5);
@@ -101,42 +50,58 @@ const FlashcardApp = () => {
     return filteredData;
   }, [filteredData, isRandomOrder]);
 
-  const nextCard = useCallback(() => {
-    if (shuffledData.length === 0) return;
-    setCurrentIndex((prev) => (prev + 1) % shuffledData.length);
-  }, [shuffledData.length]);
-
-  const prevCard = useCallback(() => {
-    if (shuffledData.length === 0) return;
-    setCurrentIndex((prev) =>
-      prev === 0 ? shuffledData.length - 1 : prev - 1
-    );
-  }, [shuffledData.length]);
-
+  // 카테고리 변경 시 카드 인덱스 초기화
   useEffect(() => {
     setCurrentIndex(0);
-  }, [selectedCategory]);
+  }, [selectedCategory, filteredData]);
 
+  // 카드 변경 핸들러
+  const handleCardChange = async (newIndex) => {
+    if (shuffledData.length === 0) return;
+
+    cancelCurrentSpeech();
+    const nextIndex = newIndex >= 0 ? newIndex % shuffledData.length : shuffledData.length - 1;
+
+    setCurrentIndex(nextIndex);
+
+    if (isTTSEnabled) {
+      const word = shuffledData[nextIndex][`${language}_word`];
+      if (word) {
+        setTimeout(() => {
+          speakWord(word).catch(console.error);
+        }, 50);
+      }
+    }
+  };
+
+  // 자동 재생 타이머 관리
   useEffect(() => {
     let timer;
     if (isAutoPlay && shuffledData.length > 0) {
-      timer = setInterval(nextCard, intervalTime * 1000);
+      const runTimer = () => {
+        handleCardChange(currentIndex + 1);
+        timer = setTimeout(runTimer, intervalTime * 1000);
+      };
+      timer = setTimeout(runTimer, intervalTime * 1000);
     }
-    return () => {
-      if (timer) clearInterval(timer);
-    };
-  }, [intervalTime, isAutoPlay, nextCard, shuffledData.length]);
 
+    return () => {
+      if (timer) clearTimeout(timer);
+      cancelCurrentSpeech();
+    };
+  }, [intervalTime, isAutoPlay, currentIndex, shuffledData.length, cancelCurrentSpeech]);
+
+  // 키보드 이벤트 처리 (수동 모드에서만 동작)
   useEffect(() => {
     const handleKeyPress = (e) => {
       if (!isAutoPlay) {
         switch (e.code) {
           case "Space":
           case "ArrowRight":
-            nextCard();
+            handleCardChange(currentIndex + 1);
             break;
           case "ArrowLeft":
-            prevCard();
+            handleCardChange(currentIndex === 0 ? shuffledData.length - 1 : currentIndex - 1);
             break;
           default:
             break;
@@ -146,13 +111,9 @@ const FlashcardApp = () => {
 
     window.addEventListener("keydown", handleKeyPress);
     return () => window.removeEventListener("keydown", handleKeyPress);
-  }, [isAutoPlay, nextCard, prevCard]);
+  }, [isAutoPlay, currentIndex, shuffledData.length]);
 
-  const adjustInterval = (amount) => {
-    if (!isAutoPlay) return;
-    setIntervalTime((prev) => Math.max(1, prev + amount));
-  };
-
+  // 로딩 상태 처리
   if (isLoading) {
     return (
       <div className="h-screen flex items-center justify-center">
@@ -161,186 +122,44 @@ const FlashcardApp = () => {
     );
   }
 
+  // 메인 렌더링
   return (
     <div className="flex h-screen overflow-hidden">
-      {/* Control Panel */}
-      <div className="fixed top-0 left-0 right-0 h-[10vh] bg-white shadow-md z-20">
-        <div className="flex items-center justify-center h-full gap-6 px-4">
-          <div
-            className={`flex items-center gap-2 ${
-              !isAutoPlay ? "opacity-50 pointer-events-none" : ""
-            }`}
-          >
-            <button
-              onClick={() => adjustInterval(-1)}
-              className="p-2 hover:bg-gray-100 rounded"
-              disabled={!isAutoPlay}
-            >
-              <Minus size={20} />
-            </button>
-            <Timer size={20} />
-            <span className="min-w-[3rem] text-center">{intervalTime}초</span>
-            <button
-              onClick={() => adjustInterval(1)}
-              className="p-2 hover:bg-gray-100 rounded"
-              disabled={!isAutoPlay}
-            >
-              <Plus size={20} />
-            </button>
-          </div>
+      {/* 상단 컨트롤 패널 */}
+      <ControlPanel 
+        intervalTime={intervalTime}
+        setIntervalTime={setIntervalTime}
+        isAutoPlay={isAutoPlay}
+        setIsAutoPlay={setIsAutoPlay}
+        hideWordMode={hideWordMode}
+        setHideWordMode={setHideWordMode}
+        language={language}
+        setLanguage={setLanguage}
+        isRandomOrder={isRandomOrder}
+        setIsRandomOrder={setIsRandomOrder}
+        isTTSEnabled={isTTSEnabled}
+        setIsTTSEnabled={setIsTTSEnabled}
+        isSpeaking={isSpeaking}
+      />
 
-          <div className="flex">
-            <button
-              onClick={() => setHideWordMode(true)}
-              className={`px-4 py-2 rounded ${
-                hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"
-              }`}
-            >
-              단어 숨김
-            </button>
-            <button
-              onClick={() => setHideWordMode(false)}
-              className={`px-4 py-2 rounded ${
-                !hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"
-              }`}
-            >
-              단어 보임
-            </button>
-          </div>
+      {/* 메인 콘텐츠 영역 */}
+      <MainContent 
+        currentIndex={currentIndex}
+        shuffledData={shuffledData}
+        language={language}
+        hideWordMode={hideWordMode}
+        handleCardChange={handleCardChange}
+      />
 
-          <div className="flex">
-            <button
-              onClick={() => setIsAutoPlay(true)}
-              className={`px-4 py-2 rounded ${
-                isAutoPlay ? "bg-green-500 text-white" : "bg-gray-100"
-              }`}
-            >
-              자동
-            </button>
-            <button
-              onClick={() => setIsAutoPlay(false)}
-              className={`px-4 py-2 rounded ${
-                !isAutoPlay ? "bg-green-500 text-white" : "bg-gray-100"
-              }`}
-            >
-              수동
-            </button>
-          </div>
-
-          <div className="flex">
-            <button
-              onClick={() => setIsRandomOrder(true)}
-              className={`px-4 py-2 rounded ${
-                isRandomOrder ? "bg-green-500 text-white" : "bg-gray-100"
-              }`}
-            >
-              랜덤
-            </button>
-            <button
-              onClick={() => setIsRandomOrder(false)}
-              className={`px-4 py-2 rounded ${
-                !isRandomOrder ? "bg-green-500 text-white" : "bg-gray-100"
-              }`}
-            >
-              순차
-            </button>
-          </div>
-
-          <div className="flex gap-2 absolute right-0">
-            <button
-              onClick={() => setLanguage("kor")}
-              className={`px-4 py-2 rounded ${
-                language === "kor" ? "bg-purple-500 text-white" : "bg-gray-100"
-              }`}
-            >
-              한글
-            </button>
-            <button
-              onClick={() => setLanguage("eng")}
-              className={`px-4 py-2 rounded ${
-                language === "eng" ? "bg-purple-500 text-white" : "bg-gray-100"
-              }`}
-            >
-              English
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Main Content Area */}
-      <div className="flex-1 mt-[10vh] h-[80vh] overflow-hidden">
-        {shuffledData.length > 0 ? (
-          <div className="relative h-full flex flex-col items-center justify-center p-4">
-            <div className="relative w-full h-[60vh] flex items-center justify-center">
-              <button
-                onClick={prevCard}
-                className="absolute left-0 h-full px-4 flex items-center justify-center bg-white bg-opacity-20 hover:bg-opacity-30 transition-all"
-              >
-                <ChevronLeft size={48} className="text-black" />
-              </button>
-
-              <img
-                src={shuffledData[currentIndex].image}
-                alt={shuffledData[currentIndex][`${language}_word`]}
-                className="max-h-full object-contain"
-                style={{ height: "60vh", margin: "0 60px" }}
-              />
-
-              <button
-                onClick={nextCard}
-                className="absolute right-0 h-full px-4 flex items-center justify-center bg-white bg-opacity-20 hover:bg-opacity-30 transition-all"
-              >
-                <ChevronRight size={48} className="text-black" />
-              </button>
-            </div>
-
-            <div className="p-4 text-center">
-              {!hideWordMode && (
-                <h2 className="text-4xl font-bold text-black">
-                  {shuffledData[currentIndex][`${language}_word`]}
-                </h2>
-              )}
-            </div>
-          </div>
-        ) : (
-          <div className="h-full flex items-center justify-center bg-gray-200">
-            <p>이 카테고리에는 카드가 없습니다.</p>
-          </div>
-        )}
-      </div>
-
-      {/* Category Sidebar */}
-      <div className="w-[10vw] mt-[10vh] bg-white shadow-lg">
-        <div className="p-4">
-          <h2 className="text-xl font-bold mb-4">카테고리</h2>
-          <div className="space-y-2">
-            {categories.map((category) => (
-              <button
-                key={category.path}
-                onClick={() => setSelectedCategory(category.path)}
-                className={`w-full text-left px-3 py-2 rounded ${
-                  selectedCategory === category.path
-                    ? "bg-blue-500 text-white"
-                    : "hover:bg-gray-100"
-                }`}
-              >
-                {language === "kor" ? category.korName : category.engName}
-                {category.path !== "통합" && (
-                  <span className="ml-2 text-sm">
-                    (
-                    {
-                      flashcardData.filter(
-                        (item) => item.category.path === category.path
-                      ).length
-                    }
-                    )2
-                  </span>
-                )}
-              </button>
-            ))}
-          </div>
-        </div>
-      </div>
+      {/* 카테고리 사이드바 */}
+      <CategorySidebar 
+        categories={categories}
+        selectedCategory={selectedCategory}
+        setSelectedCategory={setSelectedCategory}
+        language={language}
+        flashcardData={flashcardData}
+        setCurrentIndex={setCurrentIndex}
+      />
     </div>
   );
 };
