@@ -4,7 +4,78 @@
       "path": "Fruits",
       "korName": "과일",
       "engName": "Fruits",
-      "items": []
+      "items": [
+        {
+          "kor_word": "레몬",
+          "eng_word": "lemon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/레몬_lemon.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "바나나",
+          "eng_word": "banana",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/바나나_banana.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "사과",
+          "eng_word": "apple",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/사과_apple.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "오렌지",
+          "eng_word": "orange",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/오렌지_orange.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "키위",
+          "eng_word": "kiwi",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/키위_kiwi.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "파인애플",
+          "eng_word": "pineapple",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/파인애플_pineapple.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "포도",
+          "eng_word": "grapes",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/포도_grapes.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        }
+      ]
     },
     {
       "path": "Transportation",
@@ -476,9 +547,59 @@
       "engName": "Animals",
       "items": [
         {
+          "kor_word": "강아지",
+          "eng_word": "dog",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/강아지_dog.jpg",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
           "kor_word": "고슴도치",
           "eng_word": "hedgehog",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/고슴도치_hedgehog.png",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "kor_word": "고양이",
+          "eng_word": "cat",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/고양이_cat.jpg",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "kor_word": "기린",
+          "eng_word": "giraffe",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/기린_giraffe.jpg",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "kor_word": "레서 판다",
+          "eng_word": "lesser panda",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/레서 판다_lesser panda.jpg",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "kor_word": "사자",
+          "eng_word": "lion",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/사자_lion.jpg",
           "category": {
             "path": "Animals",
             "kor": "동물",
@@ -546,9 +667,29 @@
           }
         },
         {
+          "kor_word": "코끼리",
+          "eng_word": "elephants",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/코끼리_elephants.jpg",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
           "kor_word": "팬더",
           "eng_word": "panda",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/팬더_panda.png",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "kor_word": "호랑이",
+          "eng_word": "tiger",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/호랑이_tiger.jpg",
           "category": {
             "path": "Animals",
             "kor": "동물",
@@ -561,7 +702,58 @@
       "path": "Musical instrument",
       "korName": "악기",
       "engName": "Musical instrument",
-      "items": []
+      "items": [
+        {
+          "kor_word": "기타",
+          "eng_word": "Guitar",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/기타_Guitar.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "드럼",
+          "eng_word": "Drums",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/드럼_Drums.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "바이올린",
+          "eng_word": "violin",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/바이올린_violin.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "색소폰",
+          "eng_word": "Saxophone",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/색소폰_Saxophone.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "플루트",
+          "eng_word": "Flute",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/플루트_Flute.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        }
+      ]
     },
     {
       "path": "Job",
