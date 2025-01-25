@@ -32,12 +32,12 @@ const generateJson = () => {
 
       const categoryPath = path.join(baseDir, dir);
       const images = fs.readdirSync(categoryPath)
-        .filter(f => f.toLowerCase().endsWith('.png'));
+        .filter(f => f.toLowerCase().endsWith('.png') || f.toLowerCase().endsWith('.jpg') || f.toLowerCase().endsWith('.jpeg'));
 
       console.log(`Processing category ${dir}, found ${images.length} images`);
 
       const items = images.map(img => {
-        const [korWord, engWord] = path.basename(img, '.png').split('_');
+        const [korWord, engWord] = path.basename(img, path.extname(img)).split('_');
         if (!korWord || !engWord) {
           throw new Error(`Invalid image name format in ${dir}: ${img}`);
         }
