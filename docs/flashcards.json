@@ -6,9 +6,119 @@
       "engName": "Nation",
       "items": [
         {
+          "kor_word": "그리스",
+          "eng_word": "Greece",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/그리스_Greece.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "네덜란드",
+          "eng_word": "Netherlands",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/네덜란드_Netherlands.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "노르웨이",
+          "eng_word": "Norway",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/노르웨이_Norway.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "뉴질랜드",
+          "eng_word": "New Zealand",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/뉴질랜드_New Zealand.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
           "kor_word": "대한민국",
-          "eng_word": "south-korea",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/대한민국_south-korea.png",
+          "eng_word": "South Korea",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/대한민국_South Korea.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "덴마크",
+          "eng_word": "Denmark",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/덴마크_Denmark.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "독일",
+          "eng_word": "Germany",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/독일_Germany.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "라트비아",
+          "eng_word": "Latvia",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/라트비아_Latvia.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "룩셈부르크",
+          "eng_word": "Luxembourg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/룩셈부르크_Luxembourg.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "리투아니아",
+          "eng_word": "Lithuania",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/리투아니아_Lithuania.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "멕시코",
+          "eng_word": "Mexico",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/멕시코_Mexico.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "미국",
+          "eng_word": "United States",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/미국_United States.png",
           "category": {
             "path": "Nation",
             "kor": "국가",
@@ -26,9 +136,109 @@
           }
         },
         {
+          "kor_word": "스웨덴",
+          "eng_word": "Sweden",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/스웨덴_Sweden.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "스위스",
+          "eng_word": "Switzerland",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/스위스_Switzerland.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
           "kor_word": "스페인",
           "eng_word": "spain",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/스페인_spain.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "슬로바키아",
+          "eng_word": "Slovakia",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/슬로바키아_Slovakia.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "슬로베니아",
+          "eng_word": "Slovenia",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/슬로베니아_Slovenia.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "아이슬란드",
+          "eng_word": "Iceland",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/아이슬란드_Iceland.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "아일랜드",
+          "eng_word": "Ireland",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/아일랜드_Ireland.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "에스토니아",
+          "eng_word": "Estonia",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/에스토니아_Estonia.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "영국",
+          "eng_word": "United Kingdom",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/영국_United Kingdom.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "오스트리아",
+          "eng_word": "Austria",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/오스트리아_Austria.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "이스라엘",
+          "eng_word": "Israel",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/이스라엘_Israel.png",
           "category": {
             "path": "Nation",
             "kor": "국가",
@@ -56,9 +266,9 @@
           }
         },
         {
-          "kor_word": "중국",
-          "eng_word": "china",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/중국_china.png",
+          "kor_word": "체코",
+          "eng_word": "Czech Republic",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/체코_Czech Republic.png",
           "category": {
             "path": "Nation",
             "kor": "국가",
@@ -66,9 +276,69 @@
           }
         },
         {
-          "kor_word": "터키",
-          "eng_word": "turkey",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/터키_turkey.png",
+          "kor_word": "칠레",
+          "eng_word": "Chile",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/칠레_Chile.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "캐나다",
+          "eng_word": "Canada",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/캐나다_Canada.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "코스타리카",
+          "eng_word": "Costa Rica",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/코스타리카_Costa Rica.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "콜롬비아",
+          "eng_word": "Colombia",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/콜롬비아_Colombia.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "튀르키예",
+          "eng_word": "Turkye",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/튀르키예_Turkye.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "포르투갈",
+          "eng_word": "Portugal",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/포르투갈_Portugal.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "폴란드",
+          "eng_word": "Poland",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/폴란드_Poland.png",
           "category": {
             "path": "Nation",
             "kor": "국가",
@@ -79,6 +349,36 @@
           "kor_word": "프랑스",
           "eng_word": "france",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/프랑스_france.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "핀란드",
+          "eng_word": "Finland",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/핀란드_Finland.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "헝가리",
+          "eng_word": "Hungary",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/헝가리_Hungary.png",
+          "category": {
+            "path": "Nation",
+            "kor": "국가",
+            "eng": "Nation"
+          }
+        },
+        {
+          "kor_word": "호주",
+          "eng_word": "Australia",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/호주_Australia.png",
           "category": {
             "path": "Nation",
             "kor": "국가",
