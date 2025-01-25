@@ -22,9 +22,9 @@
     "webpack-cli": "^6.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -52,6 +52,8 @@
     "autoprefixer": "^10.4.20",
     "gh-pages": "^6.3.0",
     "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17"
+    "react-app-rewired": "^2.2.1",
+    "tailwindcss": "^3.4.17",
+    "webpack-obfuscator": "^3.5.1"
   }
 }
