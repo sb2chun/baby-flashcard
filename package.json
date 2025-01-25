@@ -27,7 +27,8 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "clean": "rm -rf node_modules && rm -f package-lock.json"
   },
   "homepage": "https://sb2chun.github.io/baby-flashcard/",
   "eslintConfig": {
