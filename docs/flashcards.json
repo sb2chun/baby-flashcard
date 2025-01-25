@@ -1,6 +1,89 @@
 {
   "categories": [
     {
+      "path": "Fruits",
+      "korName": "과일",
+      "engName": "Fruits",
+      "items": []
+    },
+    {
+      "path": "Transportation",
+      "korName": "교통수단",
+      "engName": "Transportation",
+      "items": [
+        {
+          "kor_word": "구급차",
+          "eng_word": "Ambulance",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/구급차_Ambulance.png",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "배",
+          "eng_word": "Ship",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/배_Ship.png",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "버스",
+          "eng_word": "Bus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/버스_Bus.png",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "비행기",
+          "eng_word": "Airplane",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/비행기_Airplane.png",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "소방차",
+          "eng_word": "Fire Truck",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/소방차_Fire Truck.png",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "오토바이",
+          "eng_word": "Motorcycle",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/오토바이_Motorcycle.png",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "자동차",
+          "eng_word": "Car",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/자동차_Car.png",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        }
+      ]
+    },
+    {
       "path": "Nation",
       "korName": "국가",
       "engName": "Nation",
@@ -393,29 +476,9 @@
       "engName": "Animals",
       "items": [
         {
-          "kor_word": "개",
-          "eng_word": "dog",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/개_dog.png",
-          "category": {
-            "path": "Animals",
-            "kor": "동물",
-            "eng": "Animals"
-          }
-        },
-        {
           "kor_word": "고슴도치",
           "eng_word": "hedgehog",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/고슴도치_hedgehog.png",
-          "category": {
-            "path": "Animals",
-            "kor": "동물",
-            "eng": "Animals"
-          }
-        },
-        {
-          "kor_word": "사자",
-          "eng_word": "lion",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/사자_lion.png",
           "category": {
             "path": "Animals",
             "kor": "동물",
@@ -491,15 +554,98 @@
             "kor": "동물",
             "eng": "Animals"
           }
+        }
+      ]
+    },
+    {
+      "path": "Musical instrument",
+      "korName": "악기",
+      "engName": "Musical instrument",
+      "items": []
+    },
+    {
+      "path": "Job",
+      "korName": "직업",
+      "engName": "Job",
+      "items": [
+        {
+          "kor_word": "간호사",
+          "eng_word": "Nurse",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/간호사_Nurse.png",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
         },
         {
-          "kor_word": "호랑이",
-          "eng_word": "tiger",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/호랑이_tiger.png",
+          "kor_word": "경찰",
+          "eng_word": "policeman",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/경찰_policeman.png",
           "category": {
-            "path": "Animals",
-            "kor": "동물",
-            "eng": "Animals"
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "과학자",
+          "eng_word": "Scientist",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/과학자_Scientist.png",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "군인",
+          "eng_word": "soldier",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/군인_soldier.png",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "선생님",
+          "eng_word": "Teacher",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/선생님_Teacher.png",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "소방관",
+          "eng_word": "Firefighter",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/소방관_Firefighter.png",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "의사",
+          "eng_word": "Doctor",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/의사_Doctor.png",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "축구선수",
+          "eng_word": "Soccer Player",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/축구선수_Soccer Player.png",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
           }
         }
       ]
