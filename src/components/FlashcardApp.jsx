@@ -50,6 +50,19 @@ const FlashcardApp = () => {
     return filteredData;
   }, [filteredData, isRandomOrder]);
 
+  const preloadImages = (images) => {
+    images.forEach(image => {
+      const img = new Image();
+      img.src = image;
+    });
+  };
+
+  useEffect(() => {
+    // 현재 카테고리의 이미지들을 미리 로드
+    const imagesToPreload = filteredData.map(item => item.image);
+    preloadImages(imagesToPreload);
+  }, [filteredData]);
+
   // 카테고리 변경 시 카드 인덱스 초기화
   useEffect(() => {
     setCurrentIndex(0);
