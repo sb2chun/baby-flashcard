@@ -549,7 +549,7 @@
         {
           "kor_word": "강아지",
           "eng_word": "dog",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/강아지_dog.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/강아지_dog.png",
           "category": {
             "path": "Animals",
             "kor": "동물",
@@ -569,7 +569,7 @@
         {
           "kor_word": "고양이",
           "eng_word": "cat",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/고양이_cat.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/고양이_cat.png",
           "category": {
             "path": "Animals",
             "kor": "동물",
@@ -579,7 +579,7 @@
         {
           "kor_word": "기린",
           "eng_word": "giraffe",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/기린_giraffe.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/기린_giraffe.png",
           "category": {
             "path": "Animals",
             "kor": "동물",
@@ -589,7 +589,7 @@
         {
           "kor_word": "레서 판다",
           "eng_word": "lesser panda",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/레서 판다_lesser panda.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/레서 판다_lesser panda.png",
           "category": {
             "path": "Animals",
             "kor": "동물",
@@ -599,7 +599,7 @@
         {
           "kor_word": "사자",
           "eng_word": "lion",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/사자_lion.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/사자_lion.png",
           "category": {
             "path": "Animals",
             "kor": "동물",
@@ -669,7 +669,7 @@
         {
           "kor_word": "코끼리",
           "eng_word": "elephants",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/코끼리_elephants.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/코끼리_elephants.png",
           "category": {
             "path": "Animals",
             "kor": "동물",
@@ -689,7 +689,7 @@
         {
           "kor_word": "호랑이",
           "eng_word": "tiger",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/호랑이_tiger.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/호랑이_tiger.png",
           "category": {
             "path": "Animals",
             "kor": "동물",
