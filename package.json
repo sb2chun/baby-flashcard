@@ -12,8 +12,10 @@
     "clsx": "^2.1.1",
     "cra-template": "1.2.0",
     "lucide-react": "^0.471.1",
+    "next-sitemap": "^4.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-ga4": "^2.1.0",
     "react-scripts": "^5.0.1",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
@@ -22,13 +24,14 @@
     "webpack-cli": "^6.0.1"
   },
   "scripts": {
+    "postbuild": "next-sitemap",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "clean": "rm -rf node_modules && rm -f package-lock.json"
+    "clean": "del /s /q node_modules && del /q package-lock.json"
   },
   "homepage": "https://sb2chun.github.io/baby-flashcard/",
   "eslintConfig": {
@@ -54,6 +57,7 @@
     "gh-pages": "^6.3.0",
     "postcss": "^8.4.49",
     "react-app-rewired": "^2.2.1",
+    "rimraf": "^6.0.1",
     "tailwindcss": "^3.4.17",
     "webpack-obfuscator": "^3.5.1"
   }
