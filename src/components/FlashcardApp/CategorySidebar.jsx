@@ -15,8 +15,8 @@ const CategorySidebar = ({
     };
   
     return (
-      <div className="w-[10vw] mt-[10vh] bg-white shadow-lg">
-        <div className="p-4">
+      <div className="w-[15vw] mt-[10vh] bg-white shadow-lg">
+        <div className="p-4 h-[80vh] overflow-y-auto"> {/* 높이와 스크롤 추가 */}
           <h2 className="text-xl font-bold mb-4">카테고리</h2>
           <div className="space-y-2">
             {categories.map((category) => (

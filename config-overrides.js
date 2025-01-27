@@ -1,25 +1,19 @@
-const WebpackObfuscator = require('webpack-obfuscator');
+const TerserPlugin = require('terser-webpack-plugin');
 
-module.exports = function override(config, env) {
-  if (env === 'production') {
-    config.plugins.push(new WebpackObfuscator({
-      compact: true,
-      controlFlowFlattening: true,
-      controlFlowFlatteningThreshold: 0.75,
-      deadCodeInjection: true,
-      deadCodeInjectionThreshold: 0.4,
-      debugProtection: true,
-      disableConsoleOutput: true,
-      identifierNamesGenerator: 'hexadecimal',
-      rotateUnicodeArray: true,
-      selfDefending: true,
-      shuffleStringArray: true,
-      splitStrings: true,
-      splitStringsChunkLength: 10,
-      stringArray: true,
-      stringArrayEncoding: ['base64'], // 배열로 변경
-      stringArrayThreshold: 0.75
-    }));
+module.exports = function override(config) {
+  if (config.mode === 'production') {
+    config.optimization.minimizer.push(
+      new TerserPlugin({
+        terserOptions: {
+          compress: {
+            drop_console: true, // 콘솔 로그 제거
+          },
+          output: {
+            comments: false, // 주석 제거
+          },
+        },
+      })
+    );
   }
   return config;
 };
