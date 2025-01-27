@@ -35,7 +35,7 @@ const App = () => {
       {isMobile && (
         <footer className="absolute bottom-0 left-0 w-full text-center py-2 bg-gray-100">
           모바일에서 더 나은 화면을 원하신다면, 브라우저 설정에서 '데스크톱
-          버전'을 선택해주ㅁ세요.
+          버전'을 선택해주세요.
         </footer>
       )}
     </div>
