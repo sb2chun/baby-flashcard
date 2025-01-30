@@ -5,7 +5,6 @@ import { GITHUB_PAGES_URL, CACHE_KEY, CACHE_DURATION } from '../constants';
 const useFlashcardData = () => {
   const [flashcardData, setFlashcardData] = useState([]);
   const [categories, setCategories] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState("통합");
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -72,8 +71,6 @@ const useFlashcardData = () => {
   return {
     flashcardData,
     categories,
-    selectedCategory,
-    setSelectedCategory,
     isLoading
   };
 };

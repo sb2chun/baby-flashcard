@@ -23,10 +23,10 @@ const FlashcardApp = () => {
   const { 
     flashcardData, 
     categories, 
-    selectedCategory, 
-    setSelectedCategory,
     isLoading 
   } = useFlashcardData();
+
+  const [selectedCategories, setSelectedCategories] = useState(new Set(["통합"]));
 
   const { 
     isTTSEnabled, 
@@ -38,9 +38,9 @@ const FlashcardApp = () => {
 
   // 선택된 카테고리에 따른 데이터 필터링
   const filteredData = useMemo(() => {
-    if (selectedCategory === "통합") return flashcardData;
-    return flashcardData.filter(item => item.category.path === selectedCategory);
-  }, [selectedCategory, flashcardData]);
+    if (selectedCategories.has("통합")) return flashcardData;
+    return flashcardData.filter(item => selectedCategories.has(item.category.path));
+  }, [selectedCategories, flashcardData]); 
 
   // 랜덤/순차 정렬 처리
   const shuffledData = useMemo(() => {
@@ -64,9 +64,12 @@ const FlashcardApp = () => {
   }, [filteredData]);
 
   // 카테고리 변경 시 카드 인덱스 초기화
+  // useEffect(() => {
+  //   setCurrentIndex(0);
+  // }, [selectedCategory, filteredData]);
   useEffect(() => {
     setCurrentIndex(0);
-  }, [selectedCategory, filteredData]);
+  }, [selectedCategories, filteredData]);
 
   // 카드 변경 핸들러
   const handleCardChange = async (newIndex) => {
@@ -166,13 +169,13 @@ const FlashcardApp = () => {
 
       {/* 카테고리 사이드바 */}
       <CategorySidebar 
-        categories={categories}
-        selectedCategory={selectedCategory}
-        setSelectedCategory={setSelectedCategory}
-        language={language}
-        flashcardData={flashcardData}
-        setCurrentIndex={setCurrentIndex}
-      />
+  categories={categories}
+  selectedCategories={selectedCategories}
+  setSelectedCategories={setSelectedCategories}
+  language={language}
+  flashcardData={flashcardData}
+  setCurrentIndex={setCurrentIndex}
+/>
     </div>
   );
 };
