@@ -6,9 +6,59 @@
       "engName": "Fruits",
       "items": [
         {
+          "kor_word": "귤",
+          "eng_word": "Tangerines",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/귤_Tangerines.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "딸기",
+          "eng_word": "Strawberriey",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/딸기_Strawberriey.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "라임",
+          "eng_word": "Lime",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/라임_Lime.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
           "kor_word": "레몬",
           "eng_word": "lemon",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/레몬_lemon.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "망고",
+          "eng_word": "Mango",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/망고_Mango.png",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "모과",
+          "eng_word": "Quince",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/모과_Quince.jpg",
           "category": {
             "path": "Fruits",
             "kor": "과일",
@@ -26,6 +76,16 @@
           }
         },
         {
+          "kor_word": "복숭아",
+          "eng_word": "Peach",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/복숭아_Peach.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
           "kor_word": "사과",
           "eng_word": "apple",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/사과_apple.jpg",
@@ -36,9 +96,79 @@
           }
         },
         {
-          "kor_word": "오렌지",
-          "eng_word": "orange",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/오렌지_orange.jpg",
+          "kor_word": "산딸기",
+          "eng_word": "Raspberry",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/산딸기_Raspberry.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "석류",
+          "eng_word": "Pomegranat",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/석류_Pomegranat.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "수박",
+          "eng_word": "Watermelon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/수박_Watermelon.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "아보카도",
+          "eng_word": "Avocado",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/아보카도_Avocado.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "용과",
+          "eng_word": "Dragonfruit",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/용과_Dragonfruit.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "자두",
+          "eng_word": "Plum",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/자두_Plum.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "참외",
+          "eng_word": "Korean-melon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/참외_Korean-melon.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "체리",
+          "eng_word": "Cherry",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/체리_Cherry.jpg",
           "category": {
             "path": "Fruits",
             "kor": "과일",
@@ -49,6 +179,16 @@
           "kor_word": "키위",
           "eng_word": "kiwi",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/키위_kiwi.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "토마토",
+          "eng_word": "Tomato",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/토마토_Tomato.jpg",
           "category": {
             "path": "Fruits",
             "kor": "과일",
@@ -67,8 +207,18 @@
         },
         {
           "kor_word": "포도",
-          "eng_word": "grapes",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/포도_grapes.jpg",
+          "eng_word": "Grape",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/포도_Grape.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "kor_word": "호박",
+          "eng_word": "Harvest",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/호박_Harvest.jpg",
           "category": {
             "path": "Fruits",
             "kor": "과일",
@@ -83,9 +233,39 @@
       "engName": "Transportation",
       "items": [
         {
+          "kor_word": "경찰차",
+          "eng_word": "Police-Car",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/경찰차_Police-Car.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
           "kor_word": "구급차",
           "eng_word": "Ambulance",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/구급차_Ambulance.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/구급차_Ambulance.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "기차",
+          "eng_word": "Train",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/기차_Train.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "마차",
+          "eng_word": "Carriage",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/마차_Carriage.jpg",
           "category": {
             "path": "Transportation",
             "kor": "교통수단",
@@ -95,7 +275,7 @@
         {
           "kor_word": "배",
           "eng_word": "Ship",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/배_Ship.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/배_Ship.jpg",
           "category": {
             "path": "Transportation",
             "kor": "교통수단",
@@ -105,7 +285,7 @@
         {
           "kor_word": "버스",
           "eng_word": "Bus",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/버스_Bus.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/버스_Bus.jpg",
           "category": {
             "path": "Transportation",
             "kor": "교통수단",
@@ -115,7 +295,7 @@
         {
           "kor_word": "비행기",
           "eng_word": "Airplane",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/비행기_Airplane.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/비행기_Airplane.jpg",
           "category": {
             "path": "Transportation",
             "kor": "교통수단",
@@ -124,8 +304,28 @@
         },
         {
           "kor_word": "소방차",
-          "eng_word": "Fire Truck",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/소방차_Fire Truck.png",
+          "eng_word": "Fire-engine",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/소방차_Fire-engine.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "스케이트보드",
+          "eng_word": "Skateboard",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/스케이트보드_Skateboard.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "열기구",
+          "eng_word": "Hot-air-balloon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/열기구_Hot-air-balloon.jpg",
           "category": {
             "path": "Transportation",
             "kor": "교통수단",
@@ -135,7 +335,17 @@
         {
           "kor_word": "오토바이",
           "eng_word": "Motorcycle",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/오토바이_Motorcycle.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/오토바이_Motorcycle.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "요트",
+          "eng_word": "Yacht",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/요트_Yacht.jpg",
           "category": {
             "path": "Transportation",
             "kor": "교통수단",
@@ -145,7 +355,97 @@
         {
           "kor_word": "자동차",
           "eng_word": "Car",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/자동차_Car.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/자동차_Car.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "자전거",
+          "eng_word": "Bicycle",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/자전거_Bicycle.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "잠수함",
+          "eng_word": "Submarine",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/잠수함_Submarine.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "제트스키",
+          "eng_word": "Jet-ski",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/제트스키_Jet-ski.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "킥보드",
+          "eng_word": "Kickboard",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/킥보드_Kickboard.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "택시",
+          "eng_word": "Taxi",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/택시_Taxi.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "트랙터",
+          "eng_word": "Tractor",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/트랙터_Tractor.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "트럭",
+          "eng_word": "Truck",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/트럭_Truck.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "포크레인",
+          "eng_word": "Excavator",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/포크레인_Excavator.jpg",
+          "category": {
+            "path": "Transportation",
+            "kor": "교통수단",
+            "eng": "Transportation"
+          }
+        },
+        {
+          "kor_word": "헬리콥터",
+          "eng_word": "Helicopter",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/헬리콥터_Helicopter.jpg",
           "category": {
             "path": "Transportation",
             "kor": "교통수단",
@@ -944,6 +1244,16 @@
       "engName": "Musical instrument",
       "items": [
         {
+          "kor_word": "가야금",
+          "eng_word": "Gayageum",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/가야금_Gayageum.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
           "kor_word": "기타",
           "eng_word": "Guitar",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/기타_Guitar.jpg",
@@ -964,9 +1274,49 @@
           }
         },
         {
+          "kor_word": "리코더",
+          "eng_word": "Recorder",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/리코더_Recorder.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "마이크",
+          "eng_word": "MIke",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/마이크_MIke.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
           "kor_word": "바이올린",
-          "eng_word": "violin",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/바이올린_violin.jpg",
+          "eng_word": "Vilolin",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/바이올린_Vilolin.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "북",
+          "eng_word": "Drum",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/북_Drum.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "뿔피리",
+          "eng_word": "Horn",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/뿔피리_Horn.jpg",
           "category": {
             "path": "Musical instrument",
             "kor": "악기",
@@ -984,9 +1334,139 @@
           }
         },
         {
+          "kor_word": "실로폰",
+          "eng_word": "Xylophone",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/실로폰_Xylophone.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "아코디언",
+          "eng_word": "Accordion",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/아코디언_Accordion.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "오카리나",
+          "eng_word": "Ocarina",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/오카리나_Ocarina.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "유포니움",
+          "eng_word": "Euphonium",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/유포니움_Euphonium.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "일렉기타",
+          "eng_word": "Electric-guitar",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/일렉기타_Electric-guitar.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "장고",
+          "eng_word": "Django",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/장고_Django.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "징",
+          "eng_word": "Jing",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/징_Jing.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "트라이앵글",
+          "eng_word": "Triangle",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/트라이앵글_Triangle.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "트럼펫",
+          "eng_word": "Trumpet",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/트럼펫_Trumpet.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "팬플루트",
+          "eng_word": "Pan -flute",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/팬플루트_Pan -flute.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
           "kor_word": "플루트",
           "eng_word": "Flute",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/플루트_Flute.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "피아노",
+          "eng_word": "Piano",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/피아노_Piano.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "하모니카",
+          "eng_word": "Harmonica",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/하모니카_Harmonica.jpg",
+          "category": {
+            "path": "Musical instrument",
+            "kor": "악기",
+            "eng": "Musical instrument"
+          }
+        },
+        {
+          "kor_word": "하프",
+          "eng_word": "Harp",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/하프_Harp.jpg",
           "category": {
             "path": "Musical instrument",
             "kor": "악기",
@@ -1001,9 +1481,9 @@
       "engName": "Job",
       "items": [
         {
-          "kor_word": "간호사",
-          "eng_word": "Nurse",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/간호사_Nurse.png",
+          "kor_word": "가수",
+          "eng_word": "Singer",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/가수_Singer.jpg",
           "category": {
             "path": "Job",
             "kor": "직업",
@@ -1011,9 +1491,29 @@
           }
         },
         {
-          "kor_word": "경찰",
-          "eng_word": "policeman",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/경찰_policeman.png",
+          "kor_word": "개발자",
+          "eng_word": "Programmer",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/개발자_Programmer.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "건축가",
+          "eng_word": "Architect",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/건축가_Architect.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "경찰관",
+          "eng_word": "Police-Officer",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/경찰관_Police-Officer.jpg",
           "category": {
             "path": "Job",
             "kor": "직업",
@@ -1023,7 +1523,7 @@
         {
           "kor_word": "과학자",
           "eng_word": "Scientist",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/과학자_Scientist.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/과학자_Scientist.jpg",
           "category": {
             "path": "Job",
             "kor": "직업",
@@ -1032,8 +1532,78 @@
         },
         {
           "kor_word": "군인",
-          "eng_word": "soldier",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/군인_soldier.png",
+          "eng_word": "Soldier",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/군인_Soldier.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "기자",
+          "eng_word": "Journalist",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/기자_Journalist.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "농구선수",
+          "eng_word": "Basketball-player",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/농구선수_Basketball-player.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "농부",
+          "eng_word": "Farmer",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/농부_Farmer.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "댄서",
+          "eng_word": "Dancer",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/댄서_Dancer.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "미용사",
+          "eng_word": "Hairdresser",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/미용사_Hairdresser.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "배우",
+          "eng_word": "Actor",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/배우_Actor.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "사진작가",
+          "eng_word": "Photographer",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/사진작가_Photographer.jpg",
           "category": {
             "path": "Job",
             "kor": "직업",
@@ -1043,7 +1613,7 @@
         {
           "kor_word": "선생님",
           "eng_word": "Teacher",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/선생님_Teacher.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/선생님_Teacher.jpg",
           "category": {
             "path": "Job",
             "kor": "직업",
@@ -1053,7 +1623,37 @@
         {
           "kor_word": "소방관",
           "eng_word": "Firefighter",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/소방관_Firefighter.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/소방관_Firefighter.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "약사",
+          "eng_word": "Pharmacist",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/약사_Pharmacist.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "요리사",
+          "eng_word": "Chef",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/요리사_Chef.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "우주비행사",
+          "eng_word": "Astronaut",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/우주비행사_Astronaut.jpg",
           "category": {
             "path": "Job",
             "kor": "직업",
@@ -1063,7 +1663,17 @@
         {
           "kor_word": "의사",
           "eng_word": "Doctor",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/의사_Doctor.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/의사_Doctor.jpg",
+          "category": {
+            "path": "Job",
+            "kor": "직업",
+            "eng": "Job"
+          }
+        },
+        {
+          "kor_word": "촬영감독",
+          "eng_word": "Cinematographer",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/촬영감독_Cinematographer.jpg",
           "category": {
             "path": "Job",
             "kor": "직업",
@@ -1072,8 +1682,8 @@
         },
         {
           "kor_word": "축구선수",
-          "eng_word": "Soccer Player",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/축구선수_Soccer Player.png",
+          "eng_word": "Soccer-player",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/축구선수_Soccer-player.jpg",
           "category": {
             "path": "Job",
             "kor": "직업",
