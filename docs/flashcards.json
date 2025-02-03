@@ -1368,7 +1368,106 @@
           "order": 0,
           "kor_word": "0",
           "eng_word": "Zero",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/0_0_Zero.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/00_0_Zero.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 1,
+          "kor_word": "1",
+          "eng_word": "One",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/01_1_One.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 2,
+          "kor_word": "2",
+          "eng_word": "Two",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/02_2_Two.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 3,
+          "kor_word": "3",
+          "eng_word": "Three",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/03_3_Three.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "4",
+          "eng_word": "Four",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/04_4_Four.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 5,
+          "kor_word": "5",
+          "eng_word": "Five",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/05_5_Five.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 6,
+          "kor_word": "6",
+          "eng_word": "Six",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/06_6_Six.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 7,
+          "kor_word": "7",
+          "eng_word": "Seven",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/07_7_Seven.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 8,
+          "kor_word": "8",
+          "eng_word": "Eight",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/08_8_Eight.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "9",
+          "eng_word": "Nine",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/09_9_Nine.png",
           "category": {
             "path": "Numbers",
             "kor": "숫자",
@@ -1380,105 +1479,6 @@
           "kor_word": "10",
           "eng_word": "Ten",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/10_10_Ten.png",
-          "category": {
-            "path": "Numbers",
-            "kor": "숫자",
-            "eng": "Numbers"
-          }
-        },
-        {
-          "order": 1,
-          "kor_word": "1",
-          "eng_word": "One",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/1_1_One.png",
-          "category": {
-            "path": "Numbers",
-            "kor": "숫자",
-            "eng": "Numbers"
-          }
-        },
-        {
-          "order": 2,
-          "kor_word": "2",
-          "eng_word": "Two",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/2_2_Two.png",
-          "category": {
-            "path": "Numbers",
-            "kor": "숫자",
-            "eng": "Numbers"
-          }
-        },
-        {
-          "order": 3,
-          "kor_word": "3",
-          "eng_word": "Three",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/3_3_Three.png",
-          "category": {
-            "path": "Numbers",
-            "kor": "숫자",
-            "eng": "Numbers"
-          }
-        },
-        {
-          "order": 4,
-          "kor_word": "4",
-          "eng_word": "Four",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/4_4_Four.png",
-          "category": {
-            "path": "Numbers",
-            "kor": "숫자",
-            "eng": "Numbers"
-          }
-        },
-        {
-          "order": 5,
-          "kor_word": "5",
-          "eng_word": "Five",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/5_5_Five.png",
-          "category": {
-            "path": "Numbers",
-            "kor": "숫자",
-            "eng": "Numbers"
-          }
-        },
-        {
-          "order": 6,
-          "kor_word": "6",
-          "eng_word": "Six",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/6_6_Six.png",
-          "category": {
-            "path": "Numbers",
-            "kor": "숫자",
-            "eng": "Numbers"
-          }
-        },
-        {
-          "order": 7,
-          "kor_word": "7",
-          "eng_word": "Seven",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/7_7_Seven.png",
-          "category": {
-            "path": "Numbers",
-            "kor": "숫자",
-            "eng": "Numbers"
-          }
-        },
-        {
-          "order": 8,
-          "kor_word": "8",
-          "eng_word": "Eight",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/8_8_Eight.png",
-          "category": {
-            "path": "Numbers",
-            "kor": "숫자",
-            "eng": "Numbers"
-          }
-        },
-        {
-          "order": 9,
-          "kor_word": "9",
-          "eng_word": "Nine",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/9_9_Nine.png",
           "category": {
             "path": "Numbers",
             "kor": "숫자",
@@ -1753,6 +1753,105 @@
       "engName": "Alphabets",
       "items": [
         {
+          "order": 1,
+          "kor_word": "에이",
+          "eng_word": "A",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/01_에이_A.png",
+          "category": {
+            "path": "Alphabets",
+            "kor": "알파벳",
+            "eng": "Alphabets"
+          }
+        },
+        {
+          "order": 2,
+          "kor_word": "비",
+          "eng_word": "B",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/02_비_B.png",
+          "category": {
+            "path": "Alphabets",
+            "kor": "알파벳",
+            "eng": "Alphabets"
+          }
+        },
+        {
+          "order": 3,
+          "kor_word": "씨",
+          "eng_word": "C",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/03_씨_C.png",
+          "category": {
+            "path": "Alphabets",
+            "kor": "알파벳",
+            "eng": "Alphabets"
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "디",
+          "eng_word": "D",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/04_디_D.png",
+          "category": {
+            "path": "Alphabets",
+            "kor": "알파벳",
+            "eng": "Alphabets"
+          }
+        },
+        {
+          "order": 5,
+          "kor_word": "이",
+          "eng_word": "E",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/05_이_E.png",
+          "category": {
+            "path": "Alphabets",
+            "kor": "알파벳",
+            "eng": "Alphabets"
+          }
+        },
+        {
+          "order": 6,
+          "kor_word": "에프",
+          "eng_word": "F",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/06_에프_F.png",
+          "category": {
+            "path": "Alphabets",
+            "kor": "알파벳",
+            "eng": "Alphabets"
+          }
+        },
+        {
+          "order": 7,
+          "kor_word": "지",
+          "eng_word": "G",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/07_지_G.png",
+          "category": {
+            "path": "Alphabets",
+            "kor": "알파벳",
+            "eng": "Alphabets"
+          }
+        },
+        {
+          "order": 8,
+          "kor_word": "에이치",
+          "eng_word": "H",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/08_에이치_H.png",
+          "category": {
+            "path": "Alphabets",
+            "kor": "알파벳",
+            "eng": "Alphabets"
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "아이",
+          "eng_word": "I",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/09_아이_I.png",
+          "category": {
+            "path": "Alphabets",
+            "kor": "알파벳",
+            "eng": "Alphabets"
+          }
+        },
+        {
           "order": 10,
           "kor_word": "제이",
           "eng_word": "J",
@@ -1863,17 +1962,6 @@
           }
         },
         {
-          "order": 1,
-          "kor_word": "에이",
-          "eng_word": "A",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/1_에이_A.png",
-          "category": {
-            "path": "Alphabets",
-            "kor": "알파벳",
-            "eng": "Alphabets"
-          }
-        },
-        {
           "order": 20,
           "kor_word": "티",
           "eng_word": "T",
@@ -1944,94 +2032,6 @@
           "kor_word": "지",
           "eng_word": "Z",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/26_지_Z.png",
-          "category": {
-            "path": "Alphabets",
-            "kor": "알파벳",
-            "eng": "Alphabets"
-          }
-        },
-        {
-          "order": 2,
-          "kor_word": "비",
-          "eng_word": "B",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/2_비_B.png",
-          "category": {
-            "path": "Alphabets",
-            "kor": "알파벳",
-            "eng": "Alphabets"
-          }
-        },
-        {
-          "order": 3,
-          "kor_word": "씨",
-          "eng_word": "C",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/3_씨_C.png",
-          "category": {
-            "path": "Alphabets",
-            "kor": "알파벳",
-            "eng": "Alphabets"
-          }
-        },
-        {
-          "order": 4,
-          "kor_word": "디",
-          "eng_word": "D",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/4_디_D.png",
-          "category": {
-            "path": "Alphabets",
-            "kor": "알파벳",
-            "eng": "Alphabets"
-          }
-        },
-        {
-          "order": 5,
-          "kor_word": "이",
-          "eng_word": "E",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/5_이_E.png",
-          "category": {
-            "path": "Alphabets",
-            "kor": "알파벳",
-            "eng": "Alphabets"
-          }
-        },
-        {
-          "order": 6,
-          "kor_word": "에프",
-          "eng_word": "F",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/6_에프_F.png",
-          "category": {
-            "path": "Alphabets",
-            "kor": "알파벳",
-            "eng": "Alphabets"
-          }
-        },
-        {
-          "order": 7,
-          "kor_word": "지",
-          "eng_word": "G",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/7_지_G.png",
-          "category": {
-            "path": "Alphabets",
-            "kor": "알파벳",
-            "eng": "Alphabets"
-          }
-        },
-        {
-          "order": 8,
-          "kor_word": "에이치",
-          "eng_word": "H",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/8_에이치_H.png",
-          "category": {
-            "path": "Alphabets",
-            "kor": "알파벳",
-            "eng": "Alphabets"
-          }
-        },
-        {
-          "order": 9,
-          "kor_word": "아이",
-          "eng_word": "I",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/9_아이_I.png",
           "category": {
             "path": "Alphabets",
             "kor": "알파벳",
