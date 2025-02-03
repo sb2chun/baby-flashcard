@@ -250,675 +250,675 @@
       ]
     },
     {
-      "path": "Transportation",
+      "path": "Transportations",
       "korName": "교통수단",
-      "engName": "Transportation",
+      "engName": "Transportations",
       "items": [
         {
           "order": 1,
           "kor_word": "경찰차",
           "eng_word": "Police-Car",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/경찰차_Police-Car.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/경찰차_Police-Car.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 2,
           "kor_word": "구급차",
           "eng_word": "Ambulance",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/구급차_Ambulance.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/구급차_Ambulance.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 3,
           "kor_word": "기차",
           "eng_word": "Train",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/기차_Train.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/기차_Train.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 4,
           "kor_word": "마차",
           "eng_word": "Carriage",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/마차_Carriage.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/마차_Carriage.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 5,
           "kor_word": "배",
           "eng_word": "Ship",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/배_Ship.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/배_Ship.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 6,
           "kor_word": "버스",
           "eng_word": "Bus",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/버스_Bus.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/버스_Bus.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 7,
           "kor_word": "비행기",
           "eng_word": "Airplane",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/비행기_Airplane.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/비행기_Airplane.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 8,
           "kor_word": "소방차",
           "eng_word": "Fire-engine",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/소방차_Fire-engine.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/소방차_Fire-engine.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 9,
           "kor_word": "스케이트보드",
           "eng_word": "Skateboard",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/스케이트보드_Skateboard.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/스케이트보드_Skateboard.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 10,
           "kor_word": "열기구",
           "eng_word": "Hot-air-balloon",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/열기구_Hot-air-balloon.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/열기구_Hot-air-balloon.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 11,
           "kor_word": "오토바이",
           "eng_word": "Motorcycle",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/오토바이_Motorcycle.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/오토바이_Motorcycle.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 12,
           "kor_word": "요트",
           "eng_word": "Yacht",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/요트_Yacht.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/요트_Yacht.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 13,
           "kor_word": "자동차",
           "eng_word": "Car",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/자동차_Car.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/자동차_Car.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 14,
           "kor_word": "자전거",
           "eng_word": "Bicycle",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/자전거_Bicycle.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/자전거_Bicycle.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 15,
           "kor_word": "잠수함",
           "eng_word": "Submarine",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/잠수함_Submarine.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/잠수함_Submarine.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 16,
           "kor_word": "제트스키",
           "eng_word": "Jet-ski",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/제트스키_Jet-ski.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/제트스키_Jet-ski.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 17,
           "kor_word": "킥보드",
           "eng_word": "Kickboard",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/킥보드_Kickboard.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/킥보드_Kickboard.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 18,
           "kor_word": "택시",
           "eng_word": "Taxi",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/택시_Taxi.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/택시_Taxi.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 19,
           "kor_word": "트랙터",
           "eng_word": "Tractor",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/트랙터_Tractor.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/트랙터_Tractor.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 20,
           "kor_word": "트럭",
           "eng_word": "Truck",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/트럭_Truck.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/트럭_Truck.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 21,
           "kor_word": "포크레인",
           "eng_word": "Excavator",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/포크레인_Excavator.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/포크레인_Excavator.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         },
         {
           "order": 22,
           "kor_word": "헬리콥터",
           "eng_word": "Helicopter",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportation/헬리콥터_Helicopter.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/헬리콥터_Helicopter.jpg",
           "category": {
-            "path": "Transportation",
+            "path": "Transportations",
             "kor": "교통수단",
-            "eng": "Transportation"
+            "eng": "Transportations"
           }
         }
       ]
     },
     {
-      "path": "Nation",
+      "path": "Nations",
       "korName": "국가",
-      "engName": "Nation",
+      "engName": "Nations",
       "items": [
         {
           "order": 1,
           "kor_word": "그리스",
           "eng_word": "Greece",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/그리스_Greece.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/그리스_Greece.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 2,
           "kor_word": "네덜란드",
           "eng_word": "Netherlands",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/네덜란드_Netherlands.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/네덜란드_Netherlands.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 3,
           "kor_word": "노르웨이",
           "eng_word": "Norway",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/노르웨이_Norway.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/노르웨이_Norway.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 4,
           "kor_word": "뉴질랜드",
           "eng_word": "New Zealand",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/뉴질랜드_New Zealand.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/뉴질랜드_New Zealand.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 5,
           "kor_word": "대한민국",
           "eng_word": "South Korea",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/대한민국_South Korea.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/대한민국_South Korea.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 6,
           "kor_word": "덴마크",
           "eng_word": "Denmark",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/덴마크_Denmark.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/덴마크_Denmark.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 7,
           "kor_word": "독일",
           "eng_word": "Germany",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/독일_Germany.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/독일_Germany.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 8,
           "kor_word": "라트비아",
           "eng_word": "Latvia",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/라트비아_Latvia.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/라트비아_Latvia.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 9,
           "kor_word": "룩셈부르크",
           "eng_word": "Luxembourg",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/룩셈부르크_Luxembourg.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/룩셈부르크_Luxembourg.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 10,
           "kor_word": "리투아니아",
           "eng_word": "Lithuania",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/리투아니아_Lithuania.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/리투아니아_Lithuania.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 11,
           "kor_word": "멕시코",
           "eng_word": "Mexico",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/멕시코_Mexico.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/멕시코_Mexico.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 12,
           "kor_word": "미국",
           "eng_word": "United States",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/미국_United States.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/미국_United States.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 13,
           "kor_word": "벨기에",
-          "eng_word": "belgium",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/벨기에_belgium.png",
+          "eng_word": "Belgium",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/벨기에_Belgium.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 14,
           "kor_word": "스웨덴",
           "eng_word": "Sweden",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/스웨덴_Sweden.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/스웨덴_Sweden.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 15,
           "kor_word": "스위스",
           "eng_word": "Switzerland",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/스위스_Switzerland.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/스위스_Switzerland.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 16,
           "kor_word": "스페인",
-          "eng_word": "spain",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/스페인_spain.png",
+          "eng_word": "Spain",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/스페인_Spain.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 17,
           "kor_word": "슬로바키아",
           "eng_word": "Slovakia",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/슬로바키아_Slovakia.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/슬로바키아_Slovakia.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 18,
           "kor_word": "슬로베니아",
           "eng_word": "Slovenia",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/슬로베니아_Slovenia.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/슬로베니아_Slovenia.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 19,
           "kor_word": "아이슬란드",
           "eng_word": "Iceland",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/아이슬란드_Iceland.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/아이슬란드_Iceland.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 20,
           "kor_word": "아일랜드",
           "eng_word": "Ireland",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/아일랜드_Ireland.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/아일랜드_Ireland.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 21,
           "kor_word": "에스토니아",
           "eng_word": "Estonia",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/에스토니아_Estonia.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/에스토니아_Estonia.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 22,
           "kor_word": "영국",
           "eng_word": "United Kingdom",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/영국_United Kingdom.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/영국_United Kingdom.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 23,
           "kor_word": "오스트리아",
           "eng_word": "Austria",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/오스트리아_Austria.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/오스트리아_Austria.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 24,
           "kor_word": "이스라엘",
           "eng_word": "Israel",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/이스라엘_Israel.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/이스라엘_Israel.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 25,
           "kor_word": "이탈리아",
-          "eng_word": "italy",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/이탈리아_italy.png",
+          "eng_word": "Italy",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/이탈리아_Italy.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 26,
           "kor_word": "일본",
-          "eng_word": "japan",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/일본_japan.png",
+          "eng_word": "Japan",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/일본_Japan.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 27,
           "kor_word": "체코",
           "eng_word": "Czech Republic",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/체코_Czech Republic.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/체코_Czech Republic.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 28,
           "kor_word": "칠레",
           "eng_word": "Chile",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/칠레_Chile.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/칠레_Chile.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 29,
           "kor_word": "캐나다",
           "eng_word": "Canada",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/캐나다_Canada.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/캐나다_Canada.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 30,
           "kor_word": "코스타리카",
           "eng_word": "Costa Rica",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/코스타리카_Costa Rica.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/코스타리카_Costa Rica.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 31,
           "kor_word": "콜롬비아",
           "eng_word": "Colombia",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/콜롬비아_Colombia.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/콜롬비아_Colombia.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 32,
           "kor_word": "튀르키예",
           "eng_word": "Turkye",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/튀르키예_Turkye.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/튀르키예_Turkye.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 33,
           "kor_word": "포르투갈",
           "eng_word": "Portugal",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/포르투갈_Portugal.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/포르투갈_Portugal.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 34,
           "kor_word": "폴란드",
           "eng_word": "Poland",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/폴란드_Poland.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/폴란드_Poland.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 35,
           "kor_word": "프랑스",
-          "eng_word": "france",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/프랑스_france.png",
+          "eng_word": "France",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/프랑스_France.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 36,
           "kor_word": "핀란드",
           "eng_word": "Finland",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/핀란드_Finland.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/핀란드_Finland.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 37,
           "kor_word": "헝가리",
           "eng_word": "Hungary",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/헝가리_Hungary.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/헝가리_Hungary.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         },
         {
           "order": 38,
           "kor_word": "호주",
           "eng_word": "Australia",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nation/호주_Australia.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/국가_Nations/호주_Australia.png",
           "category": {
-            "path": "Nation",
+            "path": "Nations",
             "kor": "국가",
-            "eng": "Nation"
+            "eng": "Nations"
           }
         }
       ]
@@ -1360,792 +1360,920 @@
       ]
     },
     {
-      "path": "Musical instrument",
+      "path": "Numbers",
+      "korName": "숫자",
+      "engName": "Numbers",
+      "items": [
+        {
+          "order": 0,
+          "kor_word": "0",
+          "eng_word": "Zero",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/0_0_Zero.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 10,
+          "kor_word": "10",
+          "eng_word": "Ten",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/10_10_Ten.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 1,
+          "kor_word": "1",
+          "eng_word": "One",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/1_1_One.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 2,
+          "kor_word": "2",
+          "eng_word": "Two",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/2_2_Two.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 3,
+          "kor_word": "3",
+          "eng_word": "Three",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/3_3_Three.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "4",
+          "eng_word": "Four",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/4_4_Four.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 5,
+          "kor_word": "5",
+          "eng_word": "Five",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/5_5_Five.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 6,
+          "kor_word": "6",
+          "eng_word": "Six",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/6_6_Six.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 7,
+          "kor_word": "7",
+          "eng_word": "Seven",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/7_7_Seven.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 8,
+          "kor_word": "8",
+          "eng_word": "Eight",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/8_8_Eight.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "9",
+          "eng_word": "Nine",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/숫자_Numbers/9_9_Nine.png",
+          "category": {
+            "path": "Numbers",
+            "kor": "숫자",
+            "eng": "Numbers"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Musical instruments",
       "korName": "악기",
-      "engName": "Musical instrument",
+      "engName": "Musical instruments",
       "items": [
         {
           "order": 1,
           "kor_word": "가야금",
           "eng_word": "Gayageum",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/가야금_Gayageum.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/가야금_Gayageum.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 2,
           "kor_word": "기타",
           "eng_word": "Guitar",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/기타_Guitar.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/기타_Guitar.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 3,
           "kor_word": "드럼",
           "eng_word": "Drums",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/드럼_Drums.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/드럼_Drums.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 4,
           "kor_word": "리코더",
           "eng_word": "Recorder",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/리코더_Recorder.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/리코더_Recorder.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 5,
           "kor_word": "마이크",
           "eng_word": "MIke",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/마이크_MIke.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/마이크_MIke.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 6,
           "kor_word": "바이올린",
           "eng_word": "Vilolin",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/바이올린_Vilolin.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/바이올린_Vilolin.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 7,
           "kor_word": "북",
           "eng_word": "Drum",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/북_Drum.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/북_Drum.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 8,
           "kor_word": "뿔피리",
           "eng_word": "Horn",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/뿔피리_Horn.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/뿔피리_Horn.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 9,
           "kor_word": "색소폰",
           "eng_word": "Saxophone",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/색소폰_Saxophone.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/색소폰_Saxophone.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 10,
           "kor_word": "실로폰",
           "eng_word": "Xylophone",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/실로폰_Xylophone.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/실로폰_Xylophone.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 11,
           "kor_word": "아코디언",
           "eng_word": "Accordion",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/아코디언_Accordion.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/아코디언_Accordion.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 12,
           "kor_word": "오카리나",
           "eng_word": "Ocarina",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/오카리나_Ocarina.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/오카리나_Ocarina.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 13,
           "kor_word": "유포니움",
           "eng_word": "Euphonium",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/유포니움_Euphonium.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/유포니움_Euphonium.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 14,
           "kor_word": "일렉기타",
           "eng_word": "Electric-guitar",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/일렉기타_Electric-guitar.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/일렉기타_Electric-guitar.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 15,
           "kor_word": "장고",
           "eng_word": "Django",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/장고_Django.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/장고_Django.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 16,
           "kor_word": "징",
           "eng_word": "Jing",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/징_Jing.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/징_Jing.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 17,
           "kor_word": "트라이앵글",
           "eng_word": "Triangle",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/트라이앵글_Triangle.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/트라이앵글_Triangle.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 18,
           "kor_word": "트럼펫",
           "eng_word": "Trumpet",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/트럼펫_Trumpet.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/트럼펫_Trumpet.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 19,
           "kor_word": "팬플루트",
           "eng_word": "Pan -flute",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/팬플루트_Pan -flute.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/팬플루트_Pan -flute.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 20,
           "kor_word": "플루트",
           "eng_word": "Flute",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/플루트_Flute.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/플루트_Flute.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 21,
           "kor_word": "피아노",
           "eng_word": "Piano",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/피아노_Piano.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/피아노_Piano.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 22,
           "kor_word": "하모니카",
           "eng_word": "Harmonica",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/하모니카_Harmonica.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/하모니카_Harmonica.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         },
         {
           "order": 23,
           "kor_word": "하프",
           "eng_word": "Harp",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instrument/하프_Harp.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/하프_Harp.jpg",
           "category": {
-            "path": "Musical instrument",
+            "path": "Musical instruments",
             "kor": "악기",
-            "eng": "Musical instrument"
+            "eng": "Musical instruments"
           }
         }
       ]
     },
     {
-      "path": "Alphabet",
+      "path": "Alphabets",
       "korName": "알파벳",
-      "engName": "Alphabet",
+      "engName": "Alphabets",
       "items": [
         {
           "order": 10,
           "kor_word": "제이",
           "eng_word": "J",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/10_제이_J.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/10_제이_J.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 11,
           "kor_word": "케이",
           "eng_word": "K",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/11_케이_K.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/11_케이_K.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 12,
           "kor_word": "엘",
           "eng_word": "L",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/12_엘_L.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/12_엘_L.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 13,
           "kor_word": "엠",
           "eng_word": "M",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/13_엠_M.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/13_엠_M.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 14,
           "kor_word": "엔",
           "eng_word": "N",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/14_엔_N.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/14_엔_N.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 15,
           "kor_word": "오",
           "eng_word": "O",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/15_오_O.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/15_오_O.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 16,
           "kor_word": "피",
           "eng_word": "P",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/16_피_P.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/16_피_P.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 17,
           "kor_word": "큐",
           "eng_word": "Q",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/17_큐_Q.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/17_큐_Q.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 18,
           "kor_word": "알",
           "eng_word": "R",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/18_알_R.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/18_알_R.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 19,
           "kor_word": "에스",
           "eng_word": "S",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/19_에스_S.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/19_에스_S.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 1,
           "kor_word": "에이",
           "eng_word": "A",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/1_에이_A.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/1_에이_A.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 20,
           "kor_word": "티",
           "eng_word": "T",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/20_티_T.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/20_티_T.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 21,
           "kor_word": "유",
           "eng_word": "U",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/21_유_U.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/21_유_U.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 22,
           "kor_word": "브이",
           "eng_word": "V",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/22_브이_V.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/22_브이_V.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 23,
           "kor_word": "더블유",
           "eng_word": "W",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/23_더블유_W.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/23_더블유_W.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 24,
           "kor_word": "엑스",
           "eng_word": "X",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/24_엑스_X.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/24_엑스_X.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 25,
           "kor_word": "와이",
           "eng_word": "Y",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/25_와이_Y.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/25_와이_Y.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 26,
           "kor_word": "지",
           "eng_word": "Z",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/26_지_Z.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/26_지_Z.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 2,
           "kor_word": "비",
           "eng_word": "B",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/2_비_B.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/2_비_B.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 3,
           "kor_word": "씨",
           "eng_word": "C",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/3_씨_C.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/3_씨_C.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 4,
           "kor_word": "디",
           "eng_word": "D",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/4_디_D.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/4_디_D.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 5,
           "kor_word": "이",
           "eng_word": "E",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/5_이_E.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/5_이_E.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 6,
           "kor_word": "에프",
           "eng_word": "F",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/6_에프_F.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/6_에프_F.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 7,
           "kor_word": "지",
           "eng_word": "G",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/7_지_G.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/7_지_G.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 8,
           "kor_word": "에이치",
           "eng_word": "H",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/8_에이치_H.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/8_에이치_H.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         },
         {
           "order": 9,
           "kor_word": "아이",
           "eng_word": "I",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabet/9_아이_I.png",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/알파벳_Alphabets/9_아이_I.png",
           "category": {
-            "path": "Alphabet",
+            "path": "Alphabets",
             "kor": "알파벳",
-            "eng": "Alphabet"
+            "eng": "Alphabets"
           }
         }
       ]
     },
     {
-      "path": "Job",
+      "path": "Jobs",
       "korName": "직업",
-      "engName": "Job",
+      "engName": "Jobs",
       "items": [
         {
           "order": 1,
           "kor_word": "가수",
           "eng_word": "Singer",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/가수_Singer.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/가수_Singer.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 2,
           "kor_word": "개발자",
           "eng_word": "Programmer",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/개발자_Programmer.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/개발자_Programmer.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 3,
           "kor_word": "건축가",
           "eng_word": "Architect",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/건축가_Architect.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/건축가_Architect.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 4,
           "kor_word": "경찰관",
           "eng_word": "Police-Officer",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/경찰관_Police-Officer.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/경찰관_Police-Officer.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 5,
           "kor_word": "과학자",
           "eng_word": "Scientist",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/과학자_Scientist.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/과학자_Scientist.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 6,
           "kor_word": "군인",
           "eng_word": "Soldier",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/군인_Soldier.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/군인_Soldier.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 7,
           "kor_word": "기자",
           "eng_word": "Journalist",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/기자_Journalist.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/기자_Journalist.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 8,
           "kor_word": "농구선수",
           "eng_word": "Basketball-player",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/농구선수_Basketball-player.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/농구선수_Basketball-player.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 9,
           "kor_word": "농부",
           "eng_word": "Farmer",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/농부_Farmer.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/농부_Farmer.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 10,
           "kor_word": "댄서",
           "eng_word": "Dancer",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/댄서_Dancer.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/댄서_Dancer.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 11,
           "kor_word": "미용사",
           "eng_word": "Hairdresser",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/미용사_Hairdresser.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/미용사_Hairdresser.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 12,
           "kor_word": "배우",
           "eng_word": "Actor",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/배우_Actor.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/배우_Actor.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 13,
           "kor_word": "사진작가",
           "eng_word": "Photographer",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/사진작가_Photographer.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/사진작가_Photographer.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 14,
           "kor_word": "선생님",
           "eng_word": "Teacher",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/선생님_Teacher.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/선생님_Teacher.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 15,
           "kor_word": "소방관",
           "eng_word": "Firefighter",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/소방관_Firefighter.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/소방관_Firefighter.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 16,
           "kor_word": "약사",
           "eng_word": "Pharmacist",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/약사_Pharmacist.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/약사_Pharmacist.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 17,
           "kor_word": "요리사",
           "eng_word": "Chef",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/요리사_Chef.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/요리사_Chef.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 18,
           "kor_word": "우주비행사",
           "eng_word": "Astronaut",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/우주비행사_Astronaut.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/우주비행사_Astronaut.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 19,
           "kor_word": "의사",
           "eng_word": "Doctor",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/의사_Doctor.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/의사_Doctor.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 20,
           "kor_word": "촬영감독",
           "eng_word": "Cinematographer",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/촬영감독_Cinematographer.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/촬영감독_Cinematographer.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         },
         {
           "order": 21,
           "kor_word": "축구선수",
           "eng_word": "Soccer-player",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Job/축구선수_Soccer-player.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/축구선수_Soccer-player.jpg",
           "category": {
-            "path": "Job",
+            "path": "Jobs",
             "kor": "직업",
-            "eng": "Job"
+            "eng": "Jobs"
           }
         }
       ]
