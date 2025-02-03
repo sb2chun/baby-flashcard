@@ -13,13 +13,18 @@ const generateJson = () => {
   }
 
   try {
-    // 카테고리 폴더 찾기
+    // 카테고리 폴더 찾기 및 숫자 기준으로 정렬
     const dirs = fs.readdirSync(baseDir)
       .filter(f => {
         const fullPath = path.join(baseDir, f);
         return fs.statSync(fullPath).isDirectory() &&
                f.includes('_') &&
                !f.startsWith('.');
+      })
+      .sort((a, b) => {
+        const numA = parseInt(a.split('_')[0], 10);
+        const numB = parseInt(b.split('_')[0], 10);
+        return numA - numB;
       });
 
     console.log('Found categories:', dirs);
