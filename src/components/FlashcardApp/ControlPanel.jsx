@@ -22,49 +22,51 @@ const ControlPanel = ({
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 h-[10vh] bg-white shadow-md z-20">
-      <div className="flex items-center justify-center h-full gap-6 px-4">
-        <div
-          className={`flex items-center gap-2 ${
-            !isAutoPlay ? "opacity-50 pointer-events-none" : ""
+    <div className="fixed top-0 left-0 right-0 bg-white shadow-md z-20">
+    {/* Desktop view */}
+    <div className="hidden md:flex items-center justify-center h-[10vh] gap-6 px-4">
+      <div
+        className={`flex items-center gap-2 ${
+          !isAutoPlay ? "opacity-50 pointer-events-none" : ""
+        }`}
+      >
+        <button
+          onClick={() => adjustInterval(-1)}
+          className="p-2 hover:bg-gray-100 rounded"
+          disabled={!isAutoPlay}
+        >
+          <Minus size={20} />
+        </button>
+        <Timer size={20} />
+        <span className="min-w-[3rem] text-center">{intervalTime}초</span>
+        <button
+          onClick={() => adjustInterval(1)}
+          className="p-2 hover:bg-gray-100 rounded"
+          disabled={!isAutoPlay}
+        >
+          <Plus size={20} />
+        </button>
+      </div>
+
+      {/* Other desktop controls */}
+      <div className="flex">
+        <button
+          onClick={() => setHideWordMode(true)}
+          className={`px-4 py-2 rounded ${
+            hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"
           }`}
         >
-          <button
-            onClick={() => adjustInterval(-1)}
-            className="p-2 hover:bg-gray-100 rounded"
-            disabled={!isAutoPlay}
-          >
-            <Minus size={20} />
-          </button>
-          <Timer size={20} />
-          <span className="min-w-[3rem] text-center">{intervalTime}초</span>
-          <button
-            onClick={() => adjustInterval(1)}
-            className="p-2 hover:bg-gray-100 rounded"
-            disabled={!isAutoPlay}
-          >
-            <Plus size={20} />
-          </button>
-        </div>
-
-        <div className="flex">
-          <button
-            onClick={() => setHideWordMode(true)}
-            className={`px-4 py-2 rounded ${
-              hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"
-            }`}
-          >
-            {language === "kor" ? "단어 숨김" : "Hide Words"}
-          </button>
-          <button
-            onClick={() => setHideWordMode(false)}
-            className={`px-4 py-2 rounded ${
-              !hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"
-            }`}
-          >
-            {language === "kor" ? "단어 보임" : "Show Words"}
-          </button>
-        </div>
+          {language === "kor" ? "단어 숨김" : "Hide Words"}
+        </button>
+        <button
+          onClick={() => setHideWordMode(false)}
+          className={`px-4 py-2 rounded ${
+            !hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"
+          }`}
+        >
+          {language === "kor" ? "단어 보임" : "Show Words"}
+        </button>
+      </div>
 
         <div className="flex">
           <button
@@ -129,6 +131,48 @@ const ControlPanel = ({
           >
             English
           </button>
+        </div>
+      </div>
+
+      {/* Mobile view */}
+      <div className="md:hidden flex flex-col p-2 space-y-2">
+        <div className="flex justify-between items-center">
+          <div className="flex gap-2">
+            <button
+              onClick={() => setIsAutoPlay(!isAutoPlay)}
+              className={`px-3 py-1 rounded text-sm ${
+                isAutoPlay ? "bg-green-500 text-white" : "bg-gray-100"
+              }`}
+            >
+              {language === "kor" ? (isAutoPlay ? "자동 넘기기" : "수동 넘기기") : (isAutoPlay ? "Auto Next" : "Manual Next")}
+            </button>
+            <button
+              onClick={() => setHideWordMode(!hideWordMode)}
+              className={`px-3 py-1 rounded text-sm ${
+                hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"
+              }`}
+            >
+              {language === "kor" ? (hideWordMode ? "단어 숨김" : "단어 보임") : (hideWordMode ? "Hide Word" : "Show Word")}
+            </button>
+          </div>
+          <div className="flex gap-2">
+            <button
+              onClick={() => setLanguage("kor")}
+              className={`px-3 py-1 rounded text-sm ${
+                language === "kor" ? "bg-purple-500 text-white" : "bg-gray-100"
+              }`}
+            >
+              한글
+            </button>
+            <button
+              onClick={() => setLanguage("eng")}
+              className={`px-3 py-1 rounded text-sm ${
+                language === "eng" ? "bg-purple-500 text-white" : "bg-gray-100"
+              }`}
+            >
+              Eng
+            </button>
+          </div>
         </div>
       </div>
     </div>

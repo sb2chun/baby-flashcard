@@ -18,29 +18,29 @@ const FlashcardApp = () => {
   const [hideWordMode, setHideWordMode] = useState(false);
   const [language, setLanguage] = useState("kor");
   const [isRandomOrder, setIsRandomOrder] = useState(false);
-  
+
   // 커스텀 훅을 통한 데이터 및 TTS 관리
-  const { 
-    flashcardData, 
-    categories, 
-    isLoading 
-  } = useFlashcardData();
+  const { flashcardData, categories, isLoading } = useFlashcardData();
 
-  const [selectedCategories, setSelectedCategories] = useState(new Set(["통합"]));
+  const [selectedCategories, setSelectedCategories] = useState(
+    new Set(["통합"])
+  );
 
-  const { 
-    isTTSEnabled, 
-    setIsTTSEnabled, 
-    speakWord, 
+  const {
+    isTTSEnabled,
+    setIsTTSEnabled,
+    speakWord,
     isSpeaking,
-    cancelCurrentSpeech 
+    cancelCurrentSpeech,
   } = useTTS();
 
   // 선택된 카테고리에 따른 데이터 필터링
   const filteredData = useMemo(() => {
     if (selectedCategories.has("통합")) return flashcardData;
-    return flashcardData.filter(item => selectedCategories.has(item.category.path));
-  }, [selectedCategories, flashcardData]); 
+    return flashcardData.filter((item) =>
+      selectedCategories.has(item.category.path)
+    );
+  }, [selectedCategories, flashcardData]);
 
   // 랜덤/순차 정렬 처리
   const shuffledData = useMemo(() => {
@@ -51,7 +51,7 @@ const FlashcardApp = () => {
   }, [filteredData, isRandomOrder]);
 
   const preloadImages = (images) => {
-    images.forEach(image => {
+    images.forEach((image) => {
       const img = new Image();
       img.src = image;
     });
@@ -59,7 +59,7 @@ const FlashcardApp = () => {
 
   useEffect(() => {
     // 현재 카테고리의 이미지들을 미리 로드
-    const imagesToPreload = filteredData.map(item => item.image);
+    const imagesToPreload = filteredData.map((item) => item.image);
     preloadImages(imagesToPreload);
   }, [filteredData]);
 
@@ -76,7 +76,8 @@ const FlashcardApp = () => {
     if (shuffledData.length === 0) return;
 
     cancelCurrentSpeech();
-    const nextIndex = newIndex >= 0 ? newIndex % shuffledData.length : shuffledData.length - 1;
+    const nextIndex =
+      newIndex >= 0 ? newIndex % shuffledData.length : shuffledData.length - 1;
 
     setCurrentIndex(nextIndex);
 
@@ -105,7 +106,13 @@ const FlashcardApp = () => {
       if (timer) clearTimeout(timer);
       cancelCurrentSpeech();
     };
-  }, [intervalTime, isAutoPlay, currentIndex, shuffledData.length, cancelCurrentSpeech]);
+  }, [
+    intervalTime,
+    isAutoPlay,
+    currentIndex,
+    shuffledData.length,
+    cancelCurrentSpeech,
+  ]);
 
   // 키보드 이벤트 처리 (수동 모드에서만 동작)
   useEffect(() => {
@@ -117,7 +124,9 @@ const FlashcardApp = () => {
             handleCardChange(currentIndex + 1);
             break;
           case "ArrowLeft":
-            handleCardChange(currentIndex === 0 ? shuffledData.length - 1 : currentIndex - 1);
+            handleCardChange(
+              currentIndex === 0 ? shuffledData.length - 1 : currentIndex - 1
+            );
             break;
           default:
             break;
@@ -142,7 +151,7 @@ const FlashcardApp = () => {
   return (
     <div className="flex h-screen overflow-hidden">
       {/* 상단 컨트롤 패널 */}
-      <ControlPanel 
+      <ControlPanel
         intervalTime={intervalTime}
         setIntervalTime={setIntervalTime}
         isAutoPlay={isAutoPlay}
@@ -159,7 +168,7 @@ const FlashcardApp = () => {
       />
 
       {/* 메인 콘텐츠 영역 */}
-      <MainContent 
+      <MainContent
         currentIndex={currentIndex}
         shuffledData={shuffledData}
         language={language}
@@ -168,14 +177,14 @@ const FlashcardApp = () => {
       />
 
       {/* 카테고리 사이드바 */}
-      <CategorySidebar 
-  categories={categories}
-  selectedCategories={selectedCategories}
-  setSelectedCategories={setSelectedCategories}
-  language={language}
-  flashcardData={flashcardData}
-  setCurrentIndex={setCurrentIndex}
-/>
+      <CategorySidebar
+        categories={categories}
+        selectedCategories={selectedCategories}
+        setSelectedCategories={setSelectedCategories}
+        language={language}
+        flashcardData={flashcardData}
+        setCurrentIndex={setCurrentIndex}
+      />
     </div>
   );
 };

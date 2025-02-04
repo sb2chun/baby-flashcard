@@ -37,34 +37,38 @@ const CategorySidebar = ({
     handleCategoryChange(categoryPath);
   };
 
+  
+  
   return (
-    <div className="w-[15vw] mt-[10vh] bg-white shadow-lg">
-      <div className="p-4 h-[80vh] overflow-y-auto">
-        <h2 className="text-xl font-bold mb-4">카테고리</h2>
-        <div className="space-y-2">
+    <div className="w-[30vw] md:w-[15vw] mt-[8vh] bg-white shadow-lg text-[10px] md:text-base">
+      <div className="p-2 md:p-4 h-[80vh] overflow-y-auto">
+        <h2 className="text-[11px] md:text-xl font-bold mb-2 md:mb-4 mt-4 md:mt-5">
+          {language === "kor" ? "카테고리" : "Categories"}
+        </h2>
+        <div className="space-y-1 md:space-y-2">
           {categories.map((category) => (
             <div
               key={category.path}
-              className={`flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-100 cursor-pointer ${
+              className={`flex items-center gap-1 md:gap-2 px-2 md:px-3 py-1 md:py-2 rounded hover:bg-gray-100 cursor-pointer ${
                 selectedCategories.has(category.path) ? "bg-blue-100" : ""
               }`}
               onClick={() => handleCategoryChange(category.path)}
             >
-              <div
-                onClick={(e) => e.stopPropagation()}
-                className="relative z-10"
-              >
+              {/* 체크박스 (클릭 시 이벤트 버블링 방지) */}
+              <div onClick={(e) => e.stopPropagation()} className="relative z-10">
                 <input
                   type="checkbox"
                   checked={selectedCategories.has(category.path)}
                   onChange={(e) => handleCheckboxClick(e, category.path)}
-                  className="w-4 h-4 rounded cursor-pointer"
+                  className="w-3 h-3 md:w-4 md:h-4 rounded cursor-pointer"
                 />
               </div>
-              <span className="flex-1">
+
+              {/* 카테고리 이름 및 플래시카드 개수 */}
+              <span className="flex-1 truncate">
                 {language === "kor" ? category.korName : category.engName}
                 {category.path !== "통합" && (
-                  <span className="ml-2 text-sm">
+                  <span className="ml-1 md:ml-2 text-[9px] md:text-sm text-gray-500">
                     (
                     {
                       flashcardData.filter(
