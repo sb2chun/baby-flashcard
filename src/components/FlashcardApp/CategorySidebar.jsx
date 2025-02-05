@@ -41,7 +41,7 @@ const CategorySidebar = ({
   
   return (
     <div className="w-[30vw] md:w-[15vw] mt-[8vh] bg-white shadow-lg text-[10px] md:text-base">
-      <div className="p-2 md:p-4 h-[80vh] overflow-y-auto">
+      <div className="pt-6 md:pt-4 h-[80vh] overflow-y-auto">
         <h2 className="text-[11px] md:text-xl font-bold mb-2 md:mb-4 mt-4 md:mt-5">
           {language === "kor" ? "카테고리" : "Categories"}
         </h2>

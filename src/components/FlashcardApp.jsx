@@ -57,6 +57,14 @@ const FlashcardApp = () => {
     });
   };
 
+  // 앱 로드 시 전체 이미지 프리로드
+  useEffect(() => {
+    if (!isLoading && flashcardData.length > 0) {
+      const allImages = flashcardData.map((item) => item.image);
+      preloadImages(allImages);
+    }
+  }, [isLoading, flashcardData]);
+
   useEffect(() => {
     // 현재 카테고리의 이미지들을 미리 로드
     const imagesToPreload = filteredData.map((item) => item.image);
