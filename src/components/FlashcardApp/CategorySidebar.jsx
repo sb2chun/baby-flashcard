@@ -40,12 +40,12 @@ const CategorySidebar = ({
   
   
   return (
-    <div className="w-[30vw] md:w-[15vw] mt-[8vh] bg-white shadow-lg text-[10px] md:text-base">
-      <div className="pt-6 md:pt-4 h-[80vh] overflow-y-auto">
-        <h2 className="text-[11px] md:text-xl font-bold mb-2 md:mb-4 mt-4 md:mt-5">
+    <div className="w-[30vw] md:w-[15vw] bg-white border-l text-[10px] md:text-base shadow-lg">
+      <div className="h-full p-4 flex flex-col"> 
+        <h2 className="text-[11px] md:text-xl font-bold mb-2 md:mb-4">
           {language === "kor" ? "카테고리" : "Categories"}
         </h2>
-        <div className="space-y-1 md:space-y-2">
+        <div className="flex-1 overflow-y-auto">
           {categories.map((category) => (
             <div
               key={category.path}

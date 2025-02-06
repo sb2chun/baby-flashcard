@@ -155,7 +155,7 @@ const FlashcardApp = () => {
 
   // 메인 렌더링
   return (
-    <div className="flex h-screen">
+    <div className="h-screen bg-gray-50">
       {/* 상단 컨트롤 패널 */}
       <ControlPanel
         intervalTime={intervalTime}
@@ -173,24 +173,26 @@ const FlashcardApp = () => {
         isSpeaking={isSpeaking}
       />
 
-      {/* 메인 콘텐츠 영역 */}
-      <MainContent
-        currentIndex={currentIndex}
-        shuffledData={shuffledData}
-        language={language}
-        hideWordMode={hideWordMode}
-        handleCardChange={handleCardChange}
-      />
+      <div className="flex mt-[10vh] h-[90vh]">
+        {/* 메인 콘텐츠 영역 */}
+        <MainContent
+          currentIndex={currentIndex}
+          shuffledData={shuffledData}
+          language={language}
+          hideWordMode={hideWordMode}
+          handleCardChange={handleCardChange}
+        />
 
-      {/* 카테고리 사이드바 */}
-      <CategorySidebar
-        categories={categories}
-        selectedCategories={selectedCategories}
-        setSelectedCategories={setSelectedCategories}
-        language={language}
-        flashcardData={flashcardData}
-        setCurrentIndex={setCurrentIndex}
-      />
+        {/* 카테고리 사이드바 */}
+        <CategorySidebar
+          categories={categories}
+          selectedCategories={selectedCategories}
+          setSelectedCategories={setSelectedCategories}
+          language={language}
+          flashcardData={flashcardData}
+          setCurrentIndex={setCurrentIndex}
+        />
+      </div>
     </div>
   );
 };
