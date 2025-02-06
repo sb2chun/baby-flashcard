@@ -149,7 +149,7 @@ const ControlPanel = ({
 
       {/* Mobile view */}
       <div
-        className={`md:hidden flex ${isLandscape ? "flex-row justify-between" : "flex-col"} p-2 space-y-1`}
+        className={`md:hidden flex h-[10vh] my-1 p-1 justify-between ${isLandscape ? "flex-row " : "flex-col"}`}
       >
         {/* 기능들 (첫 번째 줄) */}
         <div className="flex gap-2 justify-start w-full">
