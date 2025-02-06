@@ -217,19 +217,12 @@ const ControlPanel = ({
             </button>
           </div>
 
-          {/* 한글/Eng */}
-          <div className="flex gap-2">
+          <div className="flex absolute right-5">
             <button
-              onClick={() => setLanguage("kor")}
+              onClick={() => setLanguage(language === "kor" ? "eng" : "kor")}
               className={`px-3 py-1 rounded text-sm ${language === "kor" ? "bg-purple-500 text-white" : "bg-gray-100"}`}
             >
-              한글
-            </button>
-            <button
-              onClick={() => setLanguage("eng")}
-              className={`px-3 py-1 rounded text-sm ${language === "eng" ? "bg-purple-500 text-white" : "bg-gray-100"}`}
-            >
-              Eng
+              {language === "kor" ? "한글" : "English"}
             </button>
           </div>
         </div>

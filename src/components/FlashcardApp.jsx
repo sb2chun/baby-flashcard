@@ -1,10 +1,10 @@
 // src/components/FlashcardApp/index.jsx
-import { useState, useEffect, useMemo, useRef } from 'react';
-import ControlPanel from './FlashcardApp/ControlPanel';
-import MainContent from './FlashcardApp/MainContent';
-import CategorySidebar from './FlashcardApp/CategorySidebar';
-import useFlashcardData from '../hooks/useFlashcardData';
-import useTTS from '../hooks/useTTS';
+import { useState, useEffect, useMemo, useRef } from "react";
+import ControlPanel from "./FlashcardApp/ControlPanel";
+import MainContent from "./FlashcardApp/MainContent";
+import CategorySidebar from "./FlashcardApp/CategorySidebar";
+import useFlashcardData from "../hooks/useFlashcardData";
+import useTTS from "../hooks/useTTS";
 
 /**
  * FlashcardApp 메인 컴포넌트
@@ -95,15 +95,6 @@ const FlashcardApp = () => {
       newIndex >= 0 ? newIndex % shuffledData.length : shuffledData.length - 1;
 
     setCurrentIndex(nextIndex);
-
-    if (isTTSEnabled) {
-      const word = shuffledData[nextIndex][`${language}_word`];
-      if (word) {
-        setTimeout(() => {
-          speakWord(word).catch(console.error);
-        }, 50);
-      }
-    }
   };
 
   // 자동 재생 타이머 관리
