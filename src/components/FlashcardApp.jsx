@@ -155,7 +155,7 @@ const FlashcardApp = () => {
 
   // 메인 렌더링
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen overflow: hidden;">
       {/* 상단 컨트롤 패널 */}
       <ControlPanel
         intervalTime={intervalTime}
@@ -190,6 +190,7 @@ const FlashcardApp = () => {
         language={language}
         flashcardData={flashcardData}
         setCurrentIndex={setCurrentIndex}
+        className="overflow-y-auto"
       />
     </div>
   );

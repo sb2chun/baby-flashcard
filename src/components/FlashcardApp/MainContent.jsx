@@ -35,8 +35,8 @@ const MainContent = ({
         <div className="relative w-full h-[50vh] md:h-[60vh] flex items-center justify-center">
           <button
             onClick={() => handleCardChange(currentIndex - 1)}
-            className={`absolute left-0 h-full px-2 md:px-4 flex items-center justify-center
-              ${isMobile ? "bg-transparent bg-opacity-20 hover:bg-opacity-30" : "bg-white bg-opacity-20 hover:bg-opacity-30"} transition-all z-30`} // z-index 추가
+            className={`absolute bg-transparent left-0 h-full px-2 md:px-4 flex items-center justify-center
+              ${isMobile ? "bg-opacity-20 hover:bg-opacity-30" : "bg-opacity-20 hover:bg-opacity-30"} transition-all z-30`} // z-index 추가
           >
             <ChevronLeft size={24} className="text-black md:w-12 md:h-12" />
           </button>
@@ -58,8 +58,8 @@ const MainContent = ({
 
           <button
             onClick={() => handleCardChange(currentIndex + 1)}
-            className={`absolute right-0 h-full px-2 md:px-4 flex items-center justify-center
-              ${isMobile ? "bg-transparent" : "bg-white bg-opacity-20 hover:bg-opacity-30"} transition-all`}
+            className={`bg-transparent absolute right-0 h-full px-2 md:px-4 flex items-center justify-center
+              ${isMobile ? "" : "bg-opacity-20 hover:bg-opacity-30"} transition-all`}
           >
             <ChevronRight size={24} className="text-black md:w-12 md:h-12" />
           </button>

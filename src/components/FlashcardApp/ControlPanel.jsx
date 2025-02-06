@@ -37,7 +37,7 @@ const ControlPanel = ({
   return (
     <div className="fixed top-0 left-0 right-0 bg-white shadow-md z-30">
       {/* Desktop view */}
-      <div className="hidden md:flex items-center justify-center h-[10vh] gap-6 px-4">
+      <div className="hidden md:flex items-center justify-center h-[10vh] gap-6 ">
         <div
           className={`flex items-center gap-2 ${
             !isAutoPlay ? "opacity-50 pointer-events-none" : ""
