@@ -1,5 +1,5 @@
 // src/components/FlashcardApp/index.jsx
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import ControlPanel from './FlashcardApp/ControlPanel';
 import MainContent from './FlashcardApp/MainContent';
 import CategorySidebar from './FlashcardApp/CategorySidebar';
@@ -50,10 +50,17 @@ const FlashcardApp = () => {
     return filteredData;
   }, [filteredData, isRandomOrder]);
 
+  const preloadedImagesRef = useRef(new Set());
+
+  // 이미지 미리 로드하는 함수
   const preloadImages = (images) => {
     images.forEach((image) => {
-      const img = new Image();
-      img.src = image;
+      // 이미지가 이미 로드된 경우, 중복해서 로드하지 않음
+      if (!preloadedImagesRef.current.has(image)) {
+        const img = new Image();
+        img.src = image;
+        preloadedImagesRef.current.add(image); // 로드된 이미지로 기록
+      }
     });
   };
 
@@ -157,7 +164,7 @@ const FlashcardApp = () => {
 
   // 메인 렌더링
   return (
-    <div className="flex h-screen overflow-hidden">
+    <div className="flex h-screen">
       {/* 상단 컨트롤 패널 */}
       <ControlPanel
         intervalTime={intervalTime}
