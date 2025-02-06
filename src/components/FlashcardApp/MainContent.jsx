@@ -36,8 +36,8 @@ const MainContent = ({
     );
   }
 
-  return (
-    <div className={`flex-1 mt-[10vh] md:mt-[10vh] h-[80vh] md:h-[80vh] overflow-hidden
+  return (  
+    <div className={`flex-1 mt-[10vh] md:mt-[10vh] h-[90vh] md:h-[90vh] overflow-hidden
       ${isFullscreen ? 'fixed inset-0 z-20 bg-white mt-[10vh] h-[90vh] w-screen' : ''}`}>
       <div className="relative h-full flex flex-col items-center justify-center p-4">
         <div className="relative w-full h-[50vh] md:h-[60vh] flex items-center justify-center">
