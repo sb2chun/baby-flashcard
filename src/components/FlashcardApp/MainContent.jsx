@@ -17,17 +17,6 @@ const MainContent = ({
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  useEffect(() => {
-    if (isFullscreen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-    }
-    return () => {
-      document.body.style.overflow = "unset";
-    };
-  }, [isFullscreen]);
-
   if (shuffledData.length === 0) {
     return (
       <div className="h-full flex items-center justify-center bg-gray-200">
