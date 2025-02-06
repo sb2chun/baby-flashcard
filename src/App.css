@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  height: 100vh; /* 기존 코드 */
+  height: -webkit-fill-available; /* iOS Safari */
+  height: stretch; /* 최신 브라우저 */
+}
