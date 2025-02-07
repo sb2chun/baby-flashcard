@@ -94,7 +94,6 @@ const FlashcardApp = () => {
     setCurrentIndex(nextIndex);
   };
 
-
   // 키보드 이벤트 처리 (수동 모드에서만 동작)
   useEffect(() => {
     const handleKeyPress = (e) => {
@@ -130,7 +129,7 @@ const FlashcardApp = () => {
 
   // 메인 렌더링
   return (
-    <div className="flex h-screen overflow-hidden;">
+    <div className="flex flex-col h-screen">
       {/* 상단 컨트롤 패널 */}
       <ControlPanel
         ref={controlPanelRef}
@@ -148,28 +147,29 @@ const FlashcardApp = () => {
         setIsTTSEnabled={setIsTTSEnabled}
         isSpeaking={isSpeaking}
       />
+      <div className="flex flex-1 overflow-hidden">
+        {/* 메인 콘텐츠 영역 */}
+        <MainContent
+          controlPanelRef={controlPanelRef}
+          currentIndex={currentIndex}
+          shuffledData={shuffledData}
+          language={language}
+          hideWordMode={hideWordMode}
+          handleCardChange={handleCardChange}
+        />
 
-      {/* 메인 콘텐츠 영역 */}
-      <MainContent
-        controlPanelRef ={controlPanelRef}
-        currentIndex={currentIndex}
-        shuffledData={shuffledData}
-        language={language}
-        hideWordMode={hideWordMode}
-        handleCardChange={handleCardChange}
-      />
-
-      {/* 카테고리 사이드바 */}
-      <CategorySidebar
-        controlPanelRef ={controlPanelRef}
-        categories={categories}
-        selectedCategories={selectedCategories}
-        setSelectedCategories={setSelectedCategories}
-        language={language}
-        flashcardData={flashcardData}
-        setCurrentIndex={setCurrentIndex}
-        className="overflow-y-auto"
-      />
+        {/* 카테고리 사이드바 */}
+        <CategorySidebar
+          controlPanelRef={controlPanelRef}
+          categories={categories}
+          selectedCategories={selectedCategories}
+          setSelectedCategories={setSelectedCategories}
+          language={language}
+          flashcardData={flashcardData}
+          setCurrentIndex={setCurrentIndex}
+          className="overflow-y-auto"
+        />
+      </div>
     </div>
   );
 };

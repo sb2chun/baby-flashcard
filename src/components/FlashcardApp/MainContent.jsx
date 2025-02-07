@@ -34,7 +34,7 @@ const MainContent = ({
 
   if (shuffledData.length === 0) {
     return (
-      <div className="h-full flex items-center justify-center bg-gray-200">
+      <div className="flex-1 flex items-center justify-center bg-gray-200">
         <p>이 카테고리에는 카드가 없습니다.</p>
       </div>
     );
@@ -42,14 +42,14 @@ const MainContent = ({
 
   return (
     <div
-      className={`flex-1 fixed-content-height overflow-hidden
+      className={`flex-1 flex flex-col overflow-hidden
   ${isFullscreen ? "fixed inset-0 z-20 bg-white w-screen" : ""}`}
       style={{
         height: `calc(100vh - ${controlPanelHeight}px)`,
         marginTop: `${controlPanelHeight}px`,
       }}
     >
-      <div className="relative h-full flex flex-col items-center justify-center p-4">
+      <div className="flex-1 flex flex-col items-center justify-center p-4 overflow-hidden">
         <div className="relative w-full max-h-[60vh] md:h-[60vh] flex items-center justify-center">
           <button
             onClick={() => handleCardChange(currentIndex - 1)}
@@ -64,7 +64,7 @@ const MainContent = ({
               src={shuffledData[currentIndex].image}
               alt={shuffledData[currentIndex][`${language}_word`]}
               className={`max-h-full max-w-full object-contain px-8 md:px-16
-                ${isFullscreen ? "h-[60vh]" : ""}`}
+                ${isFullscreen ? "max-h-[60vh]" : ""}`}
             />
             <button
               onClick={() => setIsFullscreen(!isFullscreen)}
