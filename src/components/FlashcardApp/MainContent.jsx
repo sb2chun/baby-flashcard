@@ -45,12 +45,12 @@ const MainContent = ({
       className={`flex-1 flex flex-col overflow-hidden
   ${isFullscreen ? "fixed inset-0 z-20 bg-white w-screen" : ""}`}
       style={{
-        height: `calc(100dvh - ${controlPanelHeight}px)`,
+        height: `calc(100vh - ${controlPanelHeight}px)`,
         marginTop: `${controlPanelHeight}px`,
       }}
     >
       <div className="h-full flex-1 flex flex-col items-center justify-center p-4 overflow-hidden">
-        <div className="relative w-full max-h-[60dvh] md:h-[60dvh] flex items-center justify-center">
+        <div className="relative w-full max-h-[60vh] md:h-[60vh] flex items-center justify-center">
           <button
             onClick={() => handleCardChange(currentIndex - 1)}
             className={`absolute bg-transparent left-0 h-full px-2 md:px-4 flex items-center justify-center
@@ -64,7 +64,7 @@ const MainContent = ({
               src={shuffledData[currentIndex].image}
               alt={shuffledData[currentIndex][`${language}_word`]}
               className={`max-h-full max-w-full object-contain px-8 md:px-16
-                ${isFullscreen ? "max-h-[60dvh]" : ""}`}
+                ${isFullscreen ? "max-h-[60vh]" : ""}`}
             />
             <button
               onClick={() => setIsFullscreen(!isFullscreen)}

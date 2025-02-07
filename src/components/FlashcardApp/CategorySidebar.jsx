@@ -57,7 +57,7 @@ const CategorySidebar = ({
     <div
       className="w-[30vw] md:w-[15vw] bg-white shadow-lg text-[10px] md:text-base"
       style={{
-        height: `calc(100dvh - ${controlPanelHeight}px)`,
+        height: `calc(100vh - ${controlPanelHeight}px)`,
         marginTop: `${controlPanelHeight}px`,
       }}
     >
