@@ -98,6 +98,7 @@ const FlashcardApp = () => {
     // 페이지가 완전히 렌더링된 후 스크롤을 맨 위로 올림
     setTimeout(() => {
       window.scrollTo(0, 0);
+      document.documentElement.scrollTop = 0;
     }, 0);
   }, []);
 
