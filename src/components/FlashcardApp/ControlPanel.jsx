@@ -165,7 +165,7 @@ const ControlPanel = forwardRef(({
       </div>
 
       {/* Mobile view */}
-      <div className={`md:hidden flex my-2 p-1 justify-between ${isLandscape ? "flex-row " : "flex-col"}`}>
+      <div className={`md:hidden flex my-2 p-1 space-y-1 justify-between ${isLandscape ? "flex-row " : "flex-col"}`}>
         {/* 기능들 (첫 번째 줄) */}
         <div className="flex gap-2 justify-start w-full">
           <button

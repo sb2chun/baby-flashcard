@@ -12,21 +12,17 @@ const CategorySidebar = ({
 }) => {
   const [controlPanelHeight, setControlPanelHeight] = useState(0);
   useEffect(() => {
-    if (controlPanelRef.current) {
-      setTimeout(() => {
-        setControlPanelHeight(controlPanelRef.current.offsetHeight);
-      }, 100);
-    }
-  
     const handleResize = () => {
       if (controlPanelRef.current) {
         setControlPanelHeight(controlPanelRef.current.offsetHeight);
       }
     };
-  
+    
+    handleResize(); // 초기 호출
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, [controlPanelRef]);
+  
 
   const handleCategoryChange = (categoryPath) => {
     setSelectedCategories((prev) => {
