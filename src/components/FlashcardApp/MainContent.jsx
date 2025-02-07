@@ -44,9 +44,7 @@ const MainContent = ({
     <div
       className={`flex-1 flex flex-col overflow-hidden
         h-[calc(100vh-var(--control-panel-height))]
-        mt-[var(--control-panel-height)]
-        md:h-[calc(100vh-var(--control-panel-height))]
-        md:mt-[var(--control-panel-height)]
+  mt-[var(--control-panel-height)]
   ${isFullscreen ? "fixed inset-0 z-20 bg-white w-screen" : ""}`}
     >
       <div className="flex-1 flex flex-col items-center justify-center p-4">
