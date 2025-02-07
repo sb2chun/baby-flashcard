@@ -1,5 +1,8 @@
+import { useState, useEffect } from "react";
+
 // src/components/FlashcardApp/CategorySidebar.jsx
 const CategorySidebar = ({
+  controlPanelRef,
   categories,
   selectedCategories,
   setSelectedCategories,
@@ -7,6 +10,24 @@ const CategorySidebar = ({
   flashcardData,
   setCurrentIndex,
 }) => {
+  const [controlPanelHeight, setControlPanelHeight] = useState(0);
+
+  useEffect(() => {
+    if (controlPanelRef.current) {
+      setControlPanelHeight(controlPanelRef.current.offsetHeight);
+    }
+
+    const handleResize = () => {
+      if (controlPanelRef.current) {
+        setControlPanelHeight(controlPanelRef.current.offsetHeight);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, [controlPanelRef]);
+
   const handleCategoryChange = (categoryPath) => {
     setSelectedCategories((prev) => {
       const newCategories = new Set(prev);
@@ -37,11 +58,10 @@ const CategorySidebar = ({
     handleCategoryChange(categoryPath);
   };
 
-  
-  
   return (
-    <div className="w-[30vw] md:w-[15vw] mt-[8vh] bg-white shadow-lg text-[10px] md:text-base">
-      <div className="pt-6 md:pt-4 h-[80vh] overflow-y-auto">
+    <div className="w-[30vw] md:w-[15vw] bg-white shadow-lg text-[10px] md:text-base overflow-auto"
+    style={{ height: `calc(100vh - ${controlPanelHeight}px)`, marginTop: `${controlPanelHeight}px` }}
+  >
         <h2 className="text-[11px] md:text-xl font-bold mb-2 md:mb-4 mt-4 md:mt-5">
           {language === "kor" ? "카테고리" : "Categories"}
         </h2>
@@ -55,7 +75,10 @@ const CategorySidebar = ({
               onClick={() => handleCategoryChange(category.path)}
             >
               {/* 체크박스 (클릭 시 이벤트 버블링 방지) */}
-              <div onClick={(e) => e.stopPropagation()} className="relative z-10">
+              <div
+                onClick={(e) => e.stopPropagation()}
+                className="relative z-10"
+              >
                 <input
                   type="checkbox"
                   checked={selectedCategories.has(category.path)}
@@ -81,7 +104,6 @@ const CategorySidebar = ({
               </span>
             </div>
           ))}
-        </div>
       </div>
     </div>
   );

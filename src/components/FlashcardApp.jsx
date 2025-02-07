@@ -51,6 +51,7 @@ const FlashcardApp = () => {
   }, [filteredData, isRandomOrder]);
 
   const preloadedImagesRef = useRef(new Set());
+  const controlPanelRef = useRef(null);
 
   // 이미지 미리 로드하는 함수
   const preloadImages = (images) => {
@@ -78,10 +79,6 @@ const FlashcardApp = () => {
     preloadImages(imagesToPreload);
   }, [filteredData]);
 
-  // 카테고리 변경 시 카드 인덱스 초기화
-  // useEffect(() => {
-  //   setCurrentIndex(0);
-  // }, [selectedCategory, filteredData]);
   useEffect(() => {
     setCurrentIndex(0);
   }, [selectedCategories, filteredData]);
@@ -97,28 +94,6 @@ const FlashcardApp = () => {
     setCurrentIndex(nextIndex);
   };
 
-  // 자동 재생 타이머 관리
-  useEffect(() => {
-    let timer;
-    if (isAutoPlay && shuffledData.length > 0) {
-      const runTimer = () => {
-        handleCardChange(currentIndex + 1);
-        timer = setTimeout(runTimer, intervalTime * 1000);
-      };
-      timer = setTimeout(runTimer, intervalTime * 1000);
-    }
-
-    return () => {
-      if (timer) clearTimeout(timer);
-      cancelCurrentSpeech();
-    };
-  }, [
-    intervalTime,
-    isAutoPlay,
-    currentIndex,
-    shuffledData.length,
-    cancelCurrentSpeech,
-  ]);
 
   // 키보드 이벤트 처리 (수동 모드에서만 동작)
   useEffect(() => {
@@ -155,9 +130,10 @@ const FlashcardApp = () => {
 
   // 메인 렌더링
   return (
-    <div className="flex min-h-screen overflow-hidden;">
+    <div className="flex h-screen overflow-hidden;">
       {/* 상단 컨트롤 패널 */}
       <ControlPanel
+        ref={controlPanelRef}
         intervalTime={intervalTime}
         setIntervalTime={setIntervalTime}
         isAutoPlay={isAutoPlay}
@@ -175,6 +151,7 @@ const FlashcardApp = () => {
 
       {/* 메인 콘텐츠 영역 */}
       <MainContent
+        controlPanelRef ={controlPanelRef}
         currentIndex={currentIndex}
         shuffledData={shuffledData}
         language={language}
@@ -184,6 +161,7 @@ const FlashcardApp = () => {
 
       {/* 카테고리 사이드바 */}
       <CategorySidebar
+        controlPanelRef ={controlPanelRef}
         categories={categories}
         selectedCategories={selectedCategories}
         setSelectedCategories={setSelectedCategories}

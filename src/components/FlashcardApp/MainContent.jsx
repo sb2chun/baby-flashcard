@@ -2,6 +2,7 @@ import { ChevronLeft, ChevronRight, Maximize2, Minimize2 } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const MainContent = ({
+  controlPanelRef,
   currentIndex,
   shuffledData,
   language,
@@ -11,12 +12,29 @@ const MainContent = ({
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
+  const [controlPanelHeight, setControlPanelHeight] = useState(0);
+  
+  useEffect(() => {
+    if (controlPanelRef.current) {
+      setControlPanelHeight(controlPanelRef.current.offsetHeight);
+    }
+
+    const handleResize = () => {
+      if (controlPanelRef.current) {
+        setControlPanelHeight(controlPanelRef.current.offsetHeight);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, [controlPanelRef]);
+  
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
 
   if (shuffledData.length === 0) {
     return (
@@ -27,10 +45,10 @@ const MainContent = ({
   }
 
   return (
-    <div
-      className={`flex-1 mt-[10vh] mt-[10vh] md:mt-[10vh] h-[90vh] md:h-[90vh] overflow-hidden
-      ${isFullscreen ? "fixed inset-0 z-20 bg-white mt-[10vh] md:mt-[10vh] h-[90vh] md:h-[90vh] w-screen" : ""}`}
-    >
+<div className={`flex-1 fixed-content-height overflow-auto
+  ${isFullscreen ? "fixed inset-0 z-20 bg-white w-screen" : ""}`}
+  style={{ height: `calc(100vh - ${controlPanelHeight}px)`, marginTop: `${controlPanelHeight}px` }}
+>
       <div className="relative h-full flex flex-col items-center justify-center p-4">
         <div className="relative w-full h-[65vh] md:h-[65vh] flex items-center justify-center">
           <button

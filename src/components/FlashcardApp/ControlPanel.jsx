@@ -1,8 +1,8 @@
 // src/components/FlashcardApp/ControlPanel.jsx
 import { Timer, Plus, Minus, Volume2, VolumeX } from "lucide-react";
-import { useState, useEffect } from "react"; // useEffect 추가
+import { useState, useEffect, forwardRef } from "react"; // useEffect 추가
 
-const ControlPanel = ({
+const ControlPanel = forwardRef(({
   intervalTime,
   setIntervalTime,
   isAutoPlay,
@@ -16,7 +16,24 @@ const ControlPanel = ({
   isTTSEnabled,
   setIsTTSEnabled,
   isSpeaking,
-}) => {
+}, ref) => {
+  
+  useEffect(() => {
+    const updateHeight = () => {
+      if (ref.current) {
+        document.documentElement.style.setProperty(
+          "--control-panel-height",
+          `${ref.current.offsetHeight}px`
+        );
+      }
+    };
+
+    updateHeight(); // 처음 마운트될 때 높이 설정
+    window.addEventListener("resize", updateHeight); // 창 크기 변경 시 업데이트
+
+    return () => window.removeEventListener("resize", updateHeight);
+  }, [ref]);
+
   const adjustInterval = (amount) => {
     if (!isAutoPlay) return;
     setIntervalTime((prev) => Math.max(1, prev + amount));
@@ -35,9 +52,9 @@ const ControlPanel = ({
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 bg-white shadow-md z-30">
+    <div ref={ref} className="fixed top-0 left-0 right-0 bg-white shadow-md z-30">
       {/* Desktop view */}
-      <div className="hidden md:flex items-center justify-center h-[10vh] gap-6 ">
+      <div className="hidden md:flex items-center justify-center gap-6 my-2">
         <div
           className={`flex items-center gap-2 ${
             !isAutoPlay ? "opacity-50 pointer-events-none" : ""
@@ -148,14 +165,12 @@ const ControlPanel = ({
       </div>
 
       {/* Mobile view */}
-      <div
-        className={`md:hidden flex h-[10vh] my-1 p-1 justify-between ${isLandscape ? "flex-row " : "flex-col"}`}
-      >
+      <div className={`md:hidden flex my-2 p-1 justify-between ${isLandscape ? "flex-row " : "flex-col"}`}>
         {/* 기능들 (첫 번째 줄) */}
         <div className="flex gap-2 justify-start w-full">
           <button
             onClick={() => setIsAutoPlay(!isAutoPlay)}
-            className={`px-3 py-1 rounded text-sm ${isAutoPlay ? "bg-green-500 text-white" : "bg-gray-100"}`}
+            className={`px-2 py-1 rounded text-sm ${isAutoPlay ? "bg-green-500 text-white" : "bg-gray-100"}`}
           >
             {language === "kor"
               ? isAutoPlay
@@ -167,7 +182,7 @@ const ControlPanel = ({
           </button>
           <button
             onClick={() => setHideWordMode(!hideWordMode)}
-            className={`px-3 py-1 rounded text-sm ${hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"}`}
+            className={`px-2 py-1 rounded text-sm ${hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"}`}
           >
             {language === "kor"
               ? hideWordMode
@@ -179,7 +194,7 @@ const ControlPanel = ({
           </button>
           <button
             onClick={() => setIsRandomOrder(!isRandomOrder)}
-            className={`px-3 py-1 rounded text-sm ${isRandomOrder ? "bg-green-500 text-white" : "bg-gray-100"}`}
+            className={`px-2 py-1 rounded text-sm ${isRandomOrder ? "bg-green-500 text-white" : "bg-gray-100"}`}
           >
             {language === "kor"
               ? isRandomOrder
@@ -220,7 +235,7 @@ const ControlPanel = ({
           <div className="flex absolute right-5">
             <button
               onClick={() => setLanguage(language === "kor" ? "eng" : "kor")}
-              className={`px-3 py-1 rounded text-sm ${language === "kor" ? "bg-purple-500 text-white" : "bg-gray-100"}`}
+              className={`px-2 py-1 rounded text-sm ${language === "kor" ? "bg-purple-500 text-white" : "bg-gray-100"}`}
             >
               {language === "kor" ? "한글" : "English"}
             </button>
@@ -229,6 +244,6 @@ const ControlPanel = ({
       </div>
     </div>
   );
-};
+});
 
 export default ControlPanel;
