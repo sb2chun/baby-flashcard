@@ -13,7 +13,7 @@ const MainContent = ({
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   const [controlPanelHeight, setControlPanelHeight] = useState(0);
-  
+
   useEffect(() => {
     if (controlPanelRef.current) {
       setControlPanelHeight(controlPanelRef.current.offsetHeight);
@@ -29,9 +29,10 @@ const MainContent = ({
 
     return () => window.removeEventListener("resize", handleResize);
   }, [controlPanelRef]);
-  
+
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
+    handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -45,12 +46,16 @@ const MainContent = ({
   }
 
   return (
-<div className={`flex-1 fixed-content-height overflow-auto
+    <div
+      className={`flex-1 fixed-content-height overflow-auto
   ${isFullscreen ? "fixed inset-0 z-20 bg-white w-screen" : ""}`}
-  style={{ height: `calc(100vh - ${controlPanelHeight}px)`, marginTop: `${controlPanelHeight}px` }}
->
+      style={{
+        height: `calc(100vh - ${controlPanelHeight}px)`,
+        marginTop: `${controlPanelHeight}px`,
+      }}
+    >
       <div className="relative h-full flex flex-col items-center justify-center p-4">
-        <div className="relative w-full h-[65vh] md:h-[65vh] flex items-center justify-center">
+        <div className="relative w-full h-[60vh] md:h-[60vh] flex items-center justify-center">
           <button
             onClick={() => handleCardChange(currentIndex - 1)}
             className={`absolute bg-transparent left-0 h-full px-2 md:px-4 flex items-center justify-center
