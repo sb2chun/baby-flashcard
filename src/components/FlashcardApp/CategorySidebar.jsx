@@ -11,20 +11,20 @@ const CategorySidebar = ({
   setCurrentIndex,
 }) => {
   const [controlPanelHeight, setControlPanelHeight] = useState(0);
-
   useEffect(() => {
     if (controlPanelRef.current) {
-      setControlPanelHeight(controlPanelRef.current.offsetHeight);
+      setTimeout(() => {
+        setControlPanelHeight(controlPanelRef.current.offsetHeight);
+      }, 100);
     }
-
+  
     const handleResize = () => {
       if (controlPanelRef.current) {
         setControlPanelHeight(controlPanelRef.current.offsetHeight);
       }
     };
-
+  
     window.addEventListener("resize", handleResize);
-
     return () => window.removeEventListener("resize", handleResize);
   }, [controlPanelRef]);
 
@@ -59,7 +59,7 @@ const CategorySidebar = ({
   };
 
   return (
-    <div className="w-[30vw] md:w-[15vw] bg-white shadow-lg text-[10px] md:text-base overflow-auto"
+    <div className="w-[30vw] md:w-[15vw] bg-white shadow-lg text-[10px] md:text-base overflow-hidden"
     style={{ height: `calc(100vh - ${controlPanelHeight}px)`, marginTop: `${controlPanelHeight}px` }}
   >
         <h2 className="text-[11px] md:text-xl font-bold mb-2 md:mb-4 mt-4 md:mt-5">

@@ -13,20 +13,20 @@ const MainContent = ({
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   const [controlPanelHeight, setControlPanelHeight] = useState(0);
-
   useEffect(() => {
     if (controlPanelRef.current) {
-      setControlPanelHeight(controlPanelRef.current.offsetHeight);
+      setTimeout(() => {
+        setControlPanelHeight(controlPanelRef.current.offsetHeight);
+      }, 100);
     }
-
+  
     const handleResize = () => {
       if (controlPanelRef.current) {
         setControlPanelHeight(controlPanelRef.current.offsetHeight);
       }
     };
-
+  
     window.addEventListener("resize", handleResize);
-
     return () => window.removeEventListener("resize", handleResize);
   }, [controlPanelRef]);
 
@@ -47,7 +47,7 @@ const MainContent = ({
 
   return (
     <div
-      className={`flex-1 fixed-content-height overflow-auto
+      className={`flex-1 fixed-content-height overflow-hidden
   ${isFullscreen ? "fixed inset-0 z-20 bg-white w-screen" : ""}`}
       style={{
         height: `calc(100vh - ${controlPanelHeight}px)`,
