@@ -129,7 +129,7 @@ const FlashcardApp = () => {
 
   // 메인 렌더링
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div className="flex flex-col">
       {/* 상단 컨트롤 패널 */}
       <ControlPanel
         ref={controlPanelRef}

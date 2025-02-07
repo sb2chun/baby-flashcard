@@ -49,7 +49,7 @@ const MainContent = ({
         marginTop: `${controlPanelHeight}px`,
       }}
     >
-      <div className="h-full flex-1 flex flex-col items-center justify-center p-4 overflow-hidden">
+      <div className="flex-1 flex flex-col items-center justify-center p-4">
         <div className="relative w-full max-h-[60vh] md:h-[60vh] flex items-center justify-center">
           <button
             onClick={() => handleCardChange(currentIndex - 1)}
