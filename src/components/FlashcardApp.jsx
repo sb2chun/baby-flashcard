@@ -94,13 +94,6 @@ const FlashcardApp = () => {
     setCurrentIndex(nextIndex);
   };
 
-  useEffect(() => {
-    // 페이지가 완전히 렌더링된 후 스크롤을 맨 위로 올림
-    setTimeout(() => {
-      window.scrollTo(0, 0);
-    }, 0);
-  }, []);
-
   // 키보드 이벤트 처리 (수동 모드에서만 동작)
   useEffect(() => {
     const handleKeyPress = (e) => {
