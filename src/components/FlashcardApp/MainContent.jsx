@@ -43,11 +43,9 @@ const MainContent = ({
   return (
     <div
       className={`flex-1 flex flex-col overflow-hidden
+        h-[calc(100vh-var(--control-panel-height))]
+  mt-[var(--control-panel-height)]
   ${isFullscreen ? "fixed inset-0 z-20 bg-white w-screen" : ""}`}
-      style={{
-        height: `calc(100vh - ${controlPanelHeight}px)`,
-        marginTop: `${controlPanelHeight}px`,
-      }}
     >
       <div className="flex-1 flex flex-col items-center justify-center p-4">
         <div className="relative w-full max-h-[60vh] md:h-[60vh] flex items-center justify-center">

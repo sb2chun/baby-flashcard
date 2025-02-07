@@ -21,17 +21,34 @@ const ControlPanel = forwardRef(({
   useEffect(() => {
     const updateHeight = () => {
       if (ref.current) {
+        const height = ref.current.offsetHeight;
         document.documentElement.style.setProperty(
           "--control-panel-height",
-          `${ref.current.offsetHeight}px`
+          `${height}px`
         );
+        // RAF를 사용하여 리플로우 최적화
+        requestAnimationFrame(() => {
+          document.documentElement.style.setProperty(
+            "--control-panel-height",
+            `${height}px`
+          );
+        });
       }
     };
-
-    updateHeight(); // 처음 마운트될 때 높이 설정
-    window.addEventListener("resize", updateHeight); // 창 크기 변경 시 업데이트
-
-    return () => window.removeEventListener("resize", updateHeight);
+  
+    // ResizeObserver를 사용하여 더 정확한 높이 감지
+    const resizeObserver = new ResizeObserver(updateHeight);
+    if (ref.current) {
+      resizeObserver.observe(ref.current);
+    }
+  
+    updateHeight(); // 초기 높이 설정
+    window.addEventListener("resize", updateHeight);
+  
+    return () => {
+      resizeObserver.disconnect();
+      window.removeEventListener("resize", updateHeight);
+    };
   }, [ref]);
 
   const adjustInterval = (amount) => {

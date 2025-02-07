@@ -55,11 +55,9 @@ const CategorySidebar = ({
 
   return (
     <div
-      className="w-[30vw] md:w-[15vw] bg-white shadow-lg text-[10px] md:text-base"
-      style={{
-        height: `calc(100vh - ${controlPanelHeight}px)`,
-        marginTop: `${controlPanelHeight}px`,
-      }}
+      className="w-[30vw] md:w-[15vw] bg-white shadow-lg text-[10px] md:text-base
+      h-[calc(100vh-var(--control-panel-height))]
+  mt-[var(--control-panel-height)]"
     >
       <div className="h-full overflow-y-auto">
         <h2 className="text-[11px] md:text-xl font-bold mb-2 md:mb-4 mt-4 md:mt-5">
