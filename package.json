@@ -33,7 +33,7 @@
     "deploy": "gh-pages -d build",
     "clean": "rimraf node_modules && rimraf package-lock.json"
   },
-  "homepage": "https://sb2chun.github.io/baby-flashcard/",
+  "homepage": "https://babyflashcard.xyz/",
   "eslintConfig": {
     "extends": [
       "react-app",
