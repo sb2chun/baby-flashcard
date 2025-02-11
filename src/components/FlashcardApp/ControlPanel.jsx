@@ -1,5 +1,5 @@
 // src/components/FlashcardApp/ControlPanel.jsx
-import { Timer, Plus, Minus, Volume2, VolumeX } from "lucide-react";
+import { Timer, Plus, Minus } from "lucide-react";
 import { useState, useEffect, forwardRef } from "react"; // useEffect 추가
 
 const ControlPanel = forwardRef(({
@@ -13,9 +13,6 @@ const ControlPanel = forwardRef(({
   setLanguage,
   isRandomOrder,
   setIsRandomOrder,
-  isTTSEnabled,
-  setIsTTSEnabled,
-  isSpeaking,
 }, ref) => {
   
   useEffect(() => {
@@ -135,15 +132,6 @@ const ControlPanel = forwardRef(({
             {language === "kor" ? "순차" : "Sequential"}
           </button>
         </div>
-        <button
-          onClick={() => setIsTTSEnabled(!isTTSEnabled)}
-          className={`p-2 rounded hidden
-            ${isTTSEnabled ? "bg-green-500 text-white" : "bg-gray-100"} 
-            ${isSpeaking ? "animate-pulse" : ""}`}
-        >
-          {isTTSEnabled ? <Volume2 size={24} /> : <VolumeX size={24} />}
-        </button>
-
         <div className="flex absolute right-5">
           <button
             onClick={() => setLanguage("kor")}

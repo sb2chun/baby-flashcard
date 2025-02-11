@@ -4,7 +4,6 @@ import ControlPanel from "./FlashcardApp/ControlPanel";
 import MainContent from "./FlashcardApp/MainContent";
 import CategorySidebar from "./FlashcardApp/CategorySidebar";
 import useFlashcardData from "../hooks/useFlashcardData";
-import useTTS from "../hooks/useTTS";
 
 /**
  * FlashcardApp 메인 컴포넌트
@@ -25,14 +24,6 @@ const FlashcardApp = () => {
   const [selectedCategories, setSelectedCategories] = useState(
     new Set(["통합"])
   );
-
-  const {
-    isTTSEnabled,
-    setIsTTSEnabled,
-    speakWord,
-    isSpeaking,
-    cancelCurrentSpeech,
-  } = useTTS();
 
   // 선택된 카테고리에 따른 데이터 필터링
   const filteredData = useMemo(() => {
@@ -83,11 +74,26 @@ const FlashcardApp = () => {
     setCurrentIndex(0);
   }, [selectedCategories, filteredData]);
 
+  // 자동 재생 타이머 관리
+  useEffect(() => {
+    let timer;
+    if (isAutoPlay && shuffledData.length > 0) {
+      const runTimer = () => {
+        handleCardChange(currentIndex + 1);
+        timer = setTimeout(runTimer, intervalTime * 1000);
+      };
+      timer = setTimeout(runTimer, intervalTime * 1000);
+    }
+
+    return () => {
+      if (timer) clearTimeout(timer);
+    };
+  }, [intervalTime, isAutoPlay, currentIndex, shuffledData.length]);
+
   // 카드 변경 핸들러
   const handleCardChange = async (newIndex) => {
     if (shuffledData.length === 0) return;
 
-    cancelCurrentSpeech();
     const nextIndex =
       newIndex >= 0 ? newIndex % shuffledData.length : shuffledData.length - 1;
 
@@ -143,13 +149,14 @@ const FlashcardApp = () => {
         setLanguage={setLanguage}
         isRandomOrder={isRandomOrder}
         setIsRandomOrder={setIsRandomOrder}
-        isTTSEnabled={isTTSEnabled}
-        setIsTTSEnabled={setIsTTSEnabled}
-        isSpeaking={isSpeaking}
+        // isTTSEnabled={isTTSEnabled}
+        // setIsTTSEnabled={setIsTTSEnabled}
+        // isSpeaking={isSpeaking}
       />
-      <div className="flex flex-1 overflow-hidden">
+      <div className="flex flex-1 fixed">
         {/* 메인 콘텐츠 영역 */}
         <MainContent
+          className="overflow-hidden"
           controlPanelRef={controlPanelRef}
           currentIndex={currentIndex}
           shuffledData={shuffledData}
@@ -160,6 +167,7 @@ const FlashcardApp = () => {
 
         {/* 카테고리 사이드바 */}
         <CategorySidebar
+          className="overflow-y-auto"
           controlPanelRef={controlPanelRef}
           categories={categories}
           selectedCategories={selectedCategories}
@@ -167,7 +175,6 @@ const FlashcardApp = () => {
           language={language}
           flashcardData={flashcardData}
           setCurrentIndex={setCurrentIndex}
-          className="overflow-y-auto"
         />
       </div>
     </div>

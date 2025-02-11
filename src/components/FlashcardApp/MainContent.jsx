@@ -10,7 +10,6 @@ const MainContent = ({
   handleCardChange,
 }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   const [controlPanelHeight, setControlPanelHeight] = useState(0);
   useEffect(() => {
@@ -25,15 +24,6 @@ const MainContent = ({
     return () => window.removeEventListener("resize", handleResize);
   }, [controlPanelRef]);
 
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    handleResize();
-    window.scrollTo(0,0);
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTop = 0;
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   if (shuffledData.length === 0) {
     return (
@@ -56,8 +46,7 @@ const MainContent = ({
         <div className="relative w-full max-h-[60vh] md:h-[60vh] flex items-center justify-center">
           <button
             onClick={() => handleCardChange(currentIndex - 1)}
-            className={`absolute bg-transparent left-0 h-full px-2 md:px-4 flex items-center justify-center
-              ${isMobile ? "bg-opacity-20 hover:bg-opacity-30" : "bg-opacity-20 hover:bg-opacity-30"} transition-all z-30`} // z-index 추가
+            className={`absolute bg-transparent left-0 h-full px-2 md:px-4 flex items-center justify-center`}
           >
             <ChevronLeft size={24} className="text-black md:w-12 md:h-12" />
           </button>
@@ -79,8 +68,7 @@ const MainContent = ({
 
           <button
             onClick={() => handleCardChange(currentIndex + 1)}
-            className={`bg-transparent absolute right-0 h-full px-2 md:px-4 flex items-center justify-center
-              ${isMobile ? "" : "bg-opacity-20 hover:bg-opacity-30"} transition-all`}
+            className={`bg-transparent absolute right-0 h-full px-2 md:px-4 flex items-center justify-center`}
           >
             <ChevronRight size={24} className="text-black md:w-12 md:h-12" />
           </button>
