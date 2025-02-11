@@ -5,7 +5,7 @@ import FlashCardApp from "./components/FlashcardApp";
 const App = () => {
 
   return (
-    <div className="App relative min-h-screen flex flex-col">
+    <div className="App">
       <FlashCardApp />
     </div>
   );

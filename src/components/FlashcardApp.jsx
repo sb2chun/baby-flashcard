@@ -153,7 +153,7 @@ const FlashcardApp = () => {
         // setIsTTSEnabled={setIsTTSEnabled}
         // isSpeaking={isSpeaking}
       />
-      <div className="flex flex-1 fixed">
+      <div className="flex flex-1">
         {/* 메인 콘텐츠 영역 */}
         <MainContent
           className="overflow-hidden"
