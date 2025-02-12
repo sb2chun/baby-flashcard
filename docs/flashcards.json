@@ -1,12 +1,162 @@
 {
   "categories": [
     {
+      "path": "Dinosaur",
+      "korName": "공룡",
+      "engName": "Dinosaur",
+      "items": [
+        {
+          "order": 1,
+          "kor_word": "데이노케이루스",
+          "eng_word": "Deinocheirus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/데이노케이루스_Deinocheirus.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 2,
+          "kor_word": "벨로키랍토르",
+          "eng_word": "Velociraptor",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/벨로키랍토르_Velociraptor.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 3,
+          "kor_word": "스테고사우루스",
+          "eng_word": "Stegosaurus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/스테고사우루스_Stegosaurus.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "스피노사우루스",
+          "eng_word": "Spinosaurus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/스피노사우루스_Spinosaurus.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 5,
+          "kor_word": "시노베나토르",
+          "eng_word": "Sinovenator",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/시노베나토르_Sinovenator.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 6,
+          "kor_word": "아르헨티노사우루스",
+          "eng_word": "Argentinosaurus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/아르헨티노사우루스_Argentinosaurus.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 7,
+          "kor_word": "트리케라톱스",
+          "eng_word": "Triceratops",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/트리케라톱스_Triceratops.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 8,
+          "kor_word": "티라노사우루스-렉스",
+          "eng_word": "Tyrannosaurus-Rex",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/티라노사우루스-렉스_Tyrannosaurus-Rex.png",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "파라사우롤로푸스",
+          "eng_word": "Parasaurolophus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/파라사우롤로푸스_Parasaurolophus.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 10,
+          "kor_word": "파키리노사우르스",
+          "eng_word": "Pachyrhinosaurus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/파키리노사우르스_Pachyrhinosaurus.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 11,
+          "kor_word": "파키케팔로사우루스",
+          "eng_word": "Pachycephalosaurus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/파키케팔로사우루스_Pachycephalosaurus.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 12,
+          "kor_word": "프테라노돈",
+          "eng_word": "Pteranodon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/프테라노돈_Pteranodon.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        }
+      ]
+    },
+    {
       "path": "Fruits",
       "korName": "과일",
       "engName": "Fruits",
       "items": [
         {
           "order": 1,
+          "kor_word": "감",
+          "eng_word": "persimmon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/감_persimmon.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "order": 2,
           "kor_word": "귤",
           "eng_word": "Tangerines",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/귤_Tangerines.jpg",
@@ -17,7 +167,18 @@
           }
         },
         {
-          "order": 2,
+          "order": 3,
+          "kor_word": "두리안",
+          "eng_word": "Durian",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/두리안_Durian.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "order": 4,
           "kor_word": "딸기",
           "eng_word": "Strawberriey",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/딸기_Strawberriey.jpg",
@@ -28,7 +189,7 @@
           }
         },
         {
-          "order": 3,
+          "order": 5,
           "kor_word": "라임",
           "eng_word": "Lime",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/라임_Lime.jpg",
@@ -39,7 +200,7 @@
           }
         },
         {
-          "order": 4,
+          "order": 6,
           "kor_word": "레몬",
           "eng_word": "lemon",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/레몬_lemon.jpg",
@@ -50,7 +211,7 @@
           }
         },
         {
-          "order": 5,
+          "order": 7,
           "kor_word": "망고",
           "eng_word": "Mango",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/망고_Mango.png",
@@ -61,7 +222,29 @@
           }
         },
         {
-          "order": 6,
+          "order": 8,
+          "kor_word": "망고스틴",
+          "eng_word": "Mangosteen",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/망고스틴_Mangosteen.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "메론",
+          "eng_word": "Melon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/메론_Melon.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "order": 10,
           "kor_word": "모과",
           "eng_word": "Quince",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/모과_Quince.jpg",
@@ -72,7 +255,7 @@
           }
         },
         {
-          "order": 7,
+          "order": 11,
           "kor_word": "바나나",
           "eng_word": "banana",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/바나나_banana.jpg",
@@ -83,7 +266,7 @@
           }
         },
         {
-          "order": 8,
+          "order": 12,
           "kor_word": "복숭아",
           "eng_word": "Peach",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/복숭아_Peach.jpg",
@@ -94,7 +277,18 @@
           }
         },
         {
-          "order": 9,
+          "order": 13,
+          "kor_word": "블루베리",
+          "eng_word": "Blueberrㅛ",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/블루베리_Blueberrㅛ.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "order": 14,
           "kor_word": "사과",
           "eng_word": "apple",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/사과_apple.jpg",
@@ -105,7 +299,7 @@
           }
         },
         {
-          "order": 10,
+          "order": 15,
           "kor_word": "산딸기",
           "eng_word": "Raspberry",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/산딸기_Raspberry.jpg",
@@ -116,7 +310,7 @@
           }
         },
         {
-          "order": 11,
+          "order": 16,
           "kor_word": "석류",
           "eng_word": "Pomegranat",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/석류_Pomegranat.jpg",
@@ -127,7 +321,18 @@
           }
         },
         {
-          "order": 12,
+          "order": 17,
+          "kor_word": "석류",
+          "eng_word": "Pomegranate",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/석류_Pomegranate.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "order": 18,
           "kor_word": "수박",
           "eng_word": "Watermelon",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/수박_Watermelon.jpg",
@@ -138,7 +343,7 @@
           }
         },
         {
-          "order": 13,
+          "order": 19,
           "kor_word": "아보카도",
           "eng_word": "Avocado",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/아보카도_Avocado.jpg",
@@ -149,7 +354,7 @@
           }
         },
         {
-          "order": 14,
+          "order": 20,
           "kor_word": "용과",
           "eng_word": "Dragonfruit",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/용과_Dragonfruit.jpg",
@@ -160,7 +365,7 @@
           }
         },
         {
-          "order": 15,
+          "order": 21,
           "kor_word": "자두",
           "eng_word": "Plum",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/자두_Plum.jpg",
@@ -171,7 +376,7 @@
           }
         },
         {
-          "order": 16,
+          "order": 22,
           "kor_word": "참외",
           "eng_word": "Korean-melon",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/참외_Korean-melon.jpg",
@@ -182,7 +387,7 @@
           }
         },
         {
-          "order": 17,
+          "order": 23,
           "kor_word": "체리",
           "eng_word": "Cherry",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/체리_Cherry.jpg",
@@ -193,7 +398,7 @@
           }
         },
         {
-          "order": 18,
+          "order": 24,
           "kor_word": "키위",
           "eng_word": "kiwi",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/키위_kiwi.jpg",
@@ -204,7 +409,7 @@
           }
         },
         {
-          "order": 19,
+          "order": 25,
           "kor_word": "토마토",
           "eng_word": "Tomato",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/토마토_Tomato.jpg",
@@ -215,7 +420,7 @@
           }
         },
         {
-          "order": 20,
+          "order": 26,
           "kor_word": "파인애플",
           "eng_word": "pineapple",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/파인애플_pineapple.jpg",
@@ -226,7 +431,7 @@
           }
         },
         {
-          "order": 21,
+          "order": 27,
           "kor_word": "포도",
           "eng_word": "Grape",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/포도_Grape.jpg",
@@ -237,7 +442,7 @@
           }
         },
         {
-          "order": 22,
+          "order": 28,
           "kor_word": "호박",
           "eng_word": "Harvest",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/호박_Harvest.jpg",
@@ -257,8 +462,8 @@
         {
           "order": 1,
           "kor_word": "경찰차",
-          "eng_word": "Police-Car",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/경찰차_Police-Car.jpg",
+          "eng_word": "PoliceCar",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/경찰차_PoliceCar.jpg",
           "category": {
             "path": "Transportations",
             "kor": "교통수단",
@@ -334,8 +539,8 @@
         {
           "order": 8,
           "kor_word": "소방차",
-          "eng_word": "Fire-engine",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/소방차_Fire-engine.jpg",
+          "eng_word": "FireEngine",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/소방차_FireEngine.jpg",
           "category": {
             "path": "Transportations",
             "kor": "교통수단",
@@ -356,8 +561,8 @@
         {
           "order": 10,
           "kor_word": "열기구",
-          "eng_word": "Hot-air-balloon",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/열기구_Hot-air-balloon.jpg",
+          "eng_word": "HotAirBalloon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/열기구_HotAirBalloon.jpg",
           "category": {
             "path": "Transportations",
             "kor": "교통수단",
@@ -388,6 +593,17 @@
         },
         {
           "order": 13,
+          "kor_word": "우주선",
+          "eng_word": "SpaceShip",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/우주선_SpaceShip.jpg",
+          "category": {
+            "path": "Transportations",
+            "kor": "교통수단",
+            "eng": "Transportations"
+          }
+        },
+        {
+          "order": 14,
           "kor_word": "자동차",
           "eng_word": "Car",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/자동차_Car.jpg",
@@ -398,7 +614,7 @@
           }
         },
         {
-          "order": 14,
+          "order": 15,
           "kor_word": "자전거",
           "eng_word": "Bicycle",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/자전거_Bicycle.jpg",
@@ -409,7 +625,7 @@
           }
         },
         {
-          "order": 15,
+          "order": 16,
           "kor_word": "잠수함",
           "eng_word": "Submarine",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/잠수함_Submarine.jpg",
@@ -420,10 +636,10 @@
           }
         },
         {
-          "order": 16,
+          "order": 17,
           "kor_word": "제트스키",
-          "eng_word": "Jet-ski",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/제트스키_Jet-ski.jpg",
+          "eng_word": "JetSki",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/제트스키_JetSki.jpg",
           "category": {
             "path": "Transportations",
             "kor": "교통수단",
@@ -431,7 +647,7 @@
           }
         },
         {
-          "order": 17,
+          "order": 18,
           "kor_word": "킥보드",
           "eng_word": "Kickboard",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/킥보드_Kickboard.jpg",
@@ -442,7 +658,7 @@
           }
         },
         {
-          "order": 18,
+          "order": 19,
           "kor_word": "택시",
           "eng_word": "Taxi",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/택시_Taxi.jpg",
@@ -453,7 +669,7 @@
           }
         },
         {
-          "order": 19,
+          "order": 20,
           "kor_word": "트랙터",
           "eng_word": "Tractor",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/트랙터_Tractor.jpg",
@@ -464,7 +680,7 @@
           }
         },
         {
-          "order": 20,
+          "order": 21,
           "kor_word": "트럭",
           "eng_word": "Truck",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/트럭_Truck.jpg",
@@ -475,7 +691,7 @@
           }
         },
         {
-          "order": 21,
+          "order": 22,
           "kor_word": "포크레인",
           "eng_word": "Excavator",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/포크레인_Excavator.jpg",
@@ -486,7 +702,7 @@
           }
         },
         {
-          "order": 22,
+          "order": 23,
           "kor_word": "헬리콥터",
           "eng_word": "Helicopter",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/교통수단_Transportations/헬리콥터_Helicopter.jpg",
@@ -924,6 +1140,156 @@
       ]
     },
     {
+      "path": "Weather",
+      "korName": "날씨",
+      "engName": "Weather",
+      "items": [
+        {
+          "order": 1,
+          "kor_word": "구름",
+          "eng_word": "Cloud",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/구름_Cloud.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 2,
+          "kor_word": "눈",
+          "eng_word": "Snow",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/눈_Snow.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 3,
+          "kor_word": "달",
+          "eng_word": "Moon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/달_Moon.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "무지개",
+          "eng_word": "Rainbow",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/무지개_Rainbow.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 5,
+          "kor_word": "바람",
+          "eng_word": "Wind",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/바람_Wind.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 6,
+          "kor_word": "번개",
+          "eng_word": "Lightning",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/번개_Lightning.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 7,
+          "kor_word": "별",
+          "eng_word": "Star",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/별_Star.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 8,
+          "kor_word": "비",
+          "eng_word": "Rain",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/비_Rain.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "안개",
+          "eng_word": "Fog",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/안개_Fog.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 10,
+          "kor_word": "은하",
+          "eng_word": "Galaxy",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/은하_Galaxy.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 11,
+          "kor_word": "태양",
+          "eng_word": "Sun",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/태양_Sun.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 12,
+          "kor_word": "파도",
+          "eng_word": "Wave",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/파도_Wave.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        },
+        {
+          "order": 13,
+          "kor_word": "폭풍",
+          "eng_word": "Storm",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/날씨_Weather/폭풍_Storm.jpg",
+          "category": {
+            "path": "Weather",
+            "kor": "날씨",
+            "eng": "Weather"
+          }
+        }
+      ]
+    },
+    {
       "path": "Animals",
       "korName": "동물",
       "engName": "Animals",
@@ -1007,9 +1373,9 @@
         },
         {
           "order": 8,
-          "kor_word": "다람쥐",
-          "eng_word": "squirrel",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/다람쥐_squirrel.jpg",
+          "kor_word": "너구리",
+          "eng_word": "Racoon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/너구리_Racoon.jpg",
           "category": {
             "path": "Animals",
             "kor": "동물",
@@ -1018,9 +1384,9 @@
         },
         {
           "order": 9,
-          "kor_word": "닭",
-          "eng_word": "chicken",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/닭_chicken.jpg",
+          "kor_word": "다람쥐",
+          "eng_word": "squirrel",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/다람쥐_squirrel.jpg",
           "category": {
             "path": "Animals",
             "kor": "동물",
@@ -1106,6 +1472,17 @@
         },
         {
           "order": 17,
+          "kor_word": "물개",
+          "eng_word": "Seal",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/물개_Seal.jpg",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "order": 18,
           "kor_word": "미어캣",
           "eng_word": "meerkats",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/미어캣_meerkats.jpg",
@@ -1116,7 +1493,29 @@
           }
         },
         {
-          "order": 18,
+          "order": 19,
+          "kor_word": "바다코끼리",
+          "eng_word": "walrus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/바다코끼리_walrus.jpg",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "order": 20,
+          "kor_word": "백조",
+          "eng_word": "Swan",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/백조_Swan.jpg",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "order": 21,
           "kor_word": "사슴",
           "eng_word": "deer",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/사슴_deer.png",
@@ -1127,7 +1526,7 @@
           }
         },
         {
-          "order": 19,
+          "order": 22,
           "kor_word": "사자",
           "eng_word": "lion",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/사자_lion.png",
@@ -1138,7 +1537,7 @@
           }
         },
         {
-          "order": 20,
+          "order": 23,
           "kor_word": "상어",
           "eng_word": "shark",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/상어_shark.jpg",
@@ -1149,7 +1548,7 @@
           }
         },
         {
-          "order": 21,
+          "order": 24,
           "kor_word": "소",
           "eng_word": "cow",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/소_cow.jpg",
@@ -1160,7 +1559,18 @@
           }
         },
         {
-          "order": 22,
+          "order": 25,
+          "kor_word": "수달",
+          "eng_word": "Otter",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/수달_Otter.jpg",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "order": 26,
           "kor_word": "앵무새",
           "eng_word": "parrot",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/앵무새_parrot.jpg",
@@ -1171,7 +1581,7 @@
           }
         },
         {
-          "order": 23,
+          "order": 27,
           "kor_word": "양",
           "eng_word": "sheep",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/양_sheep.jpg",
@@ -1182,7 +1592,7 @@
           }
         },
         {
-          "order": 24,
+          "order": 28,
           "kor_word": "얼룩말",
           "eng_word": "zebra",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/얼룩말_zebra.jpg",
@@ -1193,7 +1603,7 @@
           }
         },
         {
-          "order": 25,
+          "order": 29,
           "kor_word": "여우",
           "eng_word": "fox",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/여우_fox.jpg",
@@ -1204,7 +1614,7 @@
           }
         },
         {
-          "order": 26,
+          "order": 30,
           "kor_word": "오리",
           "eng_word": "duck",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/오리_duck.jpg",
@@ -1215,7 +1625,18 @@
           }
         },
         {
-          "order": 27,
+          "order": 31,
+          "kor_word": "올뺴미",
+          "eng_word": "Owl",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/올뺴미_Owl.jpg",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "order": 32,
           "kor_word": "원숭이",
           "eng_word": "monkey",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/원숭이_monkey.jpg",
@@ -1226,7 +1647,7 @@
           }
         },
         {
-          "order": 28,
+          "order": 33,
           "kor_word": "쥐",
           "eng_word": "rat",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/쥐_rat.jpg",
@@ -1237,7 +1658,7 @@
           }
         },
         {
-          "order": 29,
+          "order": 34,
           "kor_word": "치타",
           "eng_word": "cheetah",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/치타_cheetah.jpg",
@@ -1248,7 +1669,7 @@
           }
         },
         {
-          "order": 30,
+          "order": 35,
           "kor_word": "카피바라",
           "eng_word": "capybara",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/카피바라_capybara.jpg",
@@ -1259,7 +1680,7 @@
           }
         },
         {
-          "order": 31,
+          "order": 36,
           "kor_word": "캥거루",
           "eng_word": "kangaroo",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/캥거루_kangaroo.jpg",
@@ -1270,7 +1691,7 @@
           }
         },
         {
-          "order": 32,
+          "order": 37,
           "kor_word": "코끼리",
           "eng_word": "elephants",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/코끼리_elephants.jpg",
@@ -1281,7 +1702,7 @@
           }
         },
         {
-          "order": 33,
+          "order": 38,
           "kor_word": "코끼리",
           "eng_word": "elephants",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/코끼리_elephants.png",
@@ -1292,7 +1713,7 @@
           }
         },
         {
-          "order": 34,
+          "order": 39,
           "kor_word": "코알라",
           "eng_word": "koala",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/코알라_koala.jpg",
@@ -1303,7 +1724,7 @@
           }
         },
         {
-          "order": 35,
+          "order": 40,
           "kor_word": "타조",
           "eng_word": "ostrich",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/타조_ostrich.jpg",
@@ -1314,7 +1735,7 @@
           }
         },
         {
-          "order": 36,
+          "order": 41,
           "kor_word": "토끼",
           "eng_word": "rabbit",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/토끼_rabbit.jpg",
@@ -1325,7 +1746,7 @@
           }
         },
         {
-          "order": 37,
+          "order": 42,
           "kor_word": "팬더",
           "eng_word": "panda",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/팬더_panda.jpg",
@@ -1336,7 +1757,7 @@
           }
         },
         {
-          "order": 38,
+          "order": 43,
           "kor_word": "펭귄",
           "eng_word": "penguins",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/펭귄_penguins.jpg",
@@ -1347,10 +1768,32 @@
           }
         },
         {
-          "order": 39,
+          "order": 44,
+          "kor_word": "표범",
+          "eng_word": "Leopard",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/표범_Leopard.jpg",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "order": 45,
           "kor_word": "호랑이",
           "eng_word": "tiger",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/호랑이_tiger.png",
+          "category": {
+            "path": "Animals",
+            "kor": "동물",
+            "eng": "Animals"
+          }
+        },
+        {
+          "order": 46,
+          "kor_word": "홍학",
+          "eng_word": "Flamingo",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/동물_Animals/홍학_Flamingo.jpg",
           "category": {
             "path": "Animals",
             "kor": "동물",
