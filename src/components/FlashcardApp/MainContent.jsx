@@ -42,10 +42,10 @@ const MainContent = ({
         marginTop: `${controlPanelHeight}px`,
       }}
     >
-      <div className="flex-1 flex flex-col h-full mt-2 mb-2">
+      <div className="flex-1 flex flex-col h-full py-2">
         {/* 이미지 섹션 - isFullscreen일 때만 더 큰 비율 적용 */}
         <div className={`flex items-center justify-center relative min-h-0
-          ${isFullscreen ? "flex-[0.85]" : "flex-[0.7]"}`}>
+          ${isFullscreen ? "flex-[0.9]" : "flex-[0.8]"}`}>
           <button
             onClick={() => handleCardChange(currentIndex - 1)}
             className="absolute bg-transparent left-0 h-full px-2 md:px-4 flex items-center justify-center z-10"
@@ -80,7 +80,7 @@ const MainContent = ({
         {/* 텍스트 섹션 - isFullscreen일 때만 더 작은 비율 적용 */}
         {!hideWordMode && (
           <div className={`flex items-center justify-center min-h-0
-            ${isFullscreen ? "flex-[0.15]" : "flex-[0.3]"}`}>
+            ${isFullscreen ? "flex-[0.1]" : "flex-[0.2]"}`}>
             <h2 className="text-2xl md:text-4xl font-bold text-black">
               {shuffledData[currentIndex][`${language}_word`]}
             </h2>
