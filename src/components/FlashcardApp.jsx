@@ -1,5 +1,5 @@
 // src/components/FlashcardApp/index.jsx
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import ControlPanel from "./FlashcardApp/ControlPanel";
 import MainContent from "./FlashcardApp/MainContent";
 import CategorySidebar from "./FlashcardApp/CategorySidebar";
@@ -10,6 +10,7 @@ import useFlashcardData from "../hooks/useFlashcardData";
  * 플래시카드 앱의 모든 상태와 로직을 관리하는 최상위 컴포넌트
  */
 const FlashcardApp = () => {
+  const controlPanelRef = useRef(null);
   // 기본 상태 관리
   const [currentIndex, setCurrentIndex] = useState(0);
   const [intervalTime, setIntervalTime] = useState(4);
@@ -40,35 +41,6 @@ const FlashcardApp = () => {
     }
     return filteredData;
   }, [filteredData, isRandomOrder]);
-
-  const preloadedImagesRef = useRef(new Set());
-  const controlPanelRef = useRef(null);
-
-  // 이미지 미리 로드하는 함수
-  const preloadImages = (images) => {
-    images.forEach((image) => {
-      // 이미지가 이미 로드된 경우, 중복해서 로드하지 않음
-      if (!preloadedImagesRef.current.has(image)) {
-        const img = new Image();
-        img.src = image;
-        preloadedImagesRef.current.add(image); // 로드된 이미지로 기록
-      }
-    });
-  };
-
-  // 앱 로드 시 전체 이미지 프리로드
-  useEffect(() => {
-    if (!isLoading && flashcardData.length > 0) {
-      const allImages = flashcardData.map((item) => item.image);
-      preloadImages(allImages);
-    }
-  }, [isLoading, flashcardData]);
-
-  useEffect(() => {
-    // 현재 카테고리의 이미지들을 미리 로드
-    const imagesToPreload = filteredData.map((item) => item.image);
-    preloadImages(imagesToPreload);
-  }, [filteredData]);
 
   useEffect(() => {
     setCurrentIndex(0);
@@ -124,14 +96,105 @@ const FlashcardApp = () => {
     return () => window.removeEventListener("keydown", handleKeyPress);
   }, [isAutoPlay, currentIndex, shuffledData.length]);
 
-  // 로딩 상태 처리
-  if (isLoading) {
-    return (
-      <div className="h-screen flex items-center justify-center">
-        <div className="text-xl">로딩 중...</div>
-      </div>
-    );
+  // 프리로드 윈도우 크기 설정
+  const PRELOAD_WINDOW_SIZE = 5; // 현재 카드 기준 앞뒤로 5장씩
+
+  const [preloadStatus, setPreloadStatus] = useState({
+    loaded: new Set(),
+    loading: new Set(),
+    failed: new Set()
+  });
+
+ // 이미지 프리로더 함수
+ const preloadImage = async (imageUrl) => {
+  if (!imageUrl) return;
+  if (preloadStatus.loaded.has(imageUrl) || preloadStatus.loading.has(imageUrl)) {
+    return;
   }
+
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    
+    setPreloadStatus(prev => ({
+      ...prev,
+      loading: new Set([...prev.loading, imageUrl])
+    }));
+
+    img.onload = () => {
+      setPreloadStatus(prev => ({
+        ...prev,
+        loaded: new Set([...prev.loaded, imageUrl]),
+        loading: new Set([...prev.loading].filter(url => url !== imageUrl))
+      }));
+      resolve(imageUrl);
+    };
+
+    img.onerror = () => {
+      setPreloadStatus(prev => ({
+        ...prev,
+        failed: new Set([...prev.failed, imageUrl]),
+        loading: new Set([...prev.loading].filter(url => url !== imageUrl))
+      }));
+      reject(new Error(`Failed to load image: ${imageUrl}`));
+    };
+
+    img.src = imageUrl;
+  });
+};
+
+// 윈도우 범위의 이미지만 프리로드
+const preloadWindowedImages = useCallback((centerIndex) => {
+  if (!shuffledData || shuffledData.length === 0) return;
+
+  const windowedImages = [];
+  const dataLength = shuffledData.length;
+
+  // 현재 인덱스를 중심으로 앞뒤로 PRELOAD_WINDOW_SIZE만큼의 이미지를 선택
+  for (let offset = -PRELOAD_WINDOW_SIZE; offset <= PRELOAD_WINDOW_SIZE; offset++) {
+    let index = centerIndex + offset;
+    
+    // 배열의 범위를 벗어나면 순환
+    if (index < 0) index = dataLength + index;
+    if (index >= dataLength) index = index - dataLength;
+
+    const imageUrl = shuffledData[index]?.image;
+    if (imageUrl) windowedImages.push(imageUrl);
+  }
+
+  // 선택된 윈도우 범위의 이미지만 프리로드
+  Promise.all(
+    windowedImages.map(imageUrl => preloadImage(imageUrl))
+  ).catch(error => {
+    console.error('Some images failed to preload:', error);
+  });
+
+  // 윈도우 밖의 이미지는 메모리에서 해제 (선택적)
+  const clearOldImages = () => {
+    const windowedImageSet = new Set(windowedImages);
+    setPreloadStatus(prev => ({
+      loaded: new Set([...prev.loaded].filter(url => windowedImageSet.has(url))),
+      loading: new Set([...prev.loading].filter(url => windowedImageSet.has(url))),
+      failed: new Set([...prev.failed].filter(url => windowedImageSet.has(url)))
+    }));
+  };
+
+  // 메모리 관리가 중요한 경우에만 활성화
+  // clearOldImages();
+}, [shuffledData]);
+
+// 카드 변경 시 윈도우 범위 업데이트
+useEffect(() => {
+  if (shuffledData && shuffledData.length > 0) {
+    preloadWindowedImages(currentIndex);
+  }
+}, [currentIndex, preloadWindowedImages]);
+
+// 카테고리 변경 시 새로운 윈도우 범위의 이미지만 프리로드
+useEffect(() => {
+  if (filteredData && filteredData.length > 0) {
+    preloadWindowedImages(0); // 새 카테고리의 첫 번째 카드 기준으로 윈도우 설정
+  }
+}, [filteredData]);
 
   // 메인 렌더링
   return (
@@ -149,9 +212,6 @@ const FlashcardApp = () => {
         setLanguage={setLanguage}
         isRandomOrder={isRandomOrder}
         setIsRandomOrder={setIsRandomOrder}
-        // isTTSEnabled={isTTSEnabled}
-        // setIsTTSEnabled={setIsTTSEnabled}
-        // isSpeaking={isSpeaking}
       />
       <div className="flex flex-1">
         {/* 메인 콘텐츠 영역 */}
@@ -163,6 +223,10 @@ const FlashcardApp = () => {
           language={language}
           hideWordMode={hideWordMode}
           handleCardChange={handleCardChange}
+          preloadStatus={preloadStatus}
+          isImageLoaded={shuffledData[currentIndex]?.image ? 
+            preloadStatus.loaded.has(shuffledData[currentIndex].image) : 
+            false}
         />
 
         {/* 카테고리 사이드바 */}

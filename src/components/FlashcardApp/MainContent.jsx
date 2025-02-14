@@ -8,6 +8,8 @@ const MainContent = ({
   language,
   hideWordMode,
   handleCardChange,
+  preloadStatus,
+  isImageLoaded,
 }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
 
@@ -52,12 +54,14 @@ const MainContent = ({
           </button>
 
           <div className="relative group flex flex-col items-center justify-center h-full">
-            <img
-              src={shuffledData[currentIndex].image}
-              alt={shuffledData[currentIndex][`${language}_word`]}
-              className={`max-h-full max-w-full object-contain px-8 md:px-16
-                ${isFullscreen ? "max-h-[60vh]" : ""}`}
-            />
+          <img
+        src={shuffledData[currentIndex].image}
+        alt={shuffledData[currentIndex][`${language}_word`]}
+        className={`max-h-full max-w-full object-contain px-8 md:px-16
+          ${isFullscreen ? "max-h-[60vh]" : ""}
+          ${isImageLoaded ? "opacity-100" : "opacity-0"}
+          transition-opacity duration-300`}
+      />
             <button
               onClick={() => setIsFullscreen(!isFullscreen)}
               className="absolute bottom-2 right-10 p-2 bg-black bg-opacity-50 hover:bg-opacity-70 rounded text-white opacity-0 group-hover:opacity-100 transition-opacity"
