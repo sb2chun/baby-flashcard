@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { Card, CardHeader, CardTitle, CardContent } from '../ui/Card';
+
 
 // src/components/FlashcardApp/CategorySidebar.jsx
 const CategorySidebar = ({
@@ -54,60 +56,52 @@ const CategorySidebar = ({
   };
 
   return (
-    <div
-      className="w-[30vw] md:w-[15vw] bg-white shadow-lg text-[10px] md:text-base"
+    <div 
+      className="w-[30vw] md:w-[20vw] text-[15px] md:text-base border-l overflow-y-auto bg-white backdrop-blur-md"
       style={{
         height: `calc(100vh - ${controlPanelHeight}px)`,
         marginTop: `${controlPanelHeight}px`,
       }}
     >
-      <div className="h-full overflow-y-auto">
-        <h2 className="text-[11px] md:text-xl font-bold mb-2 md:mb-4 mt-4 md:mt-5">
+      <div className="p-4 border-b">
+        <h2 className="text-lg md:text-xl font-bold text-gray-800">
           {language === "kor" ? "카테고리" : "Categories"}
         </h2>
-        <div className="space-y-1 md:space-y-2">
+      </div>
+      <div className="">
+        <div className="">
           {categories.map((category) => (
-            <div
+            <button
               key={category.path}
-              className={`flex items-center gap-1 md:gap-2 px-2 md:px-3 py-1 md:py-2 rounded hover:bg-gray-100 cursor-pointer ${
-                selectedCategories.has(category.path) ? "bg-blue-100" : ""
-              }`}
               onClick={() => handleCategoryChange(category.path)}
+              className={`min-w-full w-full text-nowrap px-4 py-3 flex items-center gap-3 transition
+                ${selectedCategories.has(category.path) 
+                  ? "bg-blue-50 text-blue-600 border-r-2 border-blue-600" 
+                  : "hover:bg-gray-50"
+                }`}
             >
-              {/* 체크박스 (클릭 시 이벤트 버블링 방지) */}
-              <div
-                onClick={(e) => e.stopPropagation()}
-                className="relative z-10"
-              >
-                <input
-                  type="checkbox"
-                  checked={selectedCategories.has(category.path)}
-                  onChange={(e) => handleCheckboxClick(e, category.path)}
-                  className="w-3 h-3 md:w-4 md:h-4 rounded cursor-pointer"
-                />
-              </div>
-
-              {/* 카테고리 이름 및 플래시카드 개수 */}
-              <span className="flex-1 truncate">
-                {language === "kor" ? category.korName : category.engName}
+              <input
+                type="checkbox"
+                checked={selectedCategories.has(category.path)}
+                onChange={(e) => e.stopPropagation()}
+                className="w-4 h-4 rounded border-gray-300"
+              />
+              <div className="flex items-center text-left">
+                <p className="block font-medium">
+                  {language === "kor" ? category.korName : category.engName}
+                </p>
                 {category.path !== "통합" && (
-                  <span className="ml-1 md:ml-2 text-[9px] md:text-sm text-gray-500">
-                    (
-                    {
-                      flashcardData.filter(
-                        (item) => item.category.path === category.path
-                      ).length
-                    }
-                    )
-                  </span>
+                  <p className="text-sm px-1 text-gray-500">
+                    ({flashcardData.filter(item => item.category.path === category.path).length})
+                  </p>
                 )}
-              </span>
-            </div>
+              </div>
+            </button>
           ))}
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default CategorySidebar;

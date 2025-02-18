@@ -1,237 +1,336 @@
 // src/components/FlashcardApp/ControlPanel.jsx
-import { Timer, Plus, Minus } from "lucide-react";
 import { useState, useEffect, forwardRef } from "react"; // useEffect 추가
+import {
+  Timer,
+  Plus,
+  Minus,
+  Book,
+  Eye,
+  EyeOff,
+  Shuffle,
+  List,
+  Languages,
+  Home,
+} from "lucide-react";
+import { Link } from "react-router-dom"; // Link 컴포넌트 임포트
 
-const ControlPanel = forwardRef(({
-  intervalTime,
-  setIntervalTime,
-  isAutoPlay,
-  setIsAutoPlay,
-  hideWordMode,
-  setHideWordMode,
-  language,
-  setLanguage,
-  isRandomOrder,
-  setIsRandomOrder,
-}, ref) => {
-  
-  useEffect(() => {
-    const updateHeight = () => {
-      if (ref.current) {
-        document.documentElement.style.setProperty(
-          "--control-panel-height",
-          `${ref.current.offsetHeight}px`
-        );
-      }
+const ControlPanel = forwardRef(
+  (
+    {
+      intervalTime,
+      setIntervalTime,
+      isAutoPlay,
+      setIsAutoPlay,
+      hideWordMode,
+      setHideWordMode,
+      language,
+      setLanguage,
+      isRandomOrder,
+      setIsRandomOrder,
+      isFlashcard,
+    },
+    ref
+  ) => {
+    useEffect(() => {
+      const updateHeight = () => {
+        if (ref.current) {
+          document.documentElement.style.setProperty(
+            "--control-panel-height",
+            `${ref.current.offsetHeight}px`
+          );
+        }
+      };
+
+      updateHeight(); // 처음 마운트될 때 높이 설정
+      window.addEventListener("resize", updateHeight); // 창 크기 변경 시 업데이트
+
+      return () => window.removeEventListener("resize", updateHeight);
+    }, [ref]);
+
+    const adjustInterval = (amount) => {
+      if (!isAutoPlay) return;
+      setIntervalTime((prev) => Math.max(1, prev + amount));
     };
 
-    updateHeight(); // 처음 마운트될 때 높이 설정
-    window.addEventListener("resize", updateHeight); // 창 크기 변경 시 업데이트
+    const [isLandscape, setIsLandscape] = useState(
+      window.innerWidth > window.innerHeight
+    );
 
-    return () => window.removeEventListener("resize", updateHeight);
-  }, [ref]);
+    useEffect(() => {
+      const handleResize = () => {
+        setIsLandscape(window.innerWidth > window.innerHeight);
+      };
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
-  const adjustInterval = (amount) => {
-    if (!isAutoPlay) return;
-    setIntervalTime((prev) => Math.max(1, prev + amount));
-  };
+    return (
+      <div
+        ref={ref}
+        className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md shadow-sm z-30 border-b"
+      >
+        {/* Desktop view */}
+          <div className="hidden md:flex flex-wrap justify-between p-3 gap-4">
+            {/* Home 버튼 추가 */}
+            <div className="flex items-center gap-2">
+              <Link
+                 to={`/?language=${language}`}  
+                className="p-2 hover:bg-gray-100 rounded-full transition"
+              >
+                <Home className="w-6 h-6 text-black-500" />
+              </Link>
+            </div>
 
-  const [isLandscape, setIsLandscape] = useState(
-    window.innerWidth > window.innerHeight
-  );
+            {/* Main Controls */}
+            <div className="flex items-center gap-4">
+              {/* Timer Controls */}
+              <div
+                className={`${
+                  isFlashcard ? "visible" : "invisible"
+                } flex items-center gap-2 ${!isAutoPlay ? "opacity-50" : ""}`}
+              >
+                <button
+                  onClick={() => adjustInterval(-1)}
+                  className="p-2 hover:bg-gray-100 rounded-full transition"
+                  disabled={!isAutoPlay}
+                >
+                  <Minus className="w-4 h-4" />
+                </button>
+                <div className="flex items-center gap-2">
+                  <Timer className="w-4 h-4 text-blue-500" />
+                  <span className="min-w-[3rem] text-center font-medium">
+                    {intervalTime}s
+                  </span>
+                </div>
+                <button
+                  onClick={() => adjustInterval(1)}
+                  className="p-2 hover:bg-gray-100 rounded-full transition"
+                  disabled={!isAutoPlay}
+                >
+                  <Plus className="w-4 h-4" />
+                </button>
+              </div>
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsLandscape(window.innerWidth > window.innerHeight);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+              {/* Auto/Manual Play */}
+              <button
+                onClick={() => setIsAutoPlay(!isAutoPlay)}
+                className={`${
+                  isFlashcard ? "visible" : "invisible"
+                } px-4 py-2 rounded-full flex items-center gap-2 transition ${
+                  isAutoPlay
+                    ? "bg-blue-500 hover:bg-blue-400 text-white"
+                    : "bg-gray-300 hover:bg-gray-200"
+                }`}
+              >
+                <Book className="w-4 h-4" />
+                <span>
+                  {language === "kor"
+                    ? isAutoPlay
+                      ? "자동 재생"
+                      : "수동 재생"
+                    : isAutoPlay
+                    ? "Auto"
+                    : "Manual"}
+                </span>
+              </button>
 
-  return (
-    <div ref={ref} className="fixed top-0 left-0 right-0 bg-white shadow-md z-30">
-      {/* Desktop view */}
-      <div className="hidden md:flex items-center justify-center gap-6 my-2">
-        <div
-          className={`flex items-center gap-2 ${
-            !isAutoPlay ? "opacity-50 pointer-events-none" : ""
-          }`}
-        >
-          <button
-            onClick={() => adjustInterval(-1)}
-            className="p-2 hover:bg-gray-100 rounded"
-            disabled={!isAutoPlay}
-          >
-            <Minus size={20} />
-          </button>
-          <Timer size={20} />
-          <span className="min-w-[3rem] text-center">{intervalTime}초</span>
-          <button
-            onClick={() => adjustInterval(1)}
-            className="p-2 hover:bg-gray-100 rounded"
-            disabled={!isAutoPlay}
-          >
-            <Plus size={20} />
-          </button>
-        </div>
+              {/* Show/Hide Word */}
+              <button
+                onClick={() => setHideWordMode(!hideWordMode)}
+                className={`${
+                  isFlashcard ? "visible" : "invisible"
+                } px-4 py-2 rounded-full flex items-center gap-2 transition ${
+                  hideWordMode
+                    ? "bg-green-500 hover:bg-green-400 text-white"
+                    : "bg-gray-300 hover:bg-gray-200"
+                }`}
+              >
+                {hideWordMode ? (
+                  <EyeOff className="w-4 h-4" />
+                ) : (
+                  <Eye className="w-4 h-4" />
+                )}
+                <span>
+                  {language === "kor"
+                    ? hideWordMode
+                      ? "단어 숨김"
+                      : "단어 보임"
+                    : hideWordMode
+                    ? "Hide Word"
+                    : "Show Word"}
+                </span>
+              </button>
 
-        {/* Other desktop controls */}
-        <div className="flex">
-          <button
-            onClick={() => setHideWordMode(true)}
-            className={`px-4 py-2 rounded ${
-              hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"
-            }`}
-          >
-            {language === "kor" ? "단어 숨김" : "Hide Words"}
-          </button>
-          <button
-            onClick={() => setHideWordMode(false)}
-            className={`px-4 py-2 rounded ${
-              !hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"
-            }`}
-          >
-            {language === "kor" ? "단어 보임" : "Show Words"}
-          </button>
-        </div>
+              {/* Sequential/Random Order  */}
+              <button
+                onClick={() => setIsRandomOrder(!isRandomOrder)}
+                className={`${
+                  isFlashcard ? "visible" : "invisible"
+                } px-4 py-2 rounded-full flex items-center gap-2 transition ${
+                  isRandomOrder
+                    ? "bg-purple-500 hover:bg-purple-400 text-white"
+                    : "bg-gray-300 hover:bg-gray-200"
+                }`}
+              >
+                {isRandomOrder ? (
+                  <Shuffle className="w-4 h-4" />
+                ) : (
+                  <List className="w-4 h-4" />
+                )}
+                <span>
+                  {language === "kor"
+                    ? isRandomOrder
+                      ? "랜덤 진행"
+                      : "순차 진행"
+                    : isRandomOrder
+                    ? "Random"
+                    : "Sequential"}
+                </span>
+              </button>
 
-        <div className="flex">
-          <button
-            onClick={() => setIsAutoPlay(true)}
-            className={`px-4 py-2 rounded ${
-              isAutoPlay ? "bg-green-500 text-white" : "bg-gray-100"
-            }`}
-          >
-            {language === "kor" ? "자동" : "Auto"}
-          </button>
-          <button
-            onClick={() => setIsAutoPlay(false)}
-            className={`px-4 py-2 rounded ${
-              !isAutoPlay ? "bg-green-500 text-white" : "bg-gray-100"
-            }`}
-          >
-            {language === "kor" ? "수동" : "Manual"}
-          </button>
-        </div>
-
-        <div className="flex">
-          <button
-            onClick={() => setIsRandomOrder(true)}
-            className={`px-4 py-2 rounded ${
-              isRandomOrder ? "bg-green-500 text-white" : "bg-gray-100"
-            }`}
-          >
-            {language === "kor" ? "랜덤" : "Random"}
-          </button>
-          <button
-            onClick={() => setIsRandomOrder(false)}
-            className={`px-4 py-2 rounded ${
-              !isRandomOrder ? "bg-green-500 text-white" : "bg-gray-100"
-            }`}
-          >
-            {language === "kor" ? "순차" : "Sequential"}
-          </button>
-        </div>
-        <div className="flex absolute right-5">
-          <button
-            onClick={() => setLanguage("kor")}
-            className={`px-4 py-2 rounded ${
-              language === "kor" ? "bg-purple-500 text-white" : "bg-gray-100"
-            }`}
-          >
-            한글
-          </button>
-          <button
-            onClick={() => setLanguage("eng")}
-            className={`px-4 py-2 rounded ${
-              language === "eng" ? "bg-purple-500 text-white" : "bg-gray-100"
-            }`}
-          >
-            English
-          </button>
-        </div>
-      </div>
-
-      {/* Mobile view */}
-      <div className={`md:hidden flex my-2 p-1 space-y-1 justify-between ${isLandscape ? "flex-row " : "flex-col"}`}>
-        {/* 기능들 (첫 번째 줄) */}
-        <div className="flex gap-2 justify-start w-full">
-          <button
-            onClick={() => setIsAutoPlay(!isAutoPlay)}
-            className={`px-2 py-1 rounded text-sm ${isAutoPlay ? "bg-green-500 text-white" : "bg-gray-100"}`}
-          >
-            {language === "kor"
-              ? isAutoPlay
-                ? "자동 넘기기"
-                : "수동 넘기기"
-              : isAutoPlay
-                ? "Auto Next"
-                : "Manual Next"}
-          </button>
-          <button
-            onClick={() => setHideWordMode(!hideWordMode)}
-            className={`px-2 py-1 rounded text-sm ${hideWordMode ? "bg-green-500 text-white" : "bg-gray-100"}`}
-          >
-            {language === "kor"
-              ? hideWordMode
-                ? "단어 숨김"
-                : "단어 보임"
-              : hideWordMode
-                ? "Hide Word"
-                : "Show Word"}
-          </button>
-          <button
-            onClick={() => setIsRandomOrder(!isRandomOrder)}
-            className={`px-2 py-1 rounded text-sm ${isRandomOrder ? "bg-green-500 text-white" : "bg-gray-100"}`}
-          >
-            {language === "kor"
-              ? isRandomOrder
-                ? "랜덤 재생"
-                : "순차 재생"
-              : isRandomOrder
-                ? "Random Play"
-                : "Sequential Play"}
-          </button>
-        </div>
-
-        {/* 시간 조정 + 한글/Eng (두 번째 줄) */}
-        <div className="flex justify-between items-center w-full">
-          {/* 시간 조정 */}
-          <div
-            className={`flex items-center gap-2 ${!isAutoPlay ? "opacity-50 pointer-events-none" : ""}`}
-          >
-            <button
-              onClick={() => adjustInterval(-1)}
-              className="p-1 hover:bg-gray-100 rounded"
-              disabled={!isAutoPlay}
-            >
-              <Minus size={16} />
-            </button>
-            <Timer size={16} />
-            <span className="min-w-[2.5rem] text-center text-sm">
-              {intervalTime}초
-            </span>
-            <button
-              onClick={() => adjustInterval(1)}
-              className="p-1 hover:bg-gray-100 rounded"
-              disabled={!isAutoPlay}
-            >
-              <Plus size={16} />
-            </button>
+              {/* 한글/Eng */}
+              <button
+                onClick={() => setLanguage(language === "kor" ? "eng" : "kor")}
+                className={`px-4 py-2 rounded-full flex items-center gap-2 transition
+                      ${
+                        language === "kor"
+                          ? "hover:bg-orange-400 bg-orange-500 text-white"
+                          : "hover:bg-red-400 bg-red-500 text-white"
+                      } `}
+              >
+                <Languages className={`w-4 h-4`} />
+                <span>{language === "kor" ? "한글" : "ENG"}</span>
+              </button>
+            </div>
           </div>
 
-          <div className="flex absolute right-5">
-            <button
-              onClick={() => setLanguage(language === "kor" ? "eng" : "kor")}
-              className={`px-2 py-1 rounded text-sm ${language === "kor" ? "bg-purple-500 text-white" : "bg-gray-100"}`}
-            >
-              {language === "kor" ? "한글" : "English"}
-            </button>
+        {/* Mobile view */}
+        <div className={`md:hidden flex my-1 p-1 justify-between
+                        ${isFlashcard ? (isLandscape ? "flex-row " : "flex-col") 
+                                : "flex-row"}`}
+                        >
+          <div className="flex gap-2 justify-start w-full">
+              {/* Home 버튼 추가 */}
+              <div className="flex flex-row items-center gap-2">
+              <Link
+                 to={`/?language=${language}`}  
+                className="p-2 hover:bg-gray-100 rounded-full transition"
+              >
+                <Home className="w-6 h-6 text-black-500" />
+              </Link>
+
+              {/* Auto/Manual Play */}
+              <button
+                onClick={() => setIsAutoPlay(!isAutoPlay)}
+                className={`flex px-3 py-2 rounded text-sm rounded-full items-center whitespace-nowrap
+                            ${isFlashcard ? "visible" : "hidden"} 
+                            ${isAutoPlay ? "bg-blue-500 hover:bg-blue-400 text-white" : "bg-gray-300 hover:bg-gray-200"}`}
+              >
+                <Book className="w-4 h-4 pr-1" />
+                <span>
+                {isLandscape ? 
+                      (language === "kor" ? 
+                          isAutoPlay ? "자동 재생" : "수동 재생"
+                          : isAutoPlay ? "Auto Play" : "Manual Play")
+                    : (language === "kor" ? 
+                          isAutoPlay ? "자동": "수동"
+                          : isAutoPlay ? "Auto" : "Manual")}                  
+                </span>
+              </button>
+
+              {/* Show/Hide Word */}
+              <button
+                onClick={() => setHideWordMode(!hideWordMode)}
+                className={`${isFlashcard ? "visible" : "hidden"}
+                          flex px-4 py-2 rounded text-sm rounded-full items-center whitespace-nowrap
+                          ${hideWordMode ? "bg-green-500 hover:bg-green-400 text-white": "bg-gray-300 hover:bg-gray-200"}`}
+              >
+                {hideWordMode ? (
+                  <EyeOff className="w-4 h-4 pr-1" />
+                ) : (
+                  <Eye className="w-4 h-4 pr-1" />
+                )}
+                <span>
+                {isLandscape ? 
+                      (language === "kor" ? 
+                        hideWordMode ? "단어 숨김" : "단어 보임"
+                        : hideWordMode ? "Hide Word" : "Show Word")
+                    : (language === "kor" ? hideWordMode ? "숨김": "보임"
+                        : hideWordMode ? "Hide" : "Show")}
+                </span>
+              </button>
+
+              {/* Sequential/Random Order  */}
+              <button
+                onClick={() => setIsRandomOrder(!isRandomOrder)}
+                className={`flex px-4 py-2 rounded text-sm rounded-full items-center whitespace-nowrap
+                          ${isFlashcard ? "visible" : "hidden"} 
+                          ${isRandomOrder ? "bg-purple-500 hover:bg-purple-400 text-white" : "bg-gray-300 hover:bg-gray-200"}`}
+              >
+                {isRandomOrder ? (
+                  <Shuffle className="w-4 h-4 pr-1" />
+                ) : (
+                  <List className="w-4 h-4 pr-1" />
+                )}
+                <span>
+                {isLandscape ? 
+                      (language === "kor" ? 
+                        isRandomOrder ? "랜덤 진행" : "순차 진행"
+                          : isRandomOrder ? "Random" : "Sequential")
+                    : (language === "kor" ? 
+                      isRandomOrder ? "랜덤": "순차"
+                          : isRandomOrder ? "Random" : "Sequential")}                     
+                </span>
+              </button>
+            </div>
           </div>
+
+          <div className="flex justify-between items-center w-full">
+              {/* Timer Controls */}
+              <div
+                className={`${
+                  isFlashcard ? "visible" : "invisible"
+                } flex items-center gap-2 ${!isAutoPlay ? "opacity-50" : ""}`}
+              >
+                <button
+                  onClick={() => adjustInterval(-1)}
+                  className="p-2 hover:bg-gray-100 rounded-full transition"
+                  disabled={!isAutoPlay}
+                >
+                  <Minus className="w-4 h-4" />
+                </button>
+                <div className="flex items-center gap-2">
+                  <Timer className="w-4 h-4 text-blue-500" />
+                  <span className="min-w-[3rem] text-center font-medium">
+                    {intervalTime}s
+                  </span>
+                </div>
+                <button
+                  onClick={() => adjustInterval(1)}
+                  className="p-2 hover:bg-gray-100 rounded-full transition"
+                  disabled={!isAutoPlay}
+                >
+                  <Plus className="w-4 h-4" />
+                </button>
+              </div>
+              {/* 한글/Eng */}
+              <button
+                onClick={() => setLanguage(language === "kor" ? "eng" : "kor")}
+                className={`flex px-3 py-2 rounded text-sm rounded-full items-center whitespace-nowrap
+                      ${language === "kor" ?
+                         "hover:bg-orange-400 bg-orange-500 text-white"
+                          : "hover:bg-red-400 bg-red-500 text-white"} `}
+              >
+                <Languages className={`w-4 h-4`} />
+                <span>{language === "kor" ? "한글" : "ENG"}</span>
+              </button>
+          </div>
+
         </div>
+
       </div>
-    </div>
-  );
-});
+    );
+  }
+);
 
 export default ControlPanel;

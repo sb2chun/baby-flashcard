@@ -1,9 +1,10 @@
 // src/components/FlashcardApp/index.jsx
 import { useState, useEffect, useMemo, useRef, useCallback } from "react";
-import ControlPanel from "./FlashcardApp/ControlPanel";
-import MainContent from "./FlashcardApp/MainContent";
-import CategorySidebar from "./FlashcardApp/CategorySidebar";
-import useFlashcardData from "../hooks/useFlashcardData";
+import ControlPanel from "./ControlPanel";
+import MainContent from "./MainContent";
+import CategorySidebar from "./CategorySidebar";
+import useFlashcardData from "../../hooks/useFlashcardData";
+import { useLocation } from 'react-router-dom';
 
 /**
  * FlashcardApp 메인 컴포넌트
@@ -16,15 +17,25 @@ const FlashcardApp = () => {
   const [intervalTime, setIntervalTime] = useState(4);
   const [isAutoPlay, setIsAutoPlay] = useState(true);
   const [hideWordMode, setHideWordMode] = useState(false);
-  const [language, setLanguage] = useState("kor");
+  const [language, setLanguage] = useState("");
   const [isRandomOrder, setIsRandomOrder] = useState(false);
 
   // 커스텀 훅을 통한 데이터 및 TTS 관리
-  const { flashcardData, categories, isLoading } = useFlashcardData();
+  const { flashcardData, categories } = useFlashcardData();
 
   const [selectedCategories, setSelectedCategories] = useState(
     new Set(["통합"])
   );
+  
+  const location = useLocation();
+  useEffect(() => {
+    const queryParams = new URLSearchParams(location.search);
+    const languageParam = queryParams.get("language");
+    if (languageParam) {
+      setLanguage(languageParam);  // Set the language state from the query parameter
+    }
+  }, [location]);
+
 
   // 선택된 카테고리에 따른 데이터 필터링
   const filteredData = useMemo(() => {
@@ -167,19 +178,7 @@ const preloadWindowedImages = useCallback((centerIndex) => {
   ).catch(error => {
     console.error('Some images failed to preload:', error);
   });
-
-  // 윈도우 밖의 이미지는 메모리에서 해제 (선택적)
-  const clearOldImages = () => {
-    const windowedImageSet = new Set(windowedImages);
-    setPreloadStatus(prev => ({
-      loaded: new Set([...prev.loaded].filter(url => windowedImageSet.has(url))),
-      loading: new Set([...prev.loading].filter(url => windowedImageSet.has(url))),
-      failed: new Set([...prev.failed].filter(url => windowedImageSet.has(url)))
-    }));
-  };
-
-  // 메모리 관리가 중요한 경우에만 활성화
-  // clearOldImages();
+  
 }, [shuffledData]);
 
 // 카드 변경 시 윈도우 범위 업데이트
@@ -198,7 +197,7 @@ useEffect(() => {
 
   // 메인 렌더링
   return (
-    <div className="flex flex-col">
+    <div className="min-h-screen">
       {/* 상단 컨트롤 패널 */}
       <ControlPanel
         ref={controlPanelRef}
@@ -212,11 +211,11 @@ useEffect(() => {
         setLanguage={setLanguage}
         isRandomOrder={isRandomOrder}
         setIsRandomOrder={setIsRandomOrder}
+        isFlashcard = {true}
       />
-      <div className="flex flex-1">
+      <div className="flex flex-1 bg-gradient-to-b from-blue-50 to-purple-50">
         {/* 메인 콘텐츠 영역 */}
         <MainContent
-          className="overflow-hidden"
           controlPanelRef={controlPanelRef}
           currentIndex={currentIndex}
           shuffledData={shuffledData}
@@ -231,7 +230,6 @@ useEffect(() => {
 
         {/* 카테고리 사이드바 */}
         <CategorySidebar
-          className="overflow-y-auto"
           controlPanelRef={controlPanelRef}
           categories={categories}
           selectedCategories={selectedCategories}

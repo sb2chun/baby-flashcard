@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import ReactGA from 'react-ga4';
+import './index.css';  // 전역 스타일 import
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
