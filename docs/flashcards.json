@@ -73,6 +73,17 @@
         },
         {
           "order": 7,
+          "kor_word": "이구아노돈",
+          "eng_word": "Iguanodon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/이구아노돈_Iguanodon.png",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 8,
           "kor_word": "트리케라톱스",
           "eng_word": "Triceratops",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/트리케라톱스_Triceratops.jpg",
@@ -83,7 +94,7 @@
           }
         },
         {
-          "order": 8,
+          "order": 9,
           "kor_word": "티라노사우루스-렉스",
           "eng_word": "Tyrannosaurus-Rex",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/티라노사우루스-렉스_Tyrannosaurus-Rex.png",
@@ -94,7 +105,7 @@
           }
         },
         {
-          "order": 9,
+          "order": 10,
           "kor_word": "파라사우롤로푸스",
           "eng_word": "Parasaurolophus",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/파라사우롤로푸스_Parasaurolophus.jpg",
@@ -105,7 +116,7 @@
           }
         },
         {
-          "order": 10,
+          "order": 11,
           "kor_word": "파키리노사우르스",
           "eng_word": "Pachyrhinosaurus",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/파키리노사우르스_Pachyrhinosaurus.jpg",
@@ -116,7 +127,7 @@
           }
         },
         {
-          "order": 11,
+          "order": 12,
           "kor_word": "파키케팔로사우루스",
           "eng_word": "Pachycephalosaurus",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/파키케팔로사우루스_Pachycephalosaurus.jpg",
@@ -127,7 +138,7 @@
           }
         },
         {
-          "order": 12,
+          "order": 13,
           "kor_word": "프테라노돈",
           "eng_word": "Pteranodon",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/프테라노돈_Pteranodon.jpg",
@@ -180,8 +191,8 @@
         {
           "order": 4,
           "kor_word": "딸기",
-          "eng_word": "Strawberriey",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/딸기_Strawberriey.jpg",
+          "eng_word": "Strawberry",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/딸기_Strawberry.jpg",
           "category": {
             "path": "Fruits",
             "kor": "과일",
@@ -279,8 +290,8 @@
         {
           "order": 13,
           "kor_word": "블루베리",
-          "eng_word": "Blueberrㅛ",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/블루베리_Blueberrㅛ.jpg",
+          "eng_word": "Blueberry",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/블루베리_Blueberry.jpg",
           "category": {
             "path": "Fruits",
             "kor": "과일",
