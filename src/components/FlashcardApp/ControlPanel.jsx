@@ -1,17 +1,6 @@
 // src/components/FlashcardApp/ControlPanel.jsx
 import { useState, useEffect, forwardRef } from "react"; // useEffect 추가
-import {
-  Timer,
-  Plus,
-  Minus,
-  Book,
-  Eye,
-  EyeOff,
-  Shuffle,
-  List,
-  Languages,
-  Home,
-} from "lucide-react";
+import {  Timer, Plus, Minus, VolumeX, Book, Eye, EyeOff, Shuffle, List, Languages, Home, Volume2 } from "lucide-react";
 import { Link } from "react-router-dom"; // Link 컴포넌트 임포트
 
 const ControlPanel = forwardRef(
@@ -28,6 +17,8 @@ const ControlPanel = forwardRef(
       isRandomOrder,
       setIsRandomOrder,
       isFlashcard,
+      isTtsEnabled, // TTS 활성화 상태
+      setIsTtsEnabled, // TTS 활성화 상태 설정 함수
     },
     ref
   ) => {
@@ -83,6 +74,34 @@ const ControlPanel = forwardRef(
 
             {/* Main Controls */}
             <div className="flex items-center gap-4">
+
+              {/* TTS Toggle Button */}
+              <button
+                onClick={() => setIsTtsEnabled(!isTtsEnabled)}
+                className={`${
+                  isFlashcard ? "visible" : "invisible"
+                } px-4 py-2 rounded-full flex items-center gap-2 transition ${
+                  isTtsEnabled
+                    ? "bg-yellow-500 hover:bg-yellow-400 text-white"
+                    : "bg-gray-300 hover:bg-gray-200"
+                }`}
+              >
+              {isTtsEnabled ? (
+                  <Volume2 className="w-4 h-4" />
+                ) : (
+                  <VolumeX className="w-4 h-4" />
+                )}
+                <span>
+                  {language === "kor"
+                    ? isTtsEnabled
+                      ? "음성 켜기"
+                      : "음성 끄기"
+                    : isTtsEnabled
+                    ? "Voice On"
+                    : "Voice Off"}
+                </span>
+              </button>
+
               {/* Timer Controls */}
               <div
                 className={`${
@@ -286,6 +305,25 @@ const ControlPanel = forwardRef(
           </div>
 
           <div className="flex justify-between items-center w-full">
+            {/* TTS Toggle Button */}
+            <button
+              onClick={() => setIsTtsEnabled(!isTtsEnabled)}
+              className={`flex px-3 py-2 rounded text-sm rounded-full items-center whitespace-nowrap
+                        ${isFlashcard ? "visible" : "hidden"} 
+                        ${isTtsEnabled ? "bg-yellow-500 hover:bg-yellow-400 text-white" : "bg-gray-300 hover:bg-gray-200"}`}
+            >
+              <Volume2 className="w-4 h-4 pr-1" />
+              <span>
+                {isLandscape ? 
+                      (language === "kor" ? 
+                        isTtsEnabled ? "음성 켜기" : "음성 끄기"
+                        : isTtsEnabled ? "TTS On" : "TTS Off")
+                    : (language === "kor" ? 
+                        isTtsEnabled ? "음성": "음성 끔"
+                        : isTtsEnabled ? "TTS" : "No TTS")}
+              </span>
+            </button>
+
               {/* Timer Controls */}
               <div
                 className={`${

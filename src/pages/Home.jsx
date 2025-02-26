@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/Card';
-import { Book, Brain, HelpCircle } from 'lucide-react';
+import { Book, Brain, HelpCircle, FileText } from 'lucide-react';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -32,11 +32,27 @@ const Home = () => {
       path: '/quiz'
     },
     {
+      title: language === 'kor' ? '카드 정보' : 'Card Details',
+      // description: language === 'kor' ? '각 카드에 대한 상세 정보를 확인하세요' : 'View detailed information about each card',
+      description: language === 'kor' ? '이 페이지는 현재 개발 중입니다. 곧 더 많은 정보를 제공할 예정입니다.' : 'This page is currently under development. More information will be available soon.',
+      icon: <FileText className="w-8 h-8 text-orange-500" />,
+      // color: 'bg-orange-100 hover:bg-orange-200',
+      color: 'bg-gray-100 hover:bg-gray-200',
+      // path: '/detail'
+      path: '/'
+    },
+    {
       title: language === 'kor' ? '학습 가이드' : 'Learning Guide',
       description: language === 'kor' ? '플래시카드 활용 방법을 알아보세요' : 'Learn how to use flashcards',
       icon: <HelpCircle className="w-8 h-8 text-purple-500" />,
       color: 'bg-purple-100 hover:bg-purple-200',
       path: '/guide'
+    },
+    {
+      title: language === 'kor' ? '소개' : 'About',
+      description: language === 'kor' ? '이 웹사이트와 제공하는 서비스에 대해 알아보세요' : 'Learn about this website and the services we offer',  icon: <HelpCircle className="w-8 h-8 text-purple-500" />,
+      color: 'bg-red-100 hover:bg-red-200',
+      path: '/about'
     }
   ];
 

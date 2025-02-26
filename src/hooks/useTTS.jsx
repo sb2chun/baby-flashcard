@@ -1,97 +1,64 @@
 // src/hooks/useTTS.js
-import { useState, useRef, useCallback } from "react";
+import { useRef, useCallback } from 'react';
 
-const useTTS = () => {
-  const [isTTSEnabled, setIsTTSEnabled] = useState(false);
-  const [voices, setVoices] = useState([]);
-  const [isSpeaking, setIsSpeaking] = useState(false);
-  const speechSynthRef = useRef(null);
-  const currentUtteranceRef = useRef(null);
-  const speakTimeoutRef = useRef(null);
-  const [language, setLanguage] = useState("kor");
+/**
+ * TTS(Text-to-Speech) 기능을 위한 커스텀 훅
+ * @param {Object} options - TTS 옵션
+ * @param {boolean} options.enabled - TTS 활성화 여부
+ * @param {string} options.language - 언어 설정 ('kor' 또는 'eng')
+ * @returns {Object} - speak 함수와 cancelSpeech 함수
+ */
+const useTTS = ({ enabled, language }) => {
+  const speechSynthRef = useRef(window.speechSynthesis);
+  const utteranceRef = useRef(null);
 
-  const cancelCurrentSpeech = useCallback(() => {
-    if (!speechSynthRef.current) return;
+  // 현재 말하고 있는지 확인하는 함수
+  const isSpeaking = useCallback(() => {
+    return speechSynthRef.current.speaking;
+  }, []);
 
-    if (currentUtteranceRef.current) {
+  // TTS 취소 함수
+  const cancelSpeech = useCallback(() => {
+    if (speechSynthRef.current) {
       speechSynthRef.current.cancel();
-      currentUtteranceRef.current = null;
     }
-    if (speakTimeoutRef.current) {
-      clearTimeout(speakTimeoutRef.current);
-      speakTimeoutRef.current = null;
-    }
-    setIsSpeaking(false);
   }, []);
   
-  const speakWord = useCallback(
-    async (word) => {
-      if (!speechSynthRef.current || !isTTSEnabled || !word) return;
-
-      try {
-        // 이전 발화 취소
-        cancelCurrentSpeech();
-
-        // 딜레이를 50ms로 줄임
-        await new Promise((resolve) => setTimeout(resolve, 50));
-
-        return new Promise((resolve, reject) => {
-          const utterance = new SpeechSynthesisUtterance(word);
-          const targetLang = language === "kor" ? "ko" : "en";
-          utterance.lang = language === "kor" ? "ko-KR" : "en-US";
-
-          const availableVoices = voices.filter((voice) =>
-            voice.lang.toLowerCase().startsWith(targetLang.toLowerCase())
-          );
-
-          if (availableVoices.length > 0) {
-            utterance.voice = availableVoices[0];
-          }
-
-          utterance.volume = 1;
-          utterance.rate = 1;
-          utterance.pitch = 1;
-
-          utterance.onstart = () => {
-            setIsSpeaking(true);
+  const speak = useCallback(
+    (text) => {
+  
+      if (!enabled || !text) return Promise.resolve(0);
+  
+      // 기존 음성 즉시 취소
+      cancelSpeech();
+  
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          // 새 발화 객체 생성
+          utteranceRef.current = new SpeechSynthesisUtterance(text);
+  
+          // 언어 설정
+          utteranceRef.current.lang = language === 'kor' ? 'ko-KR' : 'en-US';
+  
+          // 발화 속도
+          utteranceRef.current.rate = 1.0;
+  
+          // 발화 종료 이벤트
+          utteranceRef.current.onend = () => {
+            const duration = Math.ceil(utteranceRef.current.text.length / 5);
+            resolve(duration);
           };
-
-          utterance.onend = () => {
-            setIsSpeaking(false);
-            currentUtteranceRef.current = null;
-            resolve();
-          };
-
-          utterance.onerror = (event) => {
-            setIsSpeaking(false);
-            currentUtteranceRef.current = null;
-            if (event.error !== "interrupted") {
-              reject(event);
-            } else {
-              resolve();
-            }
-          };
-
-          currentUtteranceRef.current = utterance;
-          speechSynthRef.current.speak(utterance);
-        });
-      } catch (error) {
-        console.error("TTS Speak Error:", error);
-        setIsSpeaking(false);
-      }
+  
+          // 발화 시작
+          speechSynthRef.current.speak(utteranceRef.current);
+        }, 0);
+      });
     },
-    [isTTSEnabled, language, voices, cancelCurrentSpeech]
+    [enabled, language, cancelSpeech]
   );
+  
 
-
-
-  return {
-    isTTSEnabled,
-    setIsTTSEnabled,
-    speakWord,
-    isSpeaking,
-    cancelCurrentSpeech,
-  };
+  return { speak, cancelSpeech, isSpeaking };
 };
 
 export default useTTS;
