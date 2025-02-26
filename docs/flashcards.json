@@ -2633,6 +2633,17 @@
         },
         {
           "order": 13,
+          "kor_word": "보디빌더",
+          "eng_word": "Bodybuilder",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/보디빌더_Bodybuilder.jpg",
+          "category": {
+            "path": "Jobs",
+            "kor": "직업",
+            "eng": "Jobs"
+          }
+        },
+        {
+          "order": 14,
           "kor_word": "사진작가",
           "eng_word": "Photographer",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/사진작가_Photographer.jpg",
@@ -2643,7 +2654,7 @@
           }
         },
         {
-          "order": 14,
+          "order": 15,
           "kor_word": "선생님",
           "eng_word": "Teacher",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/선생님_Teacher.jpg",
@@ -2654,7 +2665,7 @@
           }
         },
         {
-          "order": 15,
+          "order": 16,
           "kor_word": "소방관",
           "eng_word": "Firefighter",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/소방관_Firefighter.jpg",
@@ -2665,7 +2676,7 @@
           }
         },
         {
-          "order": 16,
+          "order": 17,
           "kor_word": "약사",
           "eng_word": "Pharmacist",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/약사_Pharmacist.jpg",
@@ -2676,7 +2687,7 @@
           }
         },
         {
-          "order": 17,
+          "order": 18,
           "kor_word": "요리사",
           "eng_word": "Chef",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/요리사_Chef.jpg",
@@ -2687,7 +2698,7 @@
           }
         },
         {
-          "order": 18,
+          "order": 19,
           "kor_word": "우주비행사",
           "eng_word": "Astronaut",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/우주비행사_Astronaut.jpg",
@@ -2698,7 +2709,7 @@
           }
         },
         {
-          "order": 19,
+          "order": 20,
           "kor_word": "의사",
           "eng_word": "Doctor",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/의사_Doctor.jpg",
@@ -2709,7 +2720,7 @@
           }
         },
         {
-          "order": 20,
+          "order": 21,
           "kor_word": "촬영감독",
           "eng_word": "Cinematographer",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/촬영감독_Cinematographer.jpg",
@@ -2720,7 +2731,7 @@
           }
         },
         {
-          "order": 21,
+          "order": 22,
           "kor_word": "축구선수",
           "eng_word": "Soccer-player",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/직업_Jobs/축구선수_Soccer-player.jpg",
