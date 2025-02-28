@@ -317,10 +317,10 @@ const ControlPanel = forwardRef(
                 {isLandscape ? 
                       (language === "kor" ? 
                         isTtsEnabled ? "음성 켜기" : "음성 끄기"
-                        : isTtsEnabled ? "TTS On" : "TTS Off")
+                        : isTtsEnabled ? "Voice On" : "Voice Off")
                     : (language === "kor" ? 
-                        isTtsEnabled ? "음성": "음성 끔"
-                        : isTtsEnabled ? "TTS" : "No TTS")}
+                        isTtsEnabled ? "음성 켜기": "음성 끄기"
+                        : isTtsEnabled ? "Voice On" : "Voice Off")}
               </span>
             </button>
 
