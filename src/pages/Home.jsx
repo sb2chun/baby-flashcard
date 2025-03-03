@@ -44,20 +44,22 @@ const Home = () => {
     {
       title: language === 'kor' ? '소개' : 'About',
       description: language === 'kor' 
-        ? '플래시 카드에 대한 정보와 효율적인 사용법을 알아보세요' 
-        : 'Learn about flashcards and how to use them effectively',
+        ? '플래시카드 개념과 사용법을 알아보세요' 
+        : 'Learn about flashcards and how to use them',
       icon: <HelpCircle className="w-8 h-8 text-purple-500" />,
       color: 'bg-red-100 hover:bg-red-200',
       path: '/about'
     },
     {
-      title: language === 'kor' ? '라이센스' : 'license',
-      description: language === 'kor' ? '플래시카드 활용 방법을 알아보세요' : 'Learn how to use flashcards',
+      title: language === 'kor' ? '라이센스' : 'License',
+      description: language === 'kor' 
+        ? '웹사이트 이미지의 저작권을 확인하세요' 
+        : 'Check the copyright of images used on the website',
       icon: <HelpCircle className="w-8 h-8 text-purple-500" />,
       color: 'bg-purple-100 hover:bg-purple-200',
       path: '/license'
-    },
-  ];
+    }
+        ];
 
   const toggleLanguage = () => {
     setLanguage(language === 'kor' ? 'eng' : 'kor');
