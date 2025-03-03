@@ -42,18 +42,21 @@ const Home = () => {
       path: '/'
     },
     {
-      title: language === 'kor' ? '학습 가이드' : 'Learning Guide',
+      title: language === 'kor' ? '소개' : 'About',
+      description: language === 'kor' 
+        ? '플래시 카드에 대한 정보와 효율적인 사용법을 알아보세요' 
+        : 'Learn about flashcards and how to use them effectively',
+      icon: <HelpCircle className="w-8 h-8 text-purple-500" />,
+      color: 'bg-red-100 hover:bg-red-200',
+      path: '/about'
+    },
+    {
+      title: language === 'kor' ? '라이센스' : 'license',
       description: language === 'kor' ? '플래시카드 활용 방법을 알아보세요' : 'Learn how to use flashcards',
       icon: <HelpCircle className="w-8 h-8 text-purple-500" />,
       color: 'bg-purple-100 hover:bg-purple-200',
-      path: '/guide'
+      path: '/license'
     },
-    {
-      title: language === 'kor' ? '소개' : 'About',
-      description: language === 'kor' ? '이 웹사이트와 제공하는 서비스에 대해 알아보세요' : 'Learn about this website and the services we offer',  icon: <HelpCircle className="w-8 h-8 text-purple-500" />,
-      color: 'bg-red-100 hover:bg-red-200',
-      path: '/about'
-    }
   ];
 
   const toggleLanguage = () => {
