@@ -60,7 +60,7 @@ const CategorySidebar = ({
       className="w-[30vw] md:w-[20vw] text-[15px] md:text-base border-l overflow-y-auto bg-white backdrop-blur-md"
       style={{
         height: `calc(100vh - ${controlPanelHeight}px)`,
-        marginTop: `${controlPanelHeight}px`,
+        // marginTop: `${controlPanelHeight}px`,
       }}
     >
       <div className="p-4 border-b">

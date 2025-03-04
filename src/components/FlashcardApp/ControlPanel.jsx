@@ -58,7 +58,7 @@ const ControlPanel = forwardRef(
     return (
       <div
         ref={ref}
-        className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md shadow-sm z-30 border-b"
+        className="top-0 left-0 right-0 bg-white/80 backdrop-blur-md shadow-sm z-30 border-b"
       >
         {/* Desktop view */}
           <div className="hidden md:flex flex-wrap justify-between p-3 gap-4">

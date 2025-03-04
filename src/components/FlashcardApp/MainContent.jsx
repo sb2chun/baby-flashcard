@@ -53,10 +53,10 @@ const MainContent = ({
     <div
       className={`flex-1 flex flex-col items-center justify-center bg-gradient-to-b from-blue-50 to-purple-50
         ${isFullscreen ? "fixed inset-0 z-20 bg-white w-screen" : ""}`}
-      style={{
+        style={!isFullscreen ? { 
         height: `calc(100vh - ${controlPanelHeight}px)`, // ControlPanel 높이 제외
-        marginTop: `${controlPanelHeight}px`, // ControlPanel 높이만큼 아래로 밀기
-      }}
+        // marginTop: `${controlPanelHeight}px`, // ControlPanel 높이만큼 아래로 밀기
+      } : undefined}
     >
       <div
         className={`flex flex-col items-center justify-center relative w-full h-full min-h-0 bg-red

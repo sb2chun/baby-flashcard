@@ -87,11 +87,11 @@ const QuizMainContent = ({
   return (
     <div
       className={`flex-1 flex flex-col items-center justify-center bg-gradient-to-b from-blue-50 to-purple-50
-                ${isFullscreen ? "fixed inset-0 z-20 bg-white w-screen" : ""}`}
-      style={{
+                ${isFullscreen ? "fixed inset-0 z-20 bg-white w-screen h-screen" : ""}`}
+        style={!isFullscreen ? { 
         height: `calc(100vh - ${controlPanelHeight}px)`, // ControlPanel 높이 제외
-        marginTop: `${controlPanelHeight}px`, // ControlPanel 높이만큼 아래로 밀기
-      }}
+        // marginTop: `${controlPanelHeight}px`, // ControlPanel 높이만큼 아래로 밀기
+      } : undefined}
     >
       {/* 이미지 & 좌우 이동 버튼 */}
       <div className={`flex-[0.8] relative group w-full h-full min-h-0 flex items-center justify-center px-3 py-1`}>
