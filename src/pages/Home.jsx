@@ -33,13 +33,10 @@ const Home = () => {
     },
     {
       title: language === 'kor' ? '카드 정보' : 'Card Details',
-      // description: language === 'kor' ? '각 카드에 대한 상세 정보를 확인하세요' : 'View detailed information about each card',
-      description: language === 'kor' ? '이 페이지는 현재 개발 중입니다. 곧 더 많은 정보를 제공할 예정입니다.' : 'This page is currently under development. More information will be available soon.',
+      description: language === 'kor' ? '각 카드에 대한 상세 정보를 확인하세요' : 'View detailed information about each card',
       icon: <FileText className="w-8 h-8 text-orange-500" />,
-      // color: 'bg-orange-100 hover:bg-orange-200',
-      color: 'bg-gray-100 hover:bg-gray-200',
-      // path: '/detail'
-      path: '/'
+      color: 'bg-orange-100 hover:bg-orange-200',
+      path: '/detail'
     },
     {
       title: language === 'kor' ? '소개' : 'About',

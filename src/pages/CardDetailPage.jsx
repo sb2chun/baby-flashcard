@@ -35,37 +35,6 @@ const CardDetailPage = () => {
   
   const navigate = useNavigate();
 
-  // 실제 구현시 데이터를 props나 context로 받아와야 합니다
-  const sampleData = {
-    category: 'fruits',
-    id: 'apple',
-    image: 'https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/데이노케이루스_Deinocheirus.jpg',
-    korName: '사과',
-    engName: 'Apple',
-    details: {
-      origin: {
-        kor: '사과는 중앙아시아가 원산지이며, 실크로드를 따라 세계로 전파되었습니다.',
-        eng: 'Apples originated in Central Asia and spread worldwide along the Silk Road.'
-      },
-      nutrition: {
-        kor: '사과는 식이섬유, 비타민 C, 항산화물질이 풍부합니다.',
-        eng: 'Apples are rich in dietary fiber, vitamin C, and antioxidants.'
-      },
-      benefits: {
-        kor: '심장 건강 개선, 혈당 조절, 소화 촉진에 도움을 줍니다.',
-        eng: 'Helps improve heart health, regulate blood sugar, and promote digestion.'
-      },
-      stories: {
-        kor: '그리스 신화의 \'불화의 사과\', 뉴턴의 만유인력 발견 등 많은 이야기의 소재입니다.',
-        eng: 'Featured in many stories including Greek mythology\'s "Apple of Discord" and Newton\'s discovery of gravity.'
-      }
-    },
-    relatedCards: [
-      { id: 'orange', name: { kor: '오렌지', eng: 'Orange' } },
-      { id: 'banana', name: { kor: '바나나', eng: 'Banana' } }
-    ]
-  };
-
   //////
   const controlPanelRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -224,6 +193,7 @@ const CardDetailPage = () => {
         language={language}
         flashcardData={flashcardData}
         setCurrentIndex={setCurrentIndex}
+        filterAll={false}
       />
       </div>
     </div>

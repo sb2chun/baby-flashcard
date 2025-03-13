@@ -11,6 +11,7 @@ const CategorySidebar = ({
   language,
   flashcardData,
   setCurrentIndex,
+  filterAll = true
 }) => {
   const [controlPanelHeight, setControlPanelHeight] = useState(0);
   useEffect(() => {
@@ -28,7 +29,6 @@ const CategorySidebar = ({
   const handleCategoryChange = (categoryPath) => {
     setSelectedCategories((prev) => {
       const newCategories = new Set(prev);
-
       if (categoryPath === "통합") {
         return new Set(["통합"]);
       } else {
