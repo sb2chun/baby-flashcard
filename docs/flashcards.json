@@ -7,6 +7,17 @@
       "items": [
         {
           "order": 1,
+          "kor_word": "기가노토사우루스",
+          "eng_word": "Giganotosaurus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/기가노토사우루스_Giganotosaurus.png",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 2,
           "kor_word": "데이노케이루스",
           "eng_word": "Deinocheirus",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/데이노케이루스_Deinocheirus.jpg",
@@ -17,7 +28,29 @@
           }
         },
         {
-          "order": 2,
+          "order": 3,
+          "kor_word": "디플로도쿠스",
+          "eng_word": "Diplodocus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/디플로도쿠스_Diplodocus.png",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "마이아사우라",
+          "eng_word": "Maiasaura",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/마이아사우라_Maiasaura.png",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 5,
           "kor_word": "벨로키랍토르",
           "eng_word": "Velociraptor",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/벨로키랍토르_Velociraptor.jpg",
@@ -28,7 +61,7 @@
           }
         },
         {
-          "order": 3,
+          "order": 6,
           "kor_word": "스테고사우루스",
           "eng_word": "Stegosaurus",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/스테고사우루스_Stegosaurus.jpg",
@@ -39,7 +72,18 @@
           }
         },
         {
-          "order": 4,
+          "order": 7,
+          "kor_word": "스티라코사우루스",
+          "eng_word": "Styracosaurus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/스티라코사우루스_Styracosaurus.png",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 8,
           "kor_word": "스피노사우루스",
           "eng_word": "Spinosaurus",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/스피노사우루스_Spinosaurus.jpg",
@@ -50,7 +94,7 @@
           }
         },
         {
-          "order": 5,
+          "order": 9,
           "kor_word": "시노베나토르",
           "eng_word": "Sinovenator",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/시노베나토르_Sinovenator.jpg",
@@ -61,7 +105,7 @@
           }
         },
         {
-          "order": 6,
+          "order": 10,
           "kor_word": "아르헨티노사우루스",
           "eng_word": "Argentinosaurus",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/아르헨티노사우루스_Argentinosaurus.jpg",
@@ -72,7 +116,29 @@
           }
         },
         {
-          "order": 7,
+          "order": 11,
+          "kor_word": "안킬로사우루스",
+          "eng_word": "Ankylosaurus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/안킬로사우루스_Ankylosaurus.png",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 12,
+          "kor_word": "오비랍토르",
+          "eng_word": "Oviraptor",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/오비랍토르_Oviraptor.png",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 13,
           "kor_word": "이구아노돈",
           "eng_word": "Iguanodon",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/이구아노돈_Iguanodon.png",
@@ -83,7 +149,18 @@
           }
         },
         {
-          "order": 8,
+          "order": 14,
+          "kor_word": "케찰코아틀루스",
+          "eng_word": "Quetzalcoatlus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/케찰코아틀루스_Quetzalcoatlus.png",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 15,
           "kor_word": "트리케라톱스",
           "eng_word": "Triceratops",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/트리케라톱스_Triceratops.jpg",
@@ -94,7 +171,7 @@
           }
         },
         {
-          "order": 9,
+          "order": 16,
           "kor_word": "티라노사우루스-렉스",
           "eng_word": "Tyrannosaurus-Rex",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/티라노사우루스-렉스_Tyrannosaurus-Rex.png",
@@ -105,7 +182,7 @@
           }
         },
         {
-          "order": 10,
+          "order": 17,
           "kor_word": "파라사우롤로푸스",
           "eng_word": "Parasaurolophus",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/파라사우롤로푸스_Parasaurolophus.jpg",
@@ -116,7 +193,7 @@
           }
         },
         {
-          "order": 11,
+          "order": 18,
           "kor_word": "파키리노사우르스",
           "eng_word": "Pachyrhinosaurus",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/파키리노사우르스_Pachyrhinosaurus.jpg",
@@ -127,7 +204,7 @@
           }
         },
         {
-          "order": 12,
+          "order": 19,
           "kor_word": "파키케팔로사우루스",
           "eng_word": "Pachycephalosaurus",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/파키케팔로사우루스_Pachycephalosaurus.jpg",
@@ -138,10 +215,21 @@
           }
         },
         {
-          "order": 13,
+          "order": 20,
           "kor_word": "프테라노돈",
           "eng_word": "Pteranodon",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/프테라노돈_Pteranodon.jpg",
+          "category": {
+            "path": "Dinosaur",
+            "kor": "공룡",
+            "eng": "Dinosaur"
+          }
+        },
+        {
+          "order": 21,
+          "kor_word": "플레시오사우루스",
+          "eng_word": "Plesiosaur",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/공룡_Dinosaur/플레시오사우루스_Plesiosaur.png",
           "category": {
             "path": "Dinosaur",
             "kor": "공룡",
@@ -169,8 +257,8 @@
         {
           "order": 2,
           "kor_word": "귤",
-          "eng_word": "Tangerines",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/귤_Tangerines.jpg",
+          "eng_word": "Tangerine",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/귤_Tangerine.jpg",
           "category": {
             "path": "Fruits",
             "kor": "과일",
@@ -267,6 +355,17 @@
         },
         {
           "order": 11,
+          "kor_word": "무화과",
+          "eng_word": "fig",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/무화과_fig.jpg",
+          "category": {
+            "path": "Fruits",
+            "kor": "과일",
+            "eng": "Fruits"
+          }
+        },
+        {
+          "order": 12,
           "kor_word": "바나나",
           "eng_word": "banana",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/바나나_banana.jpg",
@@ -277,7 +376,7 @@
           }
         },
         {
-          "order": 12,
+          "order": 13,
           "kor_word": "복숭아",
           "eng_word": "Peach",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/복숭아_Peach.jpg",
@@ -288,7 +387,7 @@
           }
         },
         {
-          "order": 13,
+          "order": 14,
           "kor_word": "블루베리",
           "eng_word": "Blueberry",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/블루베리_Blueberry.jpg",
@@ -299,7 +398,7 @@
           }
         },
         {
-          "order": 14,
+          "order": 15,
           "kor_word": "사과",
           "eng_word": "apple",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/사과_apple.jpg",
@@ -310,21 +409,10 @@
           }
         },
         {
-          "order": 15,
+          "order": 16,
           "kor_word": "산딸기",
           "eng_word": "Raspberry",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/산딸기_Raspberry.jpg",
-          "category": {
-            "path": "Fruits",
-            "kor": "과일",
-            "eng": "Fruits"
-          }
-        },
-        {
-          "order": 16,
-          "kor_word": "석류",
-          "eng_word": "Pomegranat",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/석류_Pomegranat.jpg",
           "category": {
             "path": "Fruits",
             "kor": "과일",
@@ -421,17 +509,6 @@
         },
         {
           "order": 25,
-          "kor_word": "토마토",
-          "eng_word": "Tomato",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/토마토_Tomato.jpg",
-          "category": {
-            "path": "Fruits",
-            "kor": "과일",
-            "eng": "Fruits"
-          }
-        },
-        {
-          "order": 26,
           "kor_word": "파인애플",
           "eng_word": "pineapple",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/파인애플_pineapple.jpg",
@@ -442,21 +519,10 @@
           }
         },
         {
-          "order": 27,
+          "order": 26,
           "kor_word": "포도",
           "eng_word": "Grape",
           "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/포도_Grape.jpg",
-          "category": {
-            "path": "Fruits",
-            "kor": "과일",
-            "eng": "Fruits"
-          }
-        },
-        {
-          "order": 28,
-          "kor_word": "호박",
-          "eng_word": "Harvest",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/과일_Fruits/호박_Harvest.jpg",
           "category": {
             "path": "Fruits",
             "kor": "과일",
@@ -1942,261 +2008,261 @@
       ]
     },
     {
-      "path": "Musical instruments",
+      "path": "Instruments",
       "korName": "악기",
-      "engName": "Musical instruments",
+      "engName": "Instruments",
       "items": [
         {
           "order": 1,
           "kor_word": "가야금",
           "eng_word": "Gayageum",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/가야금_Gayageum.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/가야금_Gayageum.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 2,
           "kor_word": "기타",
           "eng_word": "Guitar",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/기타_Guitar.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/기타_Guitar.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 3,
           "kor_word": "드럼",
           "eng_word": "Drums",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/드럼_Drums.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/드럼_Drums.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 4,
           "kor_word": "리코더",
           "eng_word": "Recorder",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/리코더_Recorder.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/리코더_Recorder.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 5,
           "kor_word": "마이크",
           "eng_word": "MIke",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/마이크_MIke.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/마이크_MIke.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 6,
           "kor_word": "바이올린",
           "eng_word": "Vilolin",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/바이올린_Vilolin.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/바이올린_Vilolin.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 7,
           "kor_word": "북",
           "eng_word": "Drum",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/북_Drum.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/북_Drum.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 8,
           "kor_word": "뿔피리",
           "eng_word": "Horn",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/뿔피리_Horn.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/뿔피리_Horn.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 9,
           "kor_word": "색소폰",
           "eng_word": "Saxophone",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/색소폰_Saxophone.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/색소폰_Saxophone.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 10,
           "kor_word": "실로폰",
           "eng_word": "Xylophone",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/실로폰_Xylophone.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/실로폰_Xylophone.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 11,
           "kor_word": "아코디언",
           "eng_word": "Accordion",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/아코디언_Accordion.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/아코디언_Accordion.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 12,
           "kor_word": "오카리나",
           "eng_word": "Ocarina",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/오카리나_Ocarina.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/오카리나_Ocarina.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 13,
           "kor_word": "유포니움",
           "eng_word": "Euphonium",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/유포니움_Euphonium.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/유포니움_Euphonium.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 14,
           "kor_word": "일렉기타",
           "eng_word": "Electric-guitar",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/일렉기타_Electric-guitar.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/일렉기타_Electric-guitar.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 15,
           "kor_word": "장고",
           "eng_word": "Django",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/장고_Django.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/장고_Django.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 16,
           "kor_word": "징",
           "eng_word": "Jing",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/징_Jing.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/징_Jing.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 17,
           "kor_word": "트라이앵글",
           "eng_word": "Triangle",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/트라이앵글_Triangle.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/트라이앵글_Triangle.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 18,
           "kor_word": "트럼펫",
           "eng_word": "Trumpet",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/트럼펫_Trumpet.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/트럼펫_Trumpet.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 19,
           "kor_word": "팬플루트",
           "eng_word": "Pan -flute",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/팬플루트_Pan -flute.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/팬플루트_Pan -flute.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 20,
           "kor_word": "플루트",
           "eng_word": "Flute",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/플루트_Flute.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/플루트_Flute.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 21,
           "kor_word": "피아노",
           "eng_word": "Piano",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/피아노_Piano.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/피아노_Piano.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 22,
           "kor_word": "하모니카",
           "eng_word": "Harmonica",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/하모니카_Harmonica.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/하모니카_Harmonica.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         },
         {
           "order": 23,
           "kor_word": "하프",
           "eng_word": "Harp",
-          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Musical instruments/하프_Harp.jpg",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/악기_Instruments/하프_Harp.jpg",
           "category": {
-            "path": "Musical instruments",
+            "path": "Instruments",
             "kor": "악기",
-            "eng": "Musical instruments"
+            "eng": "Instruments"
           }
         }
       ]
@@ -2739,6 +2805,310 @@
             "path": "Jobs",
             "kor": "직업",
             "eng": "Jobs"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Vegetables",
+      "korName": "채소",
+      "engName": "Vegetables",
+      "items": [
+        {
+          "order": 1,
+          "kor_word": "가지",
+          "eng_word": "Eggplant",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/가지_Eggplant.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 2,
+          "kor_word": "감자",
+          "eng_word": "Potato",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/감자_Potato.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 3,
+          "kor_word": "고구마",
+          "eng_word": "Sweetpotato",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/고구마_Sweetpotato.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "고추",
+          "eng_word": "Pepper",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/고추_Pepper.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 5,
+          "kor_word": "깻잎",
+          "eng_word": "Sesame leaf",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/깻잎_Sesame leaf.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 6,
+          "kor_word": "당근",
+          "eng_word": "Carrots",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/당근_Carrots.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 7,
+          "kor_word": "무",
+          "eng_word": "Radish",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/무_Radish.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 8,
+          "kor_word": "바질",
+          "eng_word": "Basil",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/바질_Basil.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "방울다다기양배추",
+          "eng_word": "Brussel sprotus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/방울다다기양배추_Brussel sprotus.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 10,
+          "kor_word": "버섯",
+          "eng_word": "Mushroom",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/버섯_Mushroom.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 11,
+          "kor_word": "브로콜리",
+          "eng_word": "broccoli",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/브로콜리_broccoli.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 12,
+          "kor_word": "비트",
+          "eng_word": "Beet",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/비트_Beet.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 13,
+          "kor_word": "생강",
+          "eng_word": "Ginger",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/생강_Ginger.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 14,
+          "kor_word": "시금치",
+          "eng_word": "Spinach",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/시금치_Spinach.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 15,
+          "kor_word": "아스파라거스",
+          "eng_word": "Asparagus0",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/아스파라거스_Asparagus0.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 16,
+          "kor_word": "아티초크",
+          "eng_word": "artichoke",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/아티초크_artichoke.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 17,
+          "kor_word": "애호박",
+          "eng_word": "Squash",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/애호박_Squash.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 18,
+          "kor_word": "양배추",
+          "eng_word": "Cabbage",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/양배추_Cabbage.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 19,
+          "kor_word": "양파",
+          "eng_word": "Onion",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/양파_Onion.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 20,
+          "kor_word": "오이",
+          "eng_word": "Cucumber",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/오이_Cucumber.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 21,
+          "kor_word": "완두콩",
+          "eng_word": "green pea",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/완두콩_green pea.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 22,
+          "kor_word": "주키니",
+          "eng_word": "Zucchini",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/주키니_Zucchini.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 23,
+          "kor_word": "청경채",
+          "eng_word": "Bok choy",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/청경채_Bok choy.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 24,
+          "kor_word": "토마토",
+          "eng_word": "Tomato",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/토마토_Tomato.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 25,
+          "kor_word": "파",
+          "eng_word": "Spring onion",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/파_Spring onion.png",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 26,
+          "kor_word": "파프리카",
+          "eng_word": "Bell pepper",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/파프리카_Bell pepper.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
+          }
+        },
+        {
+          "order": 27,
+          "kor_word": "호박",
+          "eng_word": "Pumpkin",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/채소_Vegetables/호박_Pumpkin.jpg",
+          "category": {
+            "path": "Vegetables",
+            "kor": "채소",
+            "eng": "Vegetables"
           }
         }
       ]
