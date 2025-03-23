@@ -7943,6 +7943,941 @@
           }
         }	
       ]
+    },
+    {
+      "path": "Flowers",
+      "korName": "꽃",
+      "engName": "Flowers",
+      "items": [
+      {
+          "order": 1,
+          "kor_word": "개나리",
+          "eng_word": "Forsythia",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/개나리_Forsythia.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "개나리는 물푸레나무과에 속하는 낙엽 관목으로, 주로 동아시아 지역에서 자생하며 봄철에 노란색 꽃을 화려하게 피웁니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Forsythia belongs to the Oleaceae family, native to East Asia, and blooms bright yellow flowers in early spring."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "'희망', '깊은 정', '조춘의 감격' 등 긍정적인 의미를 지니고 있습니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "'Hope', 'deep affection', and 'joy of early spring' are its symbolic meanings."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "한국에서는 봄의 시작을 알리는 꽃으로 여겨지며, 전통 문학과 예술에서 자주 등장합니다.",
+              "eng_title": "Culture",
+              "eng_desc": "In Korea, it is considered a herald of spring and often appears in traditional literature and art."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "'개가 나리꽃을 좋아해 이름이 붙여졌다'는 전설이 있습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "'It was named because dogs loved the flower', according to legend."
+            }
+          }
+        },  
+        {
+          "order": 2,
+          "kor_word": "거베라",
+          "eng_word": "Gerbera",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/거베라_Gerbera.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "거베라는 국화과에 속하는 다년생 초화로, 전 세계적으로 30~40종이 자생하고 있습니다. 주로 아프리카와 아시아에서 발견됩니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Gerbera belongs to the Asteraceae family and is a perennial herbaceous plant. There are 30-40 species found worldwide, mainly in Africa and Asia."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "거베라의 주요 꽃말은 '신비', '수수께끼'입니다. 색상에 따라 다양한 의미를 가지며, 예를 들어 빨간색은 '영원한 사랑', 흰색은 '순결'을 상징합니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The main flower meanings of Gerbera are 'mystery' and 'enigma'. Different colors have various meanings, such as red symbolizing 'eternal love' and white representing 'purity'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "거베라는 세계적으로 장미, 국화, 나리, 카네이션에 이어 주요 5대 절화 중 하나로 인정받고 있습니다. 한국에서는 1980년대 초 김해지역에서 재배가 시작되었습니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Gerbera is recognized as one of the top five cut flowers globally, following roses, chrysanthemums, lilies, and carnations. In Korea, its cultivation began in the early 1980s in the Gimhae region."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "거베라의 이름은 18세기 독일 식물학자 '트라우갓 거버(Traugot Gerber)'의 이름에서 유래되었습니다. 남아프리카 트란스발주에서 스코틀랜드인 로버트 제임슨에 의해 처음 발견되었습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "The name Gerbera is derived from the 18th-century German botanist Traugot Gerber. It was first discovered in South Africa's Transvaal region by Scottish Robert Jameson."
+            }
+          }
+        },
+        {
+          "order": 3,
+          "kor_word": "나팔꽃",
+          "eng_word": "Morning Glory",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/나팔꽃_Lpomoea-nil.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "나팔꽃은 Ipomoea속에 속하며, 이는 고구마속으로도 알려져 있습니다. Convolvulus로도 불리며, 이 속으로 분류된 식물들은 구대륙에도 많이 분포합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Morning Glory belongs to the Ipomoea genus, also known as the sweet potato genus. It's sometimes called Convolvulus, and plants classified in this genus are widely distributed in the Old World."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "나팔꽃의 꽃말은 '허무한 사랑', '풋사랑', '기쁜 소식', '거짓', '애교', '애정', '결속' 등 다양합니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "Morning Glory has various flower meanings including 'futile love', 'young love', 'good news', 'falsehood', 'charm', 'affection', and 'bond'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "나팔꽃은 여러 문화에서 중요한 의미를 가집니다. 일본에서는 여름을 상징하는 꽃으로 여겨지며, 많은 나라에서 정원 장식용으로 사용됩니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Morning Glory holds significant meaning in various cultures. In Japan, it's considered a symbol of summer, and in many countries, it's used for garden decoration."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "나팔꽃은 고구마와 사촌 관계입니다. 둘 다 Ipomoea속에 속하며, 이는 식물학적으로 흥미로운 연관성을 보여줍니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Morning Glory is a cousin to the sweet potato. Both belong to the Ipomoea genus, showing an interesting botanical connection."
+            }
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "노루귀",
+          "eng_word": "Asian Liverleaf",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/노루귀_Asian-Liverleaf.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "노루귀는 미나리아재비과에 속하는 다년생 초본 식물입니다. 주로 아시아의 온대 지역에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Asian Liverleaf belongs to the Ranunculaceae family and is a perennial herbaceous plant. It's native to temperate regions of Asia."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "노루귀의 꽃말은 '신뢰', '믿음', '순결' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Asian Liverleaf include 'trust', 'faith', and 'purity'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "노루귀는 한국의 전통 약용 식물로 사용되어 왔으며, 봄을 알리는 대표적인 야생화로 여겨집니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Asian Liverleaf has been used as a traditional medicinal plant in Korea and is considered a representative wildflower heralding spring."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "노루귀라는 이름은 그 잎의 모양이 노루의 귀를 닮았다고 하여 붙여졌습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "The Korean name 'Norugwi' (노루귀) comes from the shape of its leaves, which resemble the ears of a roe deer."
+            }
+          }
+        },
+        {
+          "order": 5,
+          "kor_word": "도라지꽃",
+          "eng_word": "Balloon Flower",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/도라지꽃_Balloonflower.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "도라지꽃은 초롱꽃과에 속하는 다년생 초본 식물입니다. 주로 동아시아 지역에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Balloon Flower belongs to the Campanulaceae family and is a perennial herbaceous plant. It's native to East Asia."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "도라지꽃의 꽃말은 '영원한 사랑', '정절', '변치 않는 마음' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Balloon Flower include 'eternal love', 'fidelity', and 'unchanging heart'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "도라지는 한국에서 중요한 약용 식물로 여겨지며, 그 뿌리는 전통 음식과 한방 약재로 널리 사용됩니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Balloon Flower is considered an important medicinal plant in Korea, with its roots widely used in traditional cuisine and herbal medicine."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "도라지꽃은 꽃봉오리가 풍선처럼 부풀어 오르다가 터지면서 꽃이 피는 특징 때문에 영어로 'Balloon Flower'라고 불립니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "The English name 'Balloon Flower' comes from its characteristic buds that swell up like balloons before bursting open into flowers."
+            }
+          }
+        },
+        {
+          "order": 6,
+          "kor_word": "라벤더",
+          "eng_word": "Lavender",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/라벤더_Lavender.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "라벤더는 꿀풀과에 속하는 다년생 초본 또는 관목입니다. 주로 지중해 연안과 중동 지역이 원산지입니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Lavender belongs to the Lamiaceae family and is a perennial herb or shrub. It's native to the Mediterranean region and the Middle East."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "라벤더의 꽃말은 '청결', '순결', '헌신', '평화' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Lavender include 'cleanliness', 'purity', 'devotion', and 'peace'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "라벤더는 향수, 화장품, 아로마테라피 등에 널리 사용되며, 그 향기는 스트레스 해소와 휴식에 도움을 준다고 알려져 있습니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Lavender is widely used in perfumes, cosmetics, and aromatherapy. Its fragrance is known to help relieve stress and promote relaxation."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "라벤더라는 이름은 라틴어 'lavare'(씻다)에서 유래했으며, 고대 로마인들이 목욕할 때 라벤더를 사용했다는 것에서 비롯되었습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "The name 'Lavender' comes from the Latin word 'lavare' meaning 'to wash', derived from the ancient Romans' use of lavender in their baths."
+            }
+          }
+        },
+        {
+          "order": 7,
+          "kor_word": "리시안셔스",
+          "eng_word": "Lisianthus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/리시안셔스_Lisianthus.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "리시안셔스는 용담과에 속하는 다년생 초본 식물입니다. 주로 북미와 카리브해 지역이 원산지입니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Lisianthus belongs to the Gentianaceae family and is a perennial herbaceous plant. It's native to North America and the Caribbean."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "리시안셔스의 꽃말은 '영원한 아름다움', '감사', '매력' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Lisianthus include 'eternal beauty', 'gratitude', and 'charm'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "리시안셔스는 우아한 외모로 인해 결혼식 부케나 장식용 꽃으로 인기가 높습니다. 또한 꽃꽂이에서도 자주 사용됩니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Lisianthus is popular for wedding bouquets and decorative flowers due to its elegant appearance. It's also frequently used in flower arrangements."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "리시안셔스의 학명 'Eustoma'는 그리스어로 '아름다운 입'을 의미합니다. 이는 꽃의 형태가 입술 모양과 비슷하다는 데서 유래했습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "The scientific name 'Eustoma' means 'beautiful mouth' in Greek, derived from the flower's shape resembling lips."
+            }
+          }
+        },
+        {
+          "order": 8,
+          "kor_word": "마가렛",
+          "eng_word": "Marguerite",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/마가렛_Marguerite.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "마가렛은 국화과에 속하는 다년생 초본 식물입니다. 주로 유럽과 북아프리카가 원산지입니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Marguerite belongs to the Asteraceae family and is a perennial herbaceous plant. It's native to Europe and North Africa."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "마가렛의 꽃말은 '순진한 사랑', '평화', '순수' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Marguerite include 'innocent love', 'peace', and 'purity'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "마가렛은 많은 나라에서 정원 장식용으로 인기가 있으며, 꽃점을 치는 데 사용되기도 합니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Marguerite is popular for garden decoration in many countries and is sometimes used for flower fortune-telling."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "마가렛이라는 이름은 그리스어 'margarites'에서 유래했으며, 이는 '진주'를 의미합니다. 꽃의 중심부가 진주처럼 보이기 때문입니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "The name 'Marguerite' comes from the Greek word 'margarites', meaning 'pearl', as the center of the flower resembles a pearl."
+            }
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "매발톱꽃",
+          "eng_word": "Columbine",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/매발톱꽃_Columbia.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "매발톱꽃은 미나리아재비과에 속하는 다년생 초본 식물입니다. 북반구의 온대 지역에 널리 분포합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Columbine belongs to the Ranunculaceae family and is a perennial herbaceous plant. It's widely distributed in temperate regions of the Northern Hemisphere."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "매발톱꽃의 꽃말은 '승리', '결단', '어리석음' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Columbine include 'victory', 'resolution', and 'folly'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "매발톱꽃은 많은 나라에서 정원 식물로 인기가 있으며, 일부 지역에서는 전통 약용 식물로 사용되었습니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Columbine is popular as a garden plant in many countries and has been used as a traditional medicinal plant in some regions."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "매발톱꽃의 영어 이름 'Columbine'은 라틴어 'columba'(비둘기)에서 유래했습니다. 꽃의 모양이 비둘기 무리를 닮았다고 해서 붙여진 이름입니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "The English name 'Columbine' comes from the Latin 'columba' meaning 'dove'. It was named for its flower shape resembling a group of doves."
+            }
+          }
+        },
+        {
+          "order": 10,
+          "kor_word": "무궁화",
+          "eng_word": "Rose of Sharon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/무궁화_Rose-of-Sharon.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "무궁화는 아욱과에 속하는 낙엽 관목입니다. 한국, 중국, 인도 등 아시아가 원산지입니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Rose of Sharon belongs to the Malvaceae family and is a deciduous shrub. It's native to Asia, including Korea, China, and India."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "무궁화의 꽃말은 '일편단심', '섬세한 아름다움' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Rose of Sharon include 'single-hearted', 'delicate beauty'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "무궁화는 한국의 국화로, 한국 문화와 역사에서 중요한 의미를 지닙니다. 또한 많은 나라에서 정원 식물로 인기가 있습니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Rose of Sharon is the national flower of South Korea and holds significant meaning in Korean culture and history. It's also popular as a garden plant in many countries."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "무궁화라는 이름은 '영원히 피고 지지 않는 꽃'이라는 의미에서 유래했습니다. 실제로 무궁화는 여름부터 가을까지 매일 새로운 꽃을 피웁니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "The Korean name 'Mugunghwa' means 'eternal flower'. Indeed, Rose of Sharon blooms new flowers daily from summer to fall."
+            }
+          }
+        },
+        {
+          "order": 11,
+          "kor_word": "민들레",
+          "eng_word": "Dandelion",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/민들레_Dandelion.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "민들레는 국화과에 속하는 다년생 초본 식물입니다. 전 세계적으로 널리 분포합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Dandelion belongs to the Asteraceae family and is a perennial herbaceous plant. It's widely distributed throughout the world."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "민들레의 꽃말은 '행복', '신뢰', '희망' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Dandelion include 'happiness', 'faithfulness', and 'hope'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "민들레는 많은 문화에서 약용 식물로 사용되며, 일부 지역에서는 식용으로도 활용됩니다. 또한 민간 전승에서 소원을 빌 때 사용되기도 합니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Dandelion is used as a medicinal plant in many cultures and is also used for food in some regions. In folklore, it's sometimes used for making wishes."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "민들레의 영어 이름 'Dandelion'은 프랑스어 'dent de lion'(사자의 이빨)에서 유래했습니다. 이는 민들레 잎의 톱니 모양이 사자의 이빨과 비슷하다는 데서 비롯되었습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "The English name 'Dandelion' comes from the French 'dent de lion' meaning 'lion's tooth', referring to the jagged shape of its leaves resembling a lion's teeth."
+            }
+          }
+        },
+        {
+          "order": 12,
+          "kor_word": "백합",
+          "eng_word": "Lily",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/백합_Lily.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "백합은 백합과에 속하는 식물로, 약 110여 종이 있습니다. 주로 아시아, 유럽, 북아메리카에 분포합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Lily belongs to the Liliaceae family with about 110 species. It's found in Asia, Europe, and North America."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "백합의 꽃말은 '순결', '고귀함', '고결함' 등입니다. 색상에 따라 의미가 다르게 해석됩니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Lily include 'purity', 'nobility', and 'refinement'. Different colors have different meanings."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "백합은 기독교에서 성모 마리아를 상징하는 꽃으로도 사용됩니다. 또한 결혼식과 장례식에서 중요한 역할을 합니다.",
+              "eng_title": "Culture",
+              "eng_desc": "In Christianity, Lily is used to symbolize the Virgin Mary. It also plays a significant role in weddings and funerals."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "백합은 고대 이집트와 그리스에서 중요한 상징으로 여겨졌으며, 그리스 신화에서는 아폴론과 관련된 이야기도 있습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Lily was an important symbol in ancient Egypt and Greece, and is associated with Apollo in Greek mythology."
+            }
+          }
+        },
+        {
+          "order": 13,
+          "kor_word": "벚꽃",
+          "eng_word": "Cherry Blossoms",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/벚꽃_Cherry-blossoms.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "벚꽃은 장미과 벚나무속에 속하며, 주로 동아시아에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Cherry Blossoms belong to the Rosaceae family and are native to East Asia."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "벚꽃의 꽃말은 '순결', '절세미인', '고상함' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Cherry Blossoms include 'purity', 'beauty', and 'elegance'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "일본에서는 벚꽃이 봄의 상징으로 여겨지며, 하나미 문화로 유명합니다.",
+              "eng_title": "Culture",
+              "eng_desc": "In Japan, Cherry Blossoms are a symbol of spring and are famous for the Hanami culture."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "벚꽃은 일본의 사무라이 문화와도 깊은 관련이 있으며, 그들의 무덤에 종종 심어졌습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Cherry Blossoms have a deep connection with Japan's samurai culture and were often planted at their graves."
+            }
+          }
+        },
+        {
+          "order": 14,
+          "kor_word": "서양산딸나무",
+          "eng_word": "Dogwood",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/서양산딸나무_Dogwood.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "서양산딸나무는 산딸나무과에 속하며, 주로 북아메리카와 유럽에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Dogwood belongs to the Cornaceae family and is native to North America and Europe."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "서양산딸나무의 꽃말은 '고상함', '우아함' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Dogwood include 'elegance' and 'refinement'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "서양산딸나무는 정원 장식용으로 인기가 있으며, 특히 봄철에 아름다운 꽃을 피웁니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Dogwood is popular for garden decoration, especially for its beautiful spring blooms."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "서양산딸나무는 목재로도 사용되며, 특히 고급 가구 제작에 적합한 재질로 알려져 있습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Dogwood is also used for its wood, which is suitable for making high-quality furniture."
+            }
+          }
+        },
+        {
+          "order": 15,
+          "kor_word": "수국",
+          "eng_word": "Hydrangea",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/수국_Hydrangea.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "수국은 수국과에 속하는 낙엽 관목으로, 주로 동아시아에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Hydrangea belongs to the Hydrangeaceae family and is a deciduous shrub native to East Asia."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "수국의 꽃말은 '냉정함', '무정함', '거만함' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Hydrangea include 'coldness', 'heartlessness', and 'arrogance'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "수국은 관상용으로 널리 사용되며, 특히 일본에서는 전통적인 정원 장식으로 인기가 있습니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Hydrangea is widely used as an ornamental plant, especially in traditional Japanese gardens."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "수국은 꽃의 색상이 토양의 pH에 따라 달라지는 특징이 있습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Hydrangea is known for its flowers changing color based on the soil's pH level."
+            }
+          }
+        },
+        {
+          "order": 16,
+          "kor_word": "아네모네",
+          "eng_word": "Anemone",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/아네모네_Anemone.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "아네모네는 미나리아재비과에 속하는 다년생 초본 식물로, 주로 북반구의 온대 지역에 분포합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Anemone belongs to the Ranunculaceae family and is a perennial herbaceous plant found in temperate regions of the Northern Hemisphere."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "아네모네의 꽃말은 '포기', '비애', '고독' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Anemone include 'abandonment', 'sorrow', and 'loneliness'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_title": "아네모네는 봄철에 아름다운 꽃을 피우며, 정원 장식용으로 인기가 있습니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Anemone is popular for its beautiful spring blooms and is often used in garden decoration."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "아네모네는 그리스 신화에서 바람의 신 '제피로스'와 관련된 이야기가 있습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Anemone is associated with the Greek myth of Zephyr, the god of the west wind."
+            }
+          }
+        },
+        {
+          "order": 17,
+          "kor_word": "양귀비",
+          "eng_word": "Poppy",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/양귀비_Poppies.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "양귀비는 양귀비과에 속하는 일년생 또는 다년생 초본 식물로, 전 세계적으로 분포합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Poppy belongs to the Papaveraceae family and is an annual or perennial herbaceous plant found worldwide."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "양귀비의 꽃말은 '위안', '망각', '상상력' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Poppy include 'consolation', 'oblivion', and 'imagination'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "양귀비는 제1차 세계대전 이후 전쟁 희생자를 기리는 상징으로 사용되고 있습니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Poppies are used as a symbol to commemorate war casualties, especially after World War I."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "그리스 신화에서 양귀비는 수면의 신 히프노스와 관련이 있습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "In Greek mythology, poppies are associated with Hypnos, the god of sleep."
+            }
+          }
+        },
+        {
+          "order": 18,
+          "kor_word": "연꽃",
+          "eng_word": "Lotus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/연꽃_Lotus.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "연꽃은 수련과에 속하는 수생 식물로, 주로 아시아와 호주에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Lotus belongs to the Nelumbonaceae family and is an aquatic plant native to Asia and Australia."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "연꽃의 꽃말은 '청결', '순결', '신성' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Lotus include 'purity', 'enlightenment', and 'rebirth'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "연꽃은 불교에서 중요한 상징으로, 깨달음과 순수함을 나타냅니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Lotus is an important symbol in Buddhism, representing enlightenment and purity."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "연꽃 씨앗은 수천 년 동안 발아 능력을 유지할 수 있어 '생명력의 상징'으로 여겨집니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Lotus seeds can remain viable for thousands of years, making them a symbol of longevity."
+            }
+          }
+        },
+        {
+          "order": 19,
+          "kor_word": "옥잠화",
+          "eng_word": "Daylily",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/옥잠화_Daylily.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "옥잠화는 백합과에 속하는 다년생 초본 식물로, 주로 아시아에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Daylily belongs to the Hemerocallidaceae family and is a perennial herbaceous plant native to Asia."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "옥잠화의 꽃말은 '망각', '어머니의 사랑' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Daylily include 'forgetfulness' and 'mother's love'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "옥잠화는 동아시아에서 식용 및 약용으로 사용되며, 정원 장식용으로도 인기가 있습니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Daylilies are used for food and medicine in East Asia, and are popular in garden decoration."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "옥잠화의 꽃은 하루만 피어 있어 '일일화'라고도 불립니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Daylily flowers only bloom for one day, hence their name 'Daylily' or 'Day Flower'."
+            }
+          }
+        },
+        {
+          "order": 20,
+          "kor_word": "작약",
+          "eng_word": "Peony",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/작약_Peony.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "작약은 작약과에 속하는 다년생 초본 또는 관목으로, 주로 아시아, 유럽, 북아메리카에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Peony belongs to the Paeoniaceae family and is a perennial herb or shrub native to Asia, Europe, and North America."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "작약의 꽃말은 '부귀', '수줍음', '행복한 결혼' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Peony include 'prosperity', 'bashfulness', and 'happy marriage'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "작약은 중국에서 '화왕(꽃의 왕)'으로 불리며, 전통 회화와 문학에서 자주 등장합니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Peonies are called 'King of Flowers' in China and often appear in traditional paintings and literature."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "작약은 수천 년 동안 약용 식물로 사용되어 왔으며, 장수와 번영의 상징으로 여겨집니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Peonies have been used as medicinal plants for thousands of years and are considered symbols of longevity and prosperity."
+            }
+          }
+        },
+        {
+          "order": 21,
+          "kor_word": "장미",
+          "eng_word": "Rose",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/장미_Rose.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "장미는 장미과에 속하는 관목으로, 전 세계적으로 다양한 품종이 재배되고 있습니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Rose belongs to the Rosaceae family and is a shrub with various cultivars grown worldwide."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "장미의 꽃말은 색상에 따라 다양하지만, 일반적으로 '사랑', '열정', '아름다움' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Rose vary by color, but generally include 'love', 'passion', and 'beauty'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "장미는 전 세계적으로 사랑과 로맨스의 상징으로 여겨지며, 다양한 문화와 예술 작품에서 중요한 위치를 차지합니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Roses are considered symbols of love and romance worldwide and hold significant places in various cultures and artworks."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "그리스 신화에서 장미는 사랑의 여신 아프로디테와 관련이 있으며, 그녀의 눈물에서 태어났다고 전해집니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "In Greek mythology, roses are associated with Aphrodite, the goddess of love, and are said to have been born from her tears."
+            }
+          }
+        },
+        {
+          "order": 22,
+          "kor_word": "쟈스민",
+          "eng_word": "Jasmine",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/쟈스민_Jasmine.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "쟈스민은 목련과에 속하는 낙엽 또는 상록 관목으로, 주로 아시아와 아프리카에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Jasmine belongs to the Oleaceae family and is a deciduous or evergreen shrub native to Asia and Africa."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "쟈스민의 꽃말은 '사랑', '우아함', '미묘한 매력' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Jasmine include 'love', 'elegance', and 'subtle charm'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "쟈스민은 향수로 널리 사용되며, 특히 중국과 인도에서는 전통적인 결혼식에서 중요한 역할을 합니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Jasmine is widely used in perfumes and plays a significant role in traditional weddings in China and India."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "쟈스민은 밤에만 향기를 발향하는 특징이 있으며, 이는 '밤의 여왕'이라는 별명을 얻게 했습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Jasmine is known for releasing its fragrance at night, earning it the nickname 'Queen of the Night'."
+            }
+          }
+        },
+        {
+          "order": 23,
+          "kor_word": "진달래",
+          "eng_word": "Azalea",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/진달래_Azalea.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "진달래는 진달래과에 속하는 낙엽 또는 상록 관목으로, 주로 아시아와 북아메리카에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Azalea belongs to the Ericaceae family and is a deciduous or evergreen shrub native to Asia and North America."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "진달래의 꽃말은 '열정', '고상함', '경박함' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Azalea include 'passion', 'elegance', and 'frivolity'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "진달래는 한국의 전통적인 봄철 꽃으로, 많은 정원에서 관상용으로 사용됩니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Azalea is a traditional spring flower in Korea and is often used as an ornamental plant in gardens."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "진달래는 독성이 있어 주의가 필요하며, 일부 지역에서는 약용으로도 사용됩니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Azalea is toxic and requires caution. It's also used medicinally in some regions."
+            }
+          }
+        },
+        {
+          "order": 24,
+          "kor_word": "치커리",
+          "eng_word": "Chicory",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/치커리_Chicory.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "치커리는 국화과에 속하는 다년생 초본 식물로, 주로 유럽과 아시아에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Chicory belongs to the Asteraceae family and is a perennial herbaceous plant native to Europe and Asia."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "치커리의 꽃말은 '신뢰', '고결함', '신비' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Chicory include 'faithfulness', 'integrity', and 'mystery'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "치커리는 전통적으로 커피 대용으로 사용되었으며, 특히 제2차 세계대전 중에는 커피 부족 시기에 인기를 끌었습니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Chicory has been traditionally used as a coffee substitute and gained popularity during World War II due to coffee shortages."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "치커리는 그리스 신화에서 '에우포르비온'이라는 이름으로 등장하며, 사랑의 신 에로스와 관련된 이야기가 있습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "In Greek mythology, Chicory is associated with Euphorbion and has a story related to Eros, the god of love."
+            }
+          }
+        },
+        {
+          "order": 25,
+          "kor_word": "카모마일",
+          "eng_word": "Chamomile",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/카모마일_Chamomile.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "카모마일은 국화과에 속하는 일년생 또는 다년생 초본 식물로, 주로 유럽과 아시아에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Chamomile belongs to the Asteraceae family and is an annual or perennial herbaceous plant native to Europe and Asia."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "카모마일의 꽃말은 '평화', '안정', '순수함' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Chamomile include 'peace', 'calmness', and 'purity'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "카모마일은 아로마테라피에서 널리 사용되며, 특히 수면 개선과 스트레스 해소에 도움을 줍니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Chamomile is widely used in aromatherapy, particularly for improving sleep and reducing stress."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "카모마일은 그리스어 'χαμαίμηλον'에서 유래했으며, 이는 '땅의 사과'를 의미합니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "The name 'Chamomile' comes from the Greek word 'χαμαίμηλον', meaning 'earth apple'."
+            }
+          }
+        },
+        {
+          "order": 26,
+          "kor_word": "크로커스",
+          "eng_word": "Crocus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/크로커스_Croucs.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "크로커스는 백합과에 속하는 다년생 식물로, 주로 유럽과 아시아에서 자생합니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Crocus belongs to the Iridaceae family and is a perennial plant native to Europe and Asia."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "크로커스의 꽃말은 '희망', '기쁨', '재능' 등입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Crocus include 'hope', 'joy', and 'talent'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "크로커스는 봄의 시작을 알리는 상징적인 꽃으로, 특히 유럽에서 정원 장식용으로 인기가 있습니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Crocus is a symbolic flower heralding spring and is popular for garden decoration in Europe."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "크로커스는 사프란을 만드는 데 사용되며, 이는 매우 비싼 향신료로 알려져 있습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Crocus is used to produce saffron, a very expensive spice."
+            }
+          }
+        },
+        {
+          "order": 27,
+          "kor_word": "튤립",
+          "eng_word": "Tulip",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/튤립_Tulips.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "튤립은 백합과에 속하는 다년생 구근식물로, 원산지는 중앙아시아와 터키입니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Tulip belongs to the Liliaceae family and is a perennial bulbous plant native to Central Asia and Turkey."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "튤립의 꽃말은 '사랑의 고백', '영원한 사랑'이며, 색상에 따라 의미가 다릅니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Tulip include 'declaration of love' and 'perfect love', with different meanings for different colors."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "튤립은 네덜란드의 상징적인 꽃으로, 17세기에는 '튤립 열풍'이라는 경제 버블을 일으켰습니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Tulips are symbolic flowers of the Netherlands and caused the 'Tulip mania' economic bubble in the 17th century."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "튤립의 이름은 터키어 'tülbent'에서 유래했으며, 이는 터번을 의미합니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "The name 'Tulip' comes from the Turkish word 'tülbent', meaning turban, due to its shape."
+            }
+          }
+        },
+        {
+          "order": 28,
+          "kor_word": "해바라기",
+          "eng_word": "Sunflower",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/해바라기_Sunflower.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "해바라기는 국화과에 속하는 일년생 식물로, 북아메리카가 원산지입니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Sunflower belongs to the Asteraceae family and is an annual plant native to North America."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "해바라기의 꽃말은 '숭배', '애모', '자부심'입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Sunflower include 'adoration', 'loyalty', and 'pride'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "해바라기는 많은 문화에서 태양과 연관되며, 밝음과 긍정의 상징으로 여겨집니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Sunflowers are associated with the sun in many cultures and are considered symbols of brightness and positivity."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "해바라기는 태양을 따라 움직이는 특성이 있어 '해를 바라보는 꽃'이라는 의미로 이름 지어졌습니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Sunflowers are named for their characteristic of following the sun's movement, known as heliotropism."
+            }
+          }
+        },
+        {
+          "order": 29,
+          "kor_word": "히비스커스",
+          "eng_word": "Hibiscus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/히비스커스_Hibiscus.jpg",
+          "details": {
+            "first": {
+              "kor_title": "계통 분류",
+              "kor_desc": "히비스커스는 아욱과에 속하는 관목 또는 초본 식물로, 열대 및 아열대 지역에서 주로 자랍니다.",
+              "eng_title": "Classification",
+              "eng_desc": "Hibiscus belongs to the Malvaceae family and is a shrub or herbaceous plant mainly found in tropical and subtropical regions."
+            },
+            "second": {
+              "kor_title": "꽃말",
+              "kor_desc": "히비스커스의 꽃말은 '섬세한 아름다움', '사랑스러운 여인'입니다.",
+              "eng_title": "Language of Flowers",
+              "eng_desc": "The flower meanings of Hibiscus include 'delicate beauty' and 'lovely woman'."
+            },
+            "third": {
+              "kor_title": "문화",
+              "kor_desc": "히비스커스는 하와이의 상징적인 꽃으로, 많은 열대 국가에서 중요한 문화적 의미를 가집니다.",
+              "eng_title": "Culture",
+              "eng_desc": "Hibiscus is the symbolic flower of Hawaii and holds significant cultural meaning in many tropical countries."
+            },
+            "fourth": {
+              "kor_title": "관련된 이야기",
+              "kor_desc": "히비스커스 차는 건강에 좋은 것으로 알려져 있으며, 특히 비타민 C가 풍부합니다.",
+              "eng_title": "Related Story",
+              "eng_desc": "Hibiscus tea is known for its health benefits, particularly its high vitamin C content."
+            }
+          }
+        }	
+      ]
     }
   ]
 }
