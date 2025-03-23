@@ -1217,6 +1217,332 @@
       ]
     },
     {
+      "path": "Flowers",
+      "korName": "꽃",
+      "engName": "Flowers",
+      "items": [
+        {
+          "order": 1,
+          "kor_word": "개나리",
+          "eng_word": "Forsythia",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/개나리_Forsythia.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 2,
+          "kor_word": "거베라",
+          "eng_word": "Gerbera",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/거베라_Gerbera.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 3,
+          "kor_word": "나팔꽃",
+          "eng_word": "Lpomoea-nil",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/나팔꽃_Lpomoea-nil.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "노루귀",
+          "eng_word": "Asian-Liverleaf",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/노루귀_Asian-Liverleaf.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 5,
+          "kor_word": "도라지꽃",
+          "eng_word": "Balloonflower",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/도라지꽃_Balloonflower.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 6,
+          "kor_word": "라벤더",
+          "eng_word": "Lavender",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/라벤더_Lavender.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 7,
+          "kor_word": "리시안셔스",
+          "eng_word": "Lisianthus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/리시안셔스_Lisianthus.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 8,
+          "kor_word": "마가렛",
+          "eng_word": "Marguerite",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/마가렛_Marguerite.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "매발톱꽃",
+          "eng_word": "Columbia",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/매발톱꽃_Columbia.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 10,
+          "kor_word": "무궁화",
+          "eng_word": "Rose-of-Sharon",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/무궁화_Rose-of-Sharon.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 11,
+          "kor_word": "민들레",
+          "eng_word": "Dandelion",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/민들레_Dandelion.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 12,
+          "kor_word": "백합",
+          "eng_word": "Lily",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/백합_Lily.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 13,
+          "kor_word": "벚꽃",
+          "eng_word": "Cherry-blossoms",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/벚꽃_Cherry-blossoms.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 14,
+          "kor_word": "서양산딸나무",
+          "eng_word": "Dogwood",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/서양산딸나무_Dogwood.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 15,
+          "kor_word": "수국",
+          "eng_word": "Hydrangea",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/수국_Hydrangea.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 16,
+          "kor_word": "아네모네",
+          "eng_word": "Anemone",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/아네모네_Anemone.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 17,
+          "kor_word": "양귀비",
+          "eng_word": "Poppies",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/양귀비_Poppies.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 18,
+          "kor_word": "연꽃",
+          "eng_word": "Lotus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/연꽃_Lotus.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 19,
+          "kor_word": "옥잠화",
+          "eng_word": "Daylily",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/옥잠화_Daylily.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 20,
+          "kor_word": "작약",
+          "eng_word": "Peony",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/작약_Peony.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 21,
+          "kor_word": "장미",
+          "eng_word": "Rose",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/장미_Rose.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 22,
+          "kor_word": "쟈스민",
+          "eng_word": "Jasmine",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/쟈스민_Jasmine.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 23,
+          "kor_word": "진달래",
+          "eng_word": "Azalea",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/진달래_Azalea.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 24,
+          "kor_word": "치커리",
+          "eng_word": "Chicory",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/치커리_Chicory.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 25,
+          "kor_word": "카모마일",
+          "eng_word": "Chamomile",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/카모마일_Chamomile.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 26,
+          "kor_word": "크로커스",
+          "eng_word": "Croucs",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/크로커스_Croucs.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 27,
+          "kor_word": "튤립",
+          "eng_word": "Tulips",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/튤립_Tulips.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 28,
+          "kor_word": "해바라기",
+          "eng_word": "Sunflower",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/해바라기_Sunflower.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        },
+        {
+          "order": 29,
+          "kor_word": "히비스커스",
+          "eng_word": "Hibiscus",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/꽃_Flowers/히비스커스_Hibiscus.jpg",
+          "category": {
+            "path": "Flowers",
+            "kor": "꽃",
+            "eng": "Flowers"
+          }
+        }
+      ]
+    },
+    {
       "path": "Weather",
       "korName": "날씨",
       "engName": "Weather",
