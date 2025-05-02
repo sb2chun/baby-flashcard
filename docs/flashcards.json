@@ -2206,6 +2206,233 @@
       ]
     },
     {
+      "path": "Colors",
+      "korName": "색깔",
+      "engName": "Colors",
+      "items": [
+        {
+          "order": 1,
+          "kor_word": "갈색",
+          "eng_word": "Brown",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/갈색_Brown.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 2,
+          "kor_word": "검정",
+          "eng_word": "Black",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/검정_Black.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 3,
+          "kor_word": "금색",
+          "eng_word": "Gold",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/금색_Gold.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "남색",
+          "eng_word": "Navy",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/남색_Navy.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 5,
+          "kor_word": "노랑",
+          "eng_word": "Yellow",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/노랑_Yellow.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 6,
+          "kor_word": "베이지",
+          "eng_word": "Beige",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/베이지_Beige.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 7,
+          "kor_word": "보라",
+          "eng_word": "Purple",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/보라_Purple.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 8,
+          "kor_word": "분홍",
+          "eng_word": "Pink",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/분홍_Pink.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "빨강",
+          "eng_word": "Red",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/빨강_Red.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 10,
+          "kor_word": "연두",
+          "eng_word": "Lime",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/연두_Lime.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 11,
+          "kor_word": "올리브",
+          "eng_word": "Olive",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/올리브_Olive.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 12,
+          "kor_word": "은색",
+          "eng_word": "Silver",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/은색_Silver.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 13,
+          "kor_word": "자홍",
+          "eng_word": "Magenta",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/자홍_Magenta.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 14,
+          "kor_word": "주황",
+          "eng_word": "Orange",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/주황_Orange.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 15,
+          "kor_word": "청록",
+          "eng_word": "Cyan",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/청록_Cyan.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 16,
+          "kor_word": "초록",
+          "eng_word": "Green",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/초록_Green.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 17,
+          "kor_word": "파랑",
+          "eng_word": "Blue",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/파랑_Blue.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 18,
+          "kor_word": "하늘",
+          "eng_word": "SkyBlue",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/하늘_SkyBlue.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 19,
+          "kor_word": "회색",
+          "eng_word": "Gray",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/회색_Gray.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        },
+        {
+          "order": 20,
+          "kor_word": "흰색",
+          "eng_word": "White",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/색깔_Colors/흰색_White.png",
+          "category": {
+            "path": "Colors",
+            "kor": "색깔",
+            "eng": "Colors"
+          }
+        }
+      ]
+    },
+    {
       "path": "Numbers",
       "korName": "숫자",
       "engName": "Numbers",
