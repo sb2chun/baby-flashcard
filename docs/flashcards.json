@@ -2206,6 +2206,244 @@
       ]
     },
     {
+      "path": "Vowels",
+      "korName": "모음",
+      "engName": "Vowels",
+      "items": [
+        {
+          "order": 1,
+          "kor_word": "아",
+          "eng_word": "a",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/아_a.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 2,
+          "kor_word": "애",
+          "eng_word": "ae",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/애_ae.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 3,
+          "kor_word": "야",
+          "eng_word": "ya",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/야_ya.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "얘",
+          "eng_word": "yae",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/얘_yae.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 5,
+          "kor_word": "어",
+          "eng_word": "eo",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/어_eo.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 6,
+          "kor_word": "에",
+          "eng_word": "e",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/에_e.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 7,
+          "kor_word": "여",
+          "eng_word": "yeo",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/여_yeo.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 8,
+          "kor_word": "예",
+          "eng_word": "ye",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/예_ye.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "오",
+          "eng_word": "o",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/오_o.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 10,
+          "kor_word": "와",
+          "eng_word": "wa",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/와_wa.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 11,
+          "kor_word": "왜",
+          "eng_word": "wae",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/왜_wae.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 12,
+          "kor_word": "외",
+          "eng_word": "oe",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/외_oe.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 13,
+          "kor_word": "요",
+          "eng_word": "yo",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/요_yo.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 14,
+          "kor_word": "우",
+          "eng_word": "u",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/우_u.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 15,
+          "kor_word": "워",
+          "eng_word": "weo",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/워_weo.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 16,
+          "kor_word": "웨",
+          "eng_word": "we",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/웨_we.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 17,
+          "kor_word": "위",
+          "eng_word": "wi",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/위_wi.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 18,
+          "kor_word": "유",
+          "eng_word": "yu",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/유_yu.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 19,
+          "kor_word": "으",
+          "eng_word": "eu",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/으_eu.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 20,
+          "kor_word": "의",
+          "eng_word": "ui",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/의_ui.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        },
+        {
+          "order": 21,
+          "kor_word": "이",
+          "eng_word": "i",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/모음_Vowels/이_i.png",
+          "category": {
+            "path": "Vowels",
+            "kor": "모음",
+            "eng": "Vowels"
+          }
+        }
+      ]
+    },
+    {
       "path": "Colors",
       "korName": "색깔",
       "engName": "Colors",
@@ -3109,6 +3347,222 @@
             "path": "Alphabets",
             "kor": "알파벳",
             "eng": "Alphabets"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Consonant",
+      "korName": "자음",
+      "engName": "Consonant",
+      "items": [
+        {
+          "order": 1,
+          "kor_word": "기역",
+          "eng_word": "giyeok",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/기역_giyeok.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 2,
+          "kor_word": "니은",
+          "eng_word": "nieun",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/니은_nieun.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 3,
+          "kor_word": "디귿",
+          "eng_word": "digeut",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/디귿_digeut.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 4,
+          "kor_word": "리을",
+          "eng_word": "rieul",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/리을_rieul.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 5,
+          "kor_word": "미음",
+          "eng_word": "mieum",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/미음_mieum.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 6,
+          "kor_word": "비읍",
+          "eng_word": "bieup",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/비읍_bieup.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 7,
+          "kor_word": "시옷",
+          "eng_word": "siot",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/시옷_siot.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 8,
+          "kor_word": "쌍기역",
+          "eng_word": "ssang",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/쌍기역_ssang_giyeok.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 9,
+          "kor_word": "쌍디귿",
+          "eng_word": "ssang",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/쌍디귿_ssang_digeut.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 10,
+          "kor_word": "쌍비읍",
+          "eng_word": "ssang",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/쌍비읍_ssang_bieup.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 11,
+          "kor_word": "쌍시옷",
+          "eng_word": "ssang",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/쌍시옷_ssang_siot.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 12,
+          "kor_word": "쌍지읒",
+          "eng_word": "ssang",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/쌍지읒_ssang_jieut.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 13,
+          "kor_word": "이응",
+          "eng_word": "ieung",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/이응_ieung.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 14,
+          "kor_word": "지읒",
+          "eng_word": "jieut",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/지읒_jieut.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 15,
+          "kor_word": "치읓",
+          "eng_word": "chieut",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/치읓_chieut.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 16,
+          "kor_word": "키읔",
+          "eng_word": "kieuk",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/키읔_kieuk.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 17,
+          "kor_word": "티읕",
+          "eng_word": "tieut",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/티읕_tieut.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 18,
+          "kor_word": "피읖",
+          "eng_word": "pieup",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/피읖_pieup.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
+          }
+        },
+        {
+          "order": 19,
+          "kor_word": "히읗",
+          "eng_word": "hieut",
+          "image": "https://raw.githubusercontent.com/sb2chun/baby-flashcard/main/public/images/자음_Consonant/히읗_hieut.png",
+          "category": {
+            "path": "Consonant",
+            "kor": "자음",
+            "eng": "Consonant"
           }
         }
       ]
